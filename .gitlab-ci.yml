@@ -19,6 +19,7 @@ deploy:
   dependencies: 
     - check
   script:
+    - yarn build
     - apt-get update -qq
     - apt-get install -qq git openssh-client
     - echo "$SSH_PRIVATE_KEY" > key
