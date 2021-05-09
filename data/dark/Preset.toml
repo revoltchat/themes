@@ -1,0 +1,42 @@
+slug = "dark"
+name = "Dark Mode"
+creator = "Revolt"
+description = "This is the default dark theme for Revolt."
+
+[variables]
+light = false
+accent = "#FD6671"
+background = "#191919"
+foreground = "#F6F6F6"
+
+block = "#2D2D2D"
+message-box = "#363636"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#CA525A"
+track = "transparent"
+
+[variables.primary]
+background = "#242424"
+header = "#363636"
+
+[variables.secondary]
+background = "#1E1E1E"
+foreground = "#C8C8C8"
+header = "#2D2D2D"
+
+[variables.tertiary]
+background = "#4D4D4D"
+foreground = "#848484"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"

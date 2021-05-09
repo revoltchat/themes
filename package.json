@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "toml": "^3.0.0"
+  },
+  "name": "themes",
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.js",
+    "check": "node src/check.js"
+  }
+}
