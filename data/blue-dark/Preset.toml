@@ -1,0 +1,42 @@
+slug = "blue-dark"
+name = "Blue Dark"
+creator = "SP46"
+description = "A modern and unique style for Revolt."
+
+[variables]
+light = false
+accent = "#e91e63"
+background = "#101823"
+foreground = "#f6f6f6"
+
+block = "#262f3d"
+message-box = "#212a38"
+
+success = "#31bf7e"
+warning = "#fae352"
+error = "#e91e63"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#ba184f"
+track = "transparent"
+
+[variables.primary]
+background = "#151e2b"
+header = "#1a2433"
+
+[variables.secondary]
+background = "#1a2433"
+foreground = "#c8c8c8"
+header = "#212a38"
+
+[variables.tertiary]
+background = "#212a38"
+foreground = "#848484"
+
+[variables.status]
+online = "#31bf7e"
+away = "#fae352"
+busy = "#e91e63"
+streaming = "#977eff"
+invisible = "#a5a5a5"
