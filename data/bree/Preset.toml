@@ -1,0 +1,42 @@
+slug = "bree"
+name = "bree's theme"
+creator = "bree"
+description = "this is bree's purple dark theme."
+
+[variables]
+light = false
+accent = "#FD6671"
+background = "#292937"
+foreground = "#F6F6F6"
+
+block = "rgb(25 25 30)"
+message-box = "rgb(55 55 66)"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "rgb(0 0 0 / 0.1)"
+
+[variables.scrollbar]
+thumb = "#CA525A"
+track = "transparent"
+
+[variables.primary]
+background = "rgb(33 33 44)"
+header = "rgb(44 44 55)"
+
+[variables.secondary]
+background = "rgb(28 28 36)"
+foreground = "#C8C8C8"
+header = "rgb(37 37 48)"
+
+[variables.tertiary]
+background = "rgb(77 77 88)"
+foreground = "rgb(133 133 144)"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
