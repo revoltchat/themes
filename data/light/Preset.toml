@@ -11,11 +11,15 @@ foreground = "#101010"
 
 block = "#414141"
 message-box = "#F1F1F1"
+mention = "rgba(251, 255, 0, 0.40)"
 
 success = "#65E572"
 warning = "#FAA352"
 error = "#F06464"
 hover = "rgba(0, 0, 0, 0.2)"
+
+[variables.sidebar]
+active = "#FD6671"
 
 [variables.scrollbar]
 thumb = "#CA525A"
