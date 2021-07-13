@@ -1,0 +1,46 @@
+slug = "ice-shard"
+name = "Ice Shard"
+creator = "Cara"
+description = "This is my custom theme. Very dark backgrounds and light blue details. It makes use of custom css to remove all round edges and add blue outlines, giving the app a sharp, cold feel."
+
+[variables]
+light = false
+accent = "#00fff5"
+background = "#0a0a0a"
+foreground = "#e2ffff"
+
+block = "#262630"
+message-box = "#1d1d1d"
+mention = "rgba(3, 3, 63, 0.40)"
+
+success = "#5bffbc"
+warning = "#ffb44a"
+error = "#e72a4f"
+hover = "rgba(37, 37, 48, 0.2)"
+
+[variables.sidebar]
+active = "#72f5f3"
+
+[variables.scrollbar]
+thumb = "#00dfff"
+track = "transparent"
+
+[variables.primary]
+background = "#181818"
+header = "#1e1e1e"
+
+[variables.secondary]
+background = "#141414"
+foreground = "#acf8ff"
+header = "#1e1e1e"
+
+[variables.tertiary]
+background = "#292929"
+foreground = "#dbffff"
+
+[variables.status]
+online = "#4cfaff"
+away = "#cfe40b"
+busy = "#fe0e4d"
+streaming = "#b961ff"
+invisible = "#cdcdcd"

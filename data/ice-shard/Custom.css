@@ -1,0 +1,33 @@
+/*** Custom css for the ice shard theme ***/
+
+/* Makes all profile images and server icons into squares */
+.cZUYqL img, .kTavoQ, .avatars img {
+    border-radius: 0 !important
+}
+
+/* Removes all round edges on everything */
+:root {
+    --border-radius: 0
+}
+
+/* Adds a light blue line between the server and channel list */
+.fuJtcf {
+    border-right: 2px solid #72f5f3
+}
+
+/* Makes spoilers a lighter color, to make them better visible on dark the background */
+:root .spoiler {
+    background: #313152
+}
+
+/* Hides the wave used as a chosen server indicator by default */
+.gcLUtw span, .fFoYdM span {
+    display: none
+}
+
+/* Adds a light blue border around the active server's icon, to replace the svg removed in previous rule */
+.gcLUtw svg, .fFoYdM svg { 
+  outline-style: solid;
+  outline-color: #72f5f3;
+  outline-width: 3px;
+}
