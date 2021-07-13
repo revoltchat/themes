@@ -18,9 +18,6 @@ warning = "#FAA352"
 error = "#F06464"
 hover = "rgba(0, 0, 0, 0.2)"
 
-[variables.sidebar]
-active = "#FD6671"
-
 [variables.scrollbar]
 thumb = "#CA525A"
 track = "transparent"

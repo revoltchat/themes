@@ -8,6 +8,6 @@
   "type": "module",
   "scripts": {
     "build": "node src/build.js",
-    "check": "node src/check.js"
+    "validate": "node src/check.js"
   }
 }

@@ -20,7 +20,6 @@ for (let [ id, theme ] of themes) {
                 'warning',
                 'error',
                 'hover',
-                'sidebar-active',
                 'scrollbar-thumb',
                 'scrollbar-track',
                 'primary-background',

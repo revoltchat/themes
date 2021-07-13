@@ -11,6 +11,7 @@ foreground = "#F6F6F6"
 
 block = "rgb(25 25 30)"
 message-box = "rgb(55 55 66)"
+mention = "rgba(251, 255, 0, 0.06)"
 
 success = "#65E572"
 warning = "#FAA352"
