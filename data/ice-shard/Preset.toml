@@ -11,7 +11,7 @@ foreground = "#e2ffff"
 
 block = "#262630"
 message-box = "#1d1d1d"
-mention = "rgba(3, 3, 63, 0.40)"
+mention = "rgba(0, 0, 86, 0.40)"
 
 success = "#5bffbc"
 warning = "#ffb44a"
@@ -22,7 +22,7 @@ hover = "rgba(37, 37, 48, 0.2)"
 active = "#72f5f3"
 
 [variables.scrollbar]
-thumb = "#00dfff"
+thumb = "#6399a1"
 track = "transparent"
 
 [variables.primary]

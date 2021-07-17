@@ -31,3 +31,47 @@
   outline-color: #72f5f3;
   outline-width: 3px;
 }
+
+/** NEW ADDITIONS **/
+
+/* colored outline and name of picked channel */
+._compact_1gete_19[data-active=true],
+._normal_1gete_16[data-active=true] {
+  color: #37FFF8;
+  outline-style: solid;
+  outline-color: #72f5f3;
+  outline-width: 2px;
+}
+
+/* mention message colored + bold text */
+div.clvMkL > div.kFmqyc > ._markdown_to54h_2,
+div.gZKYXl > div.kFmqyc > ._markdown_to54h_2 {
+  color: #4cfaff;
+  font-weight: bold;
+}
+
+/* Make selected text readable */
+p::selection,
+textarea::selection,
+time::selection,
+span::selection {
+  color: #000056;
+}
+a::selection {
+  color: #8e02a2;
+}
+
+/* Home screen background */
+._home_vbnas_1 {
+  height: 100%;
+  background-image: url("https://autumn.revolt.chat/attachments/hqI1nk7NBECh8n7GP3eqt-PXv-5tXGWGnbn9qJWZUO");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+/* outlining buttons on home screen for better visibility */
+div._actions_vbnas_12 > a {
+  outline-style: solid;
+  outline-color: #72f5f3;
+  outline-width: 1px;
+}
