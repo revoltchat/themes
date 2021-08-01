@@ -2,41 +2,40 @@
 
 /* Makes all profile images and server icons into squares */
 .cZUYqL img, .kTavoQ, .avatars img {
-    border-radius: 0 !important
+    border-radius: 0 !important;
 }
 
 /* Removes all round edges on everything */
 :root {
-    --border-radius: 0
+    --border-radius: 0;
 }
 
 /* Adds a light blue line between the server and channel list */
-.fuJtcf {
-    border-right: 2px solid #72f5f3
+.jcqGXt {
+    border-right: 2px solid #72f5f3;
 }
 
-/* Makes spoilers a lighter color, to make them better visible on dark the background */
+/* Makes spoilers a lighter color, to make them better visible on the dark background */
 :root .spoiler {
-    background: #313152
+    background: #313152;
 }
 
 /* Hides the wave used as a chosen server indicator by default */
 .gcLUtw span, .fFoYdM span {
-    display: none
+    display: none;
 }
 
-/* Adds a light blue border around the active server's icon, to replace the svg removed in previous rule */
-.gcLUtw svg, .fFoYdM svg { 
+/* Adds a light blue border around the active server's icon */
+.kTavoQ svg, .cZUYqL svg { 
   outline-style: solid;
   outline-color: #72f5f3;
-  outline-width: 3px;
+  outline-width: 2px;
 }
-
-/** NEW ADDITIONS **/
 
 /* colored outline and name of picked channel */
 ._compact_1gete_19[data-active=true],
-._normal_1gete_16[data-active=true] {
+._normal_1gete_16[data-active=true],
+._user_1gete_23[data-active=true] {
   color: #37FFF8;
   outline-style: solid;
   outline-color: #72f5f3;
@@ -44,8 +43,8 @@
 }
 
 /* mention message colored + bold text */
-div.clvMkL > div.kFmqyc > ._markdown_to54h_2,
-div.gZKYXl > div.kFmqyc > ._markdown_to54h_2 {
+div.clvMkL > div.kFmqyc > ._markdown_1cu7o_2,
+div.gZKYXl > div.kFmqyc > ._markdown_1cu7o_2 {
   color: #4cfaff;
   font-weight: bold;
 }
@@ -61,7 +60,7 @@ a::selection {
   color: #8e02a2;
 }
 
-/* Home screen background */
+/* Nice home screen */
 ._home_vbnas_1 {
   height: 100%;
   background-image: url("https://autumn.revolt.chat/attachments/hqI1nk7NBECh8n7GP3eqt-PXv-5tXGWGnbn9qJWZUO");
@@ -74,4 +73,14 @@ div._actions_vbnas_12 > a {
   outline-style: solid;
   outline-color: #72f5f3;
   outline-width: 1px;
+}
+
+/** NEW ADDITIONS **/
+
+/* Nicer link hovers */
+._markdown_1cu7o_2 > p > a:hover,
+._website_x54sc_11 > div > span > a:hover {
+  color: magenta;
+  background: cyan;
+  text-decoration: none !important;
 }
