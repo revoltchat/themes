@@ -21,12 +21,12 @@
 }
 
 /* Hides the wave used as a chosen server indicator by default */
-.gcLUtw span, .fFoYdM span {
+.ihrnYg span, .lmMjZI span {
     display: none;
 }
 
 /* Adds a light blue border around the active server's icon */
-.kTavoQ svg, .cZUYqL svg { 
+.ihrnYg svg, .lmMjZI svg {
   outline-style: solid;
   outline-color: #72f5f3;
   outline-width: 2px;
