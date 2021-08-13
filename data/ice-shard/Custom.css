@@ -1,7 +1,7 @@
 /*** Custom css for the ice shard theme ***/
 
 /* Makes all profile images and server icons into squares */
-.cZUYqL img, .kTavoQ, .avatars img {
+.itrsCr, .iDyyNQ img, .avatars img, .jampFe img {
     border-radius: 0 !important;
 }
 
@@ -11,7 +11,7 @@
 }
 
 /* Adds a light blue line between the server and channel list */
-.jcqGXt {
+.ljWfRO {
     border-right: 2px solid #72f5f3;
 }
 
@@ -21,21 +21,21 @@
 }
 
 /* Hides the wave used as a chosen server indicator by default */
-.ihrnYg span, .lmMjZI span {
+.cebzwO span, .dtmIia span {
     display: none;
 }
 
 /* Adds a light blue border around the active server's icon */
-.ihrnYg svg, .lmMjZI svg {
+.cebzwO svg, .dtmIia svg { 
   outline-style: solid;
   outline-color: #72f5f3;
   outline-width: 2px;
 }
 
 /* colored outline and name of picked channel */
-._compact_1gete_19[data-active=true],
-._normal_1gete_16[data-active=true],
-._user_1gete_23[data-active=true] {
+._compact_a3arz_19[data-active=true],
+._normal_a3arz_16[data-active=true],
+._user_a3arz_23[data-active=true] {
   color: #37FFF8;
   outline-style: solid;
   outline-color: #72f5f3;
@@ -43,8 +43,7 @@
 }
 
 /* mention message colored + bold text */
-div.clvMkL > div.kFmqyc > ._markdown_1cu7o_2,
-div.gZKYXl > div.kFmqyc > ._markdown_1cu7o_2 {
+div.bRZfle > div.syKsX > ._markdown_1cu7o_2 {
   color: #4cfaff;
   font-weight: bold;
 }
@@ -75,12 +74,13 @@ div._actions_vbnas_12 > a {
   outline-width: 1px;
 }
 
-/** NEW ADDITIONS **/
-
 /* Nicer link hovers */
 ._markdown_1cu7o_2 > p > a:hover,
+._markdown_1cu7o_2 > blockquote > p > a:hover,
 ._website_x54sc_11 > div > span > a:hover {
   color: magenta;
   background: cyan;
   text-decoration: none !important;
 }
+
+/** NEW ADDITIONS **/
