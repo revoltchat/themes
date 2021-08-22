@@ -1,13 +1,9 @@
 /*** Custom css for the ice shard theme ***/
 
-/* Makes all profile images and server icons into squares */
-.itrsCr, .iDyyNQ img, .avatars img, .jampFe img {
-    border-radius: 0 !important;
-}
-
 /* Removes all round edges on everything */
 :root {
     --border-radius: 0;
+    --border-radius-half: 0;
 }
 
 /* Adds a light blue line between the server and channel list */
@@ -33,9 +29,9 @@
 }
 
 /* colored outline and name of picked channel */
-._compact_a3arz_19[data-active=true],
-._normal_a3arz_16[data-active=true],
-._user_a3arz_23[data-active=true] {
+._compact_15670_19[data-active=true],
+._normal_15670_16[data-active=true],
+._user_15670_23[data-active=true] {
   color: #37FFF8;
   outline-style: solid;
   outline-color: #72f5f3;
@@ -43,7 +39,8 @@
 }
 
 /* mention message colored + bold text */
-div.bRZfle > div.syKsX > ._markdown_1cu7o_2 {
+div.bRZfle > div.syKsX > ._markdown_8b8eo_2,
+div.gPBqdg > div.syKsX > ._markdown_8b8eo_2 {
   color: #4cfaff;
   font-weight: bold;
 }
@@ -60,7 +57,7 @@ a::selection {
 }
 
 /* Nice home screen */
-._home_vbnas_1 {
+._home_1khrk_1 {
   height: 100%;
   background-image: url("https://autumn.revolt.chat/attachments/hqI1nk7NBECh8n7GP3eqt-PXv-5tXGWGnbn9qJWZUO");
   background-repeat: no-repeat;
@@ -68,19 +65,18 @@ a::selection {
   background-size: 100% 100%;
 }
 /* outlining buttons on home screen for better visibility */
-div._actions_vbnas_12 > a {
+div._actions_1khrk_12 > a > div,
+div._actions_1khrk_12 > div > a > div {
   outline-style: solid;
   outline-color: #72f5f3;
   outline-width: 1px;
 }
 
 /* Nicer link hovers */
-._markdown_1cu7o_2 > p > a:hover,
-._markdown_1cu7o_2 > blockquote > p > a:hover,
+._markdown_8b8eo_2 > p > a:hover,
+._markdown_8b8eo_2 > blockquote > p > a:hover,
 ._website_x54sc_11 > div > span > a:hover {
   color: magenta;
   background: cyan;
   text-decoration: none !important;
 }
-
-/** NEW ADDITIONS **/
