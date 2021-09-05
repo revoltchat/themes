@@ -7,7 +7,7 @@
 }
 
 /* Adds a light blue line between the server and channel list */
-.ljWfRO {
+.dGrZZ {
     border-right: 2px solid #72f5f3;
 }
 
@@ -17,12 +17,12 @@
 }
 
 /* Hides the wave used as a chosen server indicator by default */
-.cebzwO span, .dtmIia span {
+.QgupM span, .kGANuc span {
     display: none;
 }
 
 /* Adds a light blue border around the active server's icon */
-.cebzwO svg, .dtmIia svg { 
+.QgupM svg, .kGANuc svg { 
   outline-style: solid;
   outline-color: #72f5f3;
   outline-width: 2px;
@@ -39,8 +39,7 @@
 }
 
 /* mention message colored + bold text */
-div.bRZfle > div.syKsX > ._markdown_8b8eo_2,
-div.gPBqdg > div.syKsX > ._markdown_8b8eo_2 {
+div.CaijV > div.jgcjMZ > ._markdown_8b8eo_2 {
   color: #4cfaff;
   font-weight: bold;
 }
@@ -74,7 +73,7 @@ div._actions_1khrk_12 > div > a > div {
 
 /* Nicer link hovers */
 ._markdown_8b8eo_2 > p > a:hover,
-._markdown_8b8eo_2 > blockquote > p > a:hover,
+blockquote > p > a:hover,
 ._website_x54sc_11 > div > span > a:hover {
   color: magenta;
   background: cyan;
