@@ -1,4 +1,4 @@
 node_modules
-out
-!out/theme_dark.json
-!out/theme_light.json
+built
+!built/theme_dark.json
+!built/theme_light.json

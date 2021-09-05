@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "toml": "^3.0.0"
-  },
   "name": "themes",
   "version": "0.0.0",
   "license": "MIT",
@@ -9,5 +6,8 @@
   "scripts": {
     "build": "node src/build.js",
     "validate": "node src/check.js"
+  },
+  "dependencies": {
+    "toml": "^3.0.0"
   }
 }

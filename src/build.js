@@ -1,7 +1,10 @@
 import { themeList, loadTheme, ensureDefined, flatten } from './helpers.js';
 import { mkdir, writeFile } from 'fs/promises';
 
-await mkdir('out').catch(() => {});
+const OUT_DIR = 'built'
+
+// TODO: replace this with intended no-error mkdir way
+await mkdir(OUT_DIR).catch(() => {});
 
 let list = await themeList();
 let themes = await Promise.all(list.map(async theme => [theme, await loadTheme(theme)]));
@@ -20,10 +23,10 @@ for (let [ id, theme ] of themes) {
     delete theme.variables;
     delete theme.css;
 
-    writeFile(`out/theme_${id}.json`, JSON.stringify(out));
+    writeFile(`${OUT_DIR}/theme_${id}.json`, JSON.stringify(out));
 
     let { slug, ...t } = theme;
     manifest.themes[slug] = t;
 }
 
-writeFile('out/manifest.json', JSON.stringify(manifest));
+writeFile(`${OUT_DIR}/manifest.json`, JSON.stringify(manifest));
