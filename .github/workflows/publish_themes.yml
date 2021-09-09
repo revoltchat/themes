@@ -2,7 +2,7 @@ name: Publish Themes
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:

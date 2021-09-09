@@ -1,4 +1,4 @@
-import { themeList, loadTheme, ensureDefined, flatten } from './helpers.js';
+import { themeList, loadTheme, flatten } from './helpers.js';
 import { mkdir, writeFile } from 'fs/promises';
 
 const OUT_DIR = 'built'

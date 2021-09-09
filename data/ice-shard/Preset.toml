@@ -1,6 +1,7 @@
 slug = "ice-shard"
 name = "Ice Shard"
 creator = "Cara"
+commit = "eea13a3"
 description = "This is my custom theme. Very dark backgrounds and light blue details. It makes use of custom css to remove all round edges and add blue outlines, giving the app a sharp, cold feel."
 
 [variables]
