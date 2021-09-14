@@ -1,0 +1,46 @@
+slug = "discord-colors"
+name = "Discord Colors"
+creator = "Eleven"
+description = "Discord colors for Revolt."
+
+[variables]
+light = false
+accent = "#4651c2"
+background = "#202225"
+foreground = "#F6F6F6"
+
+block = "#2f3136"
+message-box = "#40444b"
+mention = "#4b443b"
+
+success = "#57F287"
+warning = "#FEE75C"
+error = "#ED4245"
+hover = "#36393f"
+
+[variables.sidebar]
+active = "#202225"
+
+[variables.scrollbar]
+thumb = "#4651c2"
+track = "transparent"
+
+[variables.primary]
+background = "#36393f"
+header = "#36393f"
+
+[variables.secondary]
+background = "#2f3136"
+foreground = "#C8C8C8"
+header = "#2f3136"
+
+[variables.tertiary]
+background = "#2f3136"
+foreground = "#848484"
+
+[variables.status]
+online = "#57F287"
+away = "#FEE75C"
+busy = "#ED4245"
+streaming = "#7100fd"
+invisible = "#747f8d"
