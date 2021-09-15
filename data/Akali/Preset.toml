@@ -1,0 +1,43 @@
+slug = "dark"
+name = "Akali"
+creator = "♡Lisa~#0004 | @Lilly"
+description = "Made by me to get my Foot into the Server i created about sharing and creating themes. https://nightly.revolt.chat/invite/SFAQn027"
+
+[variables]
+light = false
+accent = "#08c915"
+background = "#000000"
+foreground = "#FFFFFF"
+
+block = "#1D1D1D"
+message-box = "#000000"
+mention = "rgba(251, 255, 0, 0.06)"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#CA525A"
+track = "transparent"
+
+[variables.primary]
+background = "#000000"
+header = "#000000"
+
+[variables.secondary]
+background = "#000000"
+foreground = "#DDDDDD"
+header = "#1A1A1A"
+
+[variables.tertiary]
+background = "#000000"
+foreground = "#AAAAAA"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
