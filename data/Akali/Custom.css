@@ -17,6 +17,7 @@
     --hover: rgba(0, 0, 0, 0.149) !important;
     --secondary-header: rgba(0, 0, 0, 0.749) !important;
     --sidebar-active: rgba(0, 0, 0, 0.749) !important;
+    --block: rgba(0, 0, 0, 0.349) !important;
 }
 
 #app {
@@ -50,4 +51,8 @@
 
 .fTpEXC {
     background-color: red !important;
+}
+
+code[class*=language-], pre[class*=language-] {
+background-color: none !important;
 }
