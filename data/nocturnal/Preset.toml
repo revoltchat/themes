@@ -16,7 +16,7 @@ mention = "#0F3827"
 success = "#35E680"
 warning = "#0F3827"
 error = "#ED4245"
-hover = "#12171D"
+hover = "#1D242B"
 
 [variables.scrollbar]
 thumb = "#1E2731"
