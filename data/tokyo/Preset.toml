@@ -1,0 +1,21 @@
+slug = "Tokyo"
+name = "Tokyo theme"
+creator = "BusinessGirl"
+description = "Pink and dark theme with a tokyo pixel art picture"
+
+[variables]
+accent = "#d78beb"
+
+[variables.scrollbar]
+thumb = "rgba(248, 70, 252, 1)"
+track = "transparent"
+
+[variables.primary]
+background = "rgba(64, 94, 251, 0.50)"
+
+[variables.secondary]
+background = "radial-gradient(circle, rgba(63,94,251,0.05) 0%, rgba(248,70,252,0.5) 100%)"
+foreground = "#ffffff"
+
+[variables.tertiary]
+foreground = "#ffffff"

@@ -1,0 +1,20 @@
+html {
+	background-image: url('https://i.ibb.co/dMzyKnZ/wallpaper.png');
+	--font: "Poppins";
+}
+
+body {
+	background: rgba(0, 0, 0, 0.33);
+}
+
+/*
+
+:root {
+	--primary-background: rgba(64, 94, 251, 0.50);
+	--secondary-background: radial-gradient(circle, rgba(63,94,251,0.05) 0%, rgba(248,70,252,0.5) 100%);
+	--secondary-foreground: #ffffff;
+	--accent: #d78beb;
+	--tertiary-foreground: #ffffff;
+}
+
+*/
