@@ -1,0 +1,43 @@
+slug = "dark"
+name = "Ayu Dark"
+creator = "Zomatree"
+description = "A Theme using the Ayu colour pallete."
+
+[variables]
+light = false
+accent = "#e6b450"
+background = "#090e15"
+foreground = "#b3b1ad"
+
+block = "#0c1017"
+message-box = "#090e15"
+mention = "#0c1017"
+
+success = "#91b362"
+warning = "#FAA352"
+error = "#ff3333"
+hover = "#0c1017"
+
+[variables.scrollbar]
+thumb = "#e6b450"
+track = "transparent"
+
+[variables.primary]
+background = "#090e15"
+header = "#090e15"
+
+[variables.secondary]
+background = "#090e15"
+foreground = "#4d5566"
+header = "#0c1017"
+
+[variables.tertiary]
+background = "#4D4D4D"
+foreground = "#848484"
+
+[variables.status]
+online = "#91b362"
+away = "#F39F00"
+busy = "#ff3333"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
