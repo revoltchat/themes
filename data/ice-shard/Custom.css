@@ -45,17 +45,6 @@ div.cCwoWr > div.jgcjMZ > ._markdown_8b8eo_2 {
   font-weight: bold;
 }
 
-/* Make selected text readable */
-p::selection,
-textarea::selection,
-time::selection,
-span::selection {
-  color: #000056;
-}
-a::selection {
-  color: #8e02a2;
-}
-
 /* Nice home screen */
 ._home_1khrk_1 {
   height: 100%;
