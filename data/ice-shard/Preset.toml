@@ -1,8 +1,8 @@
 slug = "ice-shard"
 name = "Ice Shard"
 creator = "Cara"
-commit = "eea13a3"
-description = "This is my custom theme. Very dark backgrounds and light blue details. It makes use of custom css to remove all round edges and add blue outlines, giving the app a sharp, cold feel."
+commit = "d6169f3"
+description = "Very dark backgrounds and light blue details. Making use of custom css to give the app a sharp, cold feel and add a number of simple ux improvements."
 
 [variables]
 light = false
@@ -18,9 +18,6 @@ success = "#5bffbc"
 warning = "#ffb44a"
 error = "#e72a4f"
 hover = "rgba(37, 37, 48, 0.2)"
-
-[variables.sidebar]
-active = "#72f5f3"
 
 [variables.scrollbar]
 thumb = "#6399a1"

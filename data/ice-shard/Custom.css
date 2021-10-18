@@ -39,20 +39,10 @@
 }
 
 /* mention message colored + bold text */
-div.CaijV > div.jgcjMZ > ._markdown_8b8eo_2 {
+div.CaijV > div.jgcjMZ > ._markdown_8b8eo_2,
+div.cCwoWr > div.jgcjMZ > ._markdown_8b8eo_2 {
   color: #4cfaff;
   font-weight: bold;
-}
-
-/* Make selected text readable */
-p::selection,
-textarea::selection,
-time::selection,
-span::selection {
-  color: #000056;
-}
-a::selection {
-  color: #8e02a2;
 }
 
 /* Nice home screen */
@@ -72,10 +62,17 @@ div._actions_1khrk_12 > div > a > div {
 }
 
 /* Nicer link hovers */
-._markdown_8b8eo_2 > p > a:hover,
-blockquote > p > a:hover,
-._website_x54sc_11 > div > span > a:hover {
+p>a:hover,span>a:hover,li>a:hover,h4>a:hover,strong>a:hover,th>a:hover,td>a:hover{
   color: magenta;
   background: cyan;
   text-decoration: none !important;
 }
+
+/* Nicer name hovers */
+.author:hover,.user>span:hover{
+ background: cyan !important;
+ text-decoration: none !important;
+ color: #000056
+}
+
+/***** END *****/
