@@ -1,0 +1,43 @@
+slug = "gruvbox-dark"
+name = "Gruvbox Dark"
+creator = "to268"
+description = "This is the gruvbox dark hard theme"
+
+[variables]
+light = false
+accent = "#FB4934"
+background = "#282828"
+foreground = "#F6F6F6"
+
+block = "#282828"
+message-box = "#3C3836"
+mention = "#D3869B"
+
+success = "#B8BB26"
+warning = "#FABD2F"
+error = "#FE8019"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#FF424F"
+track = "transparent"
+
+[variables.primary]
+background = "#242424"
+header = "#3C3836"
+
+[variables.secondary]
+background = "#3C3836"
+foreground = "#C8C8C8"
+header = "#504945"
+
+[variables.tertiary]
+background = "#928374"
+foreground = "#BDAE93"
+
+[variables.status]
+online = "#8EC07C"
+away = "#D65D0E"
+busy = "#FB4934"
+streaming = "#977ED5"
+invisible = "#FBF1C7"
