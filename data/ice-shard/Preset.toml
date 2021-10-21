@@ -1,7 +1,7 @@
 slug = "ice-shard"
 name = "Ice Shard"
 creator = "Cara"
-commit = "d6169f3"
+commit = "195a9bd"
 description = "Very dark backgrounds and light blue details. Making use of custom css to give the app a sharp, cold feel and add a number of simple ux improvements."
 
 [variables]
