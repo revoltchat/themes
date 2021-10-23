@@ -2,23 +2,23 @@
 
 /* Removes all round edges on everything */
 :root {
-    --border-radius: 0;
-    --border-radius-half: 0;
+  --border-radius: 0;
+  --border-radius-half: 0;
 }
 
 /* Adds a light blue line between the server and channel list */
 .dGrZZ {
-    border-right: 2px solid #72f5f3;
+  border-right: 2px solid #72f5f3;
 }
 
 /* Makes spoilers a lighter color, to make them better visible on the dark background */
 :root .spoiler {
-    background: #313152;
+  background: #313152;
 }
 
 /* Hides the wave used as a chosen server indicator by default */
 .QgupM span, .kGANuc span {
-    display: none;
+  display: none;
 }
 
 /* Adds a light blue border around the active server's icon */
@@ -71,9 +71,27 @@ h1>a:hover,h2>a:hover,h3>a:hover,h4>a:hover,h5>a:hover,h6>a:hover{
 
 /* Nicer name hovers */
 .author:hover,.user>span:hover{
- background: cyan !important;
- text-decoration: none !important;
- color: #000056
+  background: cyan !important;
+  text-decoration: none !important;
+  color: #000056;
+}
+
+/* Readable button on link warning screen and bot badge */
+.ZAptB, .iYfESC {
+  color: #000056;
+  font-weight: bold;
+}
+/* theme consistent colors on message search */
+.kRnBUt {
+  color: #000056;
+  font-weight: bold;
+  background: #00fff5;
+}
+.kRnBUt:hover {
+  background: #4cfaff;
+}
+.jqHpRY {
+  color: #00fff5;
 }
 
 /***** END *****/
