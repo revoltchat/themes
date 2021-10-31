@@ -1,0 +1,43 @@
+slug = "nocturnal"
+name = "Nocturnal"
+creator = "aeris"
+description = "For when default revolt just isn't enough, a theme for those who live a night."
+
+[variables]
+light = false
+accent = "#2275C9"
+background = "#1E2731"
+foreground = "#F6F6F6"
+
+block = "#1E2731"
+message-box = "#1E2731"
+mention = "#0F3827"
+
+success = "#35E680"
+warning = "#0F3827"
+error = "#ED4245"
+hover = "#1D242B"
+
+[variables.scrollbar]
+thumb = "#1E2731"
+track = "transparent"
+
+[variables.primary]
+background = "#12171D"
+header = "#12171D"
+
+[variables.secondary]
+background = "#12171D"
+foreground = "#2ECC71"
+header = "#12171D"
+
+[variables.tertiary]
+background = "#1E2731"
+foreground = "#8E9297"
+
+[variables.status]
+online = "#43B581"
+away = "#FAA61A"
+busy = "#F04747"
+streaming = "#643DA7"
+invisible = "#747F8D"
