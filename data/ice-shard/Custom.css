@@ -8,7 +8,7 @@
 
 /* Adds a light blue line between the server and channel list */
 .dGrZZ {
-  border-right: 2px solid #72f5f3;
+  border-right: 2px solid #72F5F3;
 }
 
 /* Makes spoilers a lighter color, to make them better visible on the dark background */
@@ -22,26 +22,26 @@
 }
 
 /* Adds a light blue border around the active server's icon */
-.QgupM svg, .kGANuc svg { 
+.QgupM svg, .kGANuc svg {
   outline-style: solid;
-  outline-color: #72f5f3;
+  outline-color: #72F5F3;
   outline-width: 2px;
 }
 
-/* colored outline and name of picked channel */
-._compact_15670_19[data-active=true],
-._normal_15670_16[data-active=true],
-._user_15670_23[data-active=true] {
+/* Colored outline and name of picked channel */
+._compact_12e90_19[data-active=true],
+._normal_12e90_16[data-active=true],
+._user_12e90_23[data-active=true] {
   color: #37FFF8;
   outline-style: solid;
-  outline-color: #72f5f3;
+  outline-color: #72F5F3;
   outline-width: 2px;
 }
 
-/* mention message colored + bold text */
+/* Mention message colored + bold text */
 div.CaijV > div.jgcjMZ > ._markdown_8b8eo_2,
 div.cCwoWr > div.jgcjMZ > ._markdown_8b8eo_2 {
-  color: #4cfaff;
+  color: #4CFAFF;
   font-weight: bold;
 }
 
@@ -53,11 +53,11 @@ div.cCwoWr > div.jgcjMZ > ._markdown_8b8eo_2 {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-/* outlining buttons on home screen for better visibility */
+/* Outlining buttons on home screen for better readability */
 div._actions_1khrk_12 > a > div,
 div._actions_1khrk_12 > div > a > div {
   outline-style: solid;
-  outline-color: #72f5f3;
+  outline-color: #72F5F3;
   outline-width: 1px;
 }
 
@@ -76,22 +76,30 @@ h1>a:hover,h2>a:hover,h3>a:hover,h4>a:hover,h5>a:hover,h6>a:hover{
   color: #000056;
 }
 
-/* Readable button on link warning screen and bot badge */
-.ZAptB, .iYfESC {
+/* Readable buttons on pop-up menus and bot badges */
+.ZAptB, .iYfESC, .kqSFkj {
   color: #000056;
   font-weight: bold;
 }
-/* theme consistent colors on message search */
+
+/* Theme consistent colors on message search */
 .kRnBUt {
   color: #000056;
   font-weight: bold;
-  background: #00fff5;
+  background: #00FFF5;
 }
 .kRnBUt:hover {
-  background: #4cfaff;
+  background: #4CFAFF;
 }
 .jqHpRY {
-  color: #00fff5;
+  color: #00FFF5;
+}
+
+/* buttons and checkboxes */
+.check, .dvKiPb {
+  outline-style: solid;
+  outline-color: #72F5F3;
+  outline-width: 1px;
 }
 
 /***** END *****/
