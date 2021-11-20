@@ -1,0 +1,43 @@
+slug = "rosepine-dawn"
+name = "Rosé Pine Dawn"
+creator = "ThatOneCalculator"
+description = "soho vibes for revolt, dawn edition. https://rosepinetheme.com/"
+
+[variables]
+light = true
+accent = "#b4637a"
+background = "#faf4ed"
+foreground = "#575279"
+
+block = "#f2e9de"
+message-box = "#f2e9de"
+mention = "#d7827e"
+
+success = "#56949f"
+warning = "#ea9d34"
+error = "#d7827e"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#b4637a"
+track = "transparent"
+
+[variables.primary]
+background = "#fffaf3"
+header = "#f2e9de"
+
+[variables.secondary]
+background = "#f2e9de"
+foreground = "#6e6a86"
+header = "#9893a5"
+
+[variables.tertiary]
+background = "#6e6a86"
+foreground = "#6e6a86"
+
+[variables.status]
+online = "#56949f"
+away = "#ea9d34"
+busy = "#b4637a"
+streaming = "#907aa9"
+invisible = "#907aa9"
