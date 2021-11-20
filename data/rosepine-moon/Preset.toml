@@ -1,0 +1,43 @@
+slug = "rosepine-moon"
+name = "Rosé Pine Moon"
+creator = "ThatOneCalculator"
+description = "soho vibes for revolt, moon edition. https://rosepinetheme.com/"
+
+[variables]
+light = false
+accent = "#eb6f92"
+background = "#232136"
+foreground = "#e0def4"
+
+block = "#393552"
+message-box = "#393552"
+mention = "#ea9a97"
+
+success = "#9ccfd8"
+warning = "#f6c177"
+error = "#ea9a97"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#eb6f92"
+track = "transparent"
+
+[variables.primary]
+background = "#1f1d2e"
+header = "#26233a"
+
+[variables.secondary]
+background = "#26233a"
+foreground = "#e0def4"
+header = "#59546d"
+
+[variables.tertiary]
+background = "#6e6a86"
+foreground = "#817c9c"
+
+[variables.status]
+online = "#9ccfd8"
+away = "#f6c177"
+busy = "#eb6f92"
+streaming = "#c4a7e7"
+invisible = "#c4a7e7"
