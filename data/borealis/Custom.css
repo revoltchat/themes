@@ -1,0 +1,82 @@
+:root {
+    --northern-lights: url("https://cdn.pixabay.com/photo/2018/03/29/19/34/northern-lights-3273425_1280.jpg");
+    --northern-lights-darkend: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), var(--northern-lights);
+    
+    --accent-hue: 165;
+  
+    --accent-light: hsl(var(--accent-hue), 95%, 55%);
+    --accent-dark: hsl(var(--accent-hue), 100%, 15%);
+    --standard: #1e1e1e;
+}
+  
+/* Sidebar */
+#app>* {
+    background: linear-gradient(0deg, black 0%, var(--accent-dark) 100%); 
+}
+  
+/* Chat background */
+.hJBMpB {
+    /* Uses gradient to darken image */
+    background-image: var(--northern-lights-darkend);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
+/* Chat box */
+:is(.dxqdXL>*, .dxqdXL) {
+    /* background: linear-gradient(180deg, var(--standard) 0%, var(--accent-dark) 100%); */
+    background: var(--standard);
+}
+  
+/* Channel description */
+:is(.fCZYAb>*, .fCZYAb) {
+    background: linear-gradient(160deg, black 0%, var(--accent-dark) 100%);
+}
+  
+/* Friend list */
+:is(.gSMWE>*, .gSMWE) {
+    background: linear-gradient(0deg, var(--standard) 0%, var(--accent-dark) 100%);
+}
+/* Friend list catagories */
+:is(.dbiFXv>*, .dbiFXv, .dxJENu) {
+    /* background: linear-gradient(0deg, var(--standard) 0%, var(--accent-dark) 100%); */
+    /* Removes background */
+    background: none;
+}
+  
+/* Settings sidebar */
+._settings_2mw2x_34 ._sidebar_2mw2x_40 {
+    background: black;
+    background-image: var(--northern-lights-darkend);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+  
+:is(
+    div.drwAci,
+    /* "Looking to customize…" button */
+    .cTfrSn,
+    /* Delete Account Button */
+    .iRhROc
+) {
+    background: hsla(var(--accent-hue), 100%, 50%, 0.05);
+    border: none;
+}
+    
+/* Also make donat button grey because it's not needed for daily use */
+:is(._donate_2mw2x_124 > *, ._donate_2mw2x_124) {
+    filter: grayscale(100%) brightness(0.8);
+}
+/* Required because hover filter was replaced with CSS above */
+:is(._donate_2mw2x_124 > *:hover, ._donate_2mw2x_124:hover) {
+    filter: grayscale(100%) brightness(2);
+}
+
+/*
+    hsla(165, 0, 25, 1)
+  
+    Primary-header: hsla(165, 100%, 33%, 0.2)
+    Tertiary-background: hsla(165, 100%, 33%, 0.2)
+*/

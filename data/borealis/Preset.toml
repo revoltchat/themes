@@ -1,0 +1,50 @@
+# URL friendly name
+slug = "borealis"
+# Display name
+name = "Borealis"
+# Authors' name
+creator = "Qaz Cetelic"
+# The commit this preset was built against
+# commit = ""
+# Preset description
+description = "Dark green theme inspired by the northern lights"
+
+
+[variables]
+light = false
+accent = "#1ABC9C"
+background = "#191919"
+foreground = "#F6F6F6"
+
+block = "#2D2D2D"
+message-box = "#363636"
+mention = "rgba(251, 255, 0, 0.06)"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#ED4245"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#15967d"
+track = "transparent"
+
+[variables.primary]
+background = "#242424"
+header = "hsla(165, 100%, 33%, 0.2)"
+
+[variables.secondary]
+background = "#1E1E1E"
+foreground = "#C8C8C8"
+header = "#2D2D2D"
+
+[variables.tertiary]
+background = "hsla(165, 100%, 33%, 0.2)"
+foreground = "#848484"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
