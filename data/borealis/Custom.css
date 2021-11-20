@@ -10,12 +10,12 @@
 }
   
 /* Sidebar */
-#app>* {
+#app > * {
     background: linear-gradient(0deg, black 0%, var(--accent-dark) 100%); 
 }
   
 /* Chat background */
-.hJBMpB {
+.sc-bYEvvW {
     /* Uses gradient to darken image */
     background-image: var(--northern-lights-darkend);
     background-repeat: no-repeat;
@@ -24,22 +24,22 @@
 }
   
 /* Chat box */
-:is(.dxqdXL>*, .dxqdXL) {
+:is(.dxqdXL > *, .dxqdXL) {
     /* background: linear-gradient(180deg, var(--standard) 0%, var(--accent-dark) 100%); */
     background: var(--standard);
 }
   
 /* Channel description */
-:is(.fCZYAb>*, .fCZYAb) {
+:is(.fCZYAb > *, .fCZYAb) {
     background: linear-gradient(160deg, black 0%, var(--accent-dark) 100%);
 }
   
 /* Friend list */
-:is(.gSMWE>*, .gSMWE) {
+:is(.gSMWE > *, .gSMWE) {
     background: linear-gradient(0deg, var(--standard) 0%, var(--accent-dark) 100%);
 }
 /* Friend list catagories */
-:is(.dbiFXv>*, .dbiFXv, .dxJENu) {
+:is(.dbiFXv > *, .dbiFXv, .dxJENu) {
     /* background: linear-gradient(0deg, var(--standard) 0%, var(--accent-dark) 100%); */
     /* Removes background */
     background: none;
@@ -73,10 +73,3 @@
 :is(._donate_2mw2x_124 > *:hover, ._donate_2mw2x_124:hover) {
     filter: grayscale(100%) brightness(2);
 }
-
-/*
-    hsla(165, 0, 25, 1)
-  
-    Primary-header: hsla(165, 100%, 33%, 0.2)
-    Tertiary-background: hsla(165, 100%, 33%, 0.2)
-*/
