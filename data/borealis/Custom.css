@@ -23,12 +23,6 @@
     background-position: center;
 }
 
-/* Chat box */
-:is(.dxqdXL > *, .dxqdXL) {
-    /* background: linear-gradient(180deg, var(--standard) 0%, var(--accent-dark) 100%); */
-    /* background: var(--standard); */
-}
-
 /* Channel description */
 :is(.fCZYAb > *, .fCZYAb) {
     background: linear-gradient(160deg, black 0%, var(--accent-dark) 100%);
