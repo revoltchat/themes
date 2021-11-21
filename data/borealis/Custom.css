@@ -8,12 +8,12 @@
     --accent-dark: hsl(var(--accent-hue), 100%, 15%);
     --standard: #1e1e1e;
 }
-  
+
 /* Sidebar */
 #app > * {
     background: linear-gradient(0deg, black 0%, var(--accent-dark) 100%); 
 }
-  
+
 /* Chat background */
 .sc-bYEvvW {
     /* Uses gradient to darken image */
@@ -22,18 +22,18 @@
     background-size: cover;
     background-position: center;
 }
-  
+
 /* Chat box */
 :is(.dxqdXL > *, .dxqdXL) {
     /* background: linear-gradient(180deg, var(--standard) 0%, var(--accent-dark) 100%); */
-    background: var(--standard);
+    /* background: var(--standard); */
 }
-  
+
 /* Channel description */
 :is(.fCZYAb > *, .fCZYAb) {
     background: linear-gradient(160deg, black 0%, var(--accent-dark) 100%);
 }
-  
+
 /* Friend list */
 :is(.gSMWE > *, .gSMWE) {
     background: linear-gradient(0deg, var(--standard) 0%, var(--accent-dark) 100%);
@@ -44,32 +44,43 @@
     /* Removes background */
     background: none;
 }
-  
+
 /* Settings sidebar */
-._settings_2mw2x_34 ._sidebar_2mw2x_40 {
+._settings_2mw2x_34 > ._sidebar_2mw2x_40 {
     background: black;
     background-image: var(--northern-lights-darkend);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
-  
+
 :is(
     div.drwAci,
     /* "Looking to customize…" button */
     .cTfrSn,
     /* Delete Account Button */
-    .iRhROc
+    .iRhROc,
+    /* "Edit Profile" Button */
+    .sc-bdfBQB,
+    /* Text Blocks, except for the message box */
+    .sc-cxFLGX > textarea:not(#message)
 ) {
     background: hsla(var(--accent-hue), 100%, 50%, 0.05);
     border: none;
 }
-    
+
 /* Also make donat button grey because it's not needed for daily use */
 :is(._donate_2mw2x_124 > *, ._donate_2mw2x_124) {
-    filter: grayscale(100%) brightness(0.8);
+    filter: grayscale(100%);
 }
 /* Required because hover filter was replaced with CSS above */
 :is(._donate_2mw2x_124 > *:hover, ._donate_2mw2x_124:hover) {
     filter: grayscale(100%) brightness(2);
+}
+
+/* Hides scrollbar from channel list */
+.sc-dwfUuu {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
 }
