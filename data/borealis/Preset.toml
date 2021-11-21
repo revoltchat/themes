@@ -28,20 +28,20 @@ hover = "hsla(0, 0%, 0%, 0.3)"
 
 [variables.scrollbar]
 thumb = "#15967d"
-track = "transparent"
+track = "hsla(165, 100%, 33%, 0.05)"
 
 [variables.primary]
-background = "#242424"
+background = "hsla(165, 10%, 10%, 0.8)"
 header = "hsla(165, 100%, 33%, 0.2)"
 
 [variables.secondary]
-background = "#1E1E1E"
+background = "hsla(165, 10%, 10%, 0.8)"
 foreground = "#C8C8C8"
 header = "#2D2D2D"
 
 [variables.tertiary]
 background = "hsla(165, 100%, 33%, 0.2)"
-foreground = "#848484"
+foreground = "hsla(0, 0%, 80%, 0.8)"
 
 [variables.status]
 online      = "hsl(150, 80%, 20%)"
