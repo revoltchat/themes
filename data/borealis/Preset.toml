@@ -17,7 +17,7 @@ background = "#191919"
 foreground = "#F6F6F6"
 
 block = "hsla(165, 100%, 10%, 0.2)"
-message-box = "linear-gradient(to right, black 0%, #008b5f 51%, black 100%)"
+message-box = "linear-gradient(170deg, black 0%, var(--accent-dark) 100%)"
 mention = "rgba(251, 255, 0, 0.06)"
 
 success = "hsl(125, 70%, 30%)"
