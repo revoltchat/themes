@@ -23,7 +23,7 @@
     background-position: center;
 }
 
-/* Channel description */
+/* Channel description and some other stuff */
 :is(.fCZYAb > *, .fCZYAb) {
     background: linear-gradient(160deg, black 0%, var(--accent-dark) 100%);
 }
@@ -63,7 +63,11 @@
     border: none;
 }
 
-/* Also make donat button grey because it's not needed for daily use */
+/* Make logout button bold */
+._logOut_2mw2x_127 {
+    font-weight: bolder;
+}
+/* Also make donate button grey because it's not needed for daily use */
 :is(._donate_2mw2x_124 > *, ._donate_2mw2x_124) {
     filter: grayscale(100%);
 }
