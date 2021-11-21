@@ -11,7 +11,7 @@ foreground = "#575279"
 
 block = "#f2e9de"
 message-box = "#f2e9de"
-mention = "#d7827e"
+mention = "#ea9d3420"
 
 success = "#56949f"
 warning = "#ea9d34"
