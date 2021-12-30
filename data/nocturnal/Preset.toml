@@ -23,7 +23,7 @@ thumb = "#1E2731"
 track = "transparent"
 
 [variables.primary]
-background = "#12171D"
+background = "#1E2731"
 header = "#12171D"
 
 [variables.secondary]
