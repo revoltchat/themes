@@ -1,0 +1,43 @@
+slug = "primer-light-colorblind"
+name = "Primer Light colorblind"
+creator = "bree"
+description = "Light colorblind theme using primer color primatives."
+
+[variables]
+light = true
+accent = "#0969da"
+background = "#ffffff"
+foreground = "#24292f"
+block = "#24292f"
+message-box = "#ffffff"
+mention = "#bf3989"
+success = "#0566d5"
+warning = "#9a6700"
+error = "#ac5e00"
+hover = "rgba(175,184,193,0.2)"
+border-color = "#d0d7de"
+
+[variables.scrollbar]
+thumb = "#d08002"
+track = "transparent"
+
+[variables.primary]
+background = "#ffffff"
+foreground = "#24292f"
+header = "#f6f8fa"
+
+[variables.secondary]
+background = "#f6f8fa"
+foreground = "#57606a"
+header = "#f6f8fa"
+
+[variables.tertiary]
+background = "#f6f8fa"
+foreground = "#57606a"
+
+[variables.status]
+online = "#0566d5"
+away = "#9a6700"
+busy = "#ac5e00"
+streaming = "#8250df"
+invisible = "#6e7781"
