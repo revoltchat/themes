@@ -2,3 +2,42 @@ slug = "tokyo-night"
 name = "Tokyo Night"
 creator = "hecker"
 description = "A Clean Revolt Theme."
+
+[variables]
+light = false
+accent = "#4651c2"
+background = "#12131b"
+foreground = "#F6F6F6"
+
+block = "#171722"
+message-box = "#171722"
+mention = "#4b443b"
+
+success = "#57F287"
+warning = "#FEE75C"
+error = "#ED4245"
+hover = "#181822"
+
+[variables.scrollbar]
+thumb = "#4651c2"
+track = "transparent"
+
+[variables.primary]
+background = "#1b1a26"
+header = "#17161f"
+
+[variables.secondary]
+background = "#171722"
+foreground = "#6e728e"
+header = "#171722"
+
+[variables.tertiary]
+background = "#171722"
+foreground = "#848484"
+
+[variables.status]
+online = "#57F287"
+away = "#FEE75C"
+busy = "#ED4245"
+streaming = "#7100fd"
+invisible = "#747f8d"
