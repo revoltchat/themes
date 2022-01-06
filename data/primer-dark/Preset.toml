@@ -1,0 +1,43 @@
+slug = "primer-dark"
+name = "Primer Dark"
+creator = "bree"
+description = "Dark theme using primer color primatives."
+
+[variables]
+light = false
+accent = "#58a6ff"
+background = "#0d1117"
+foreground = "#c9d1d9"
+block = "#0d1117"
+message-box = "#0d1117"
+mention = "#db61a2"
+success = "#3fb950"
+warning = "#d29922"
+error = "#f85149"
+hover = "rgba(110,118,129,0.1)"
+border-color = "#30363d"
+
+[variables.scrollbar]
+thumb = "#f85149"
+track = "transparent"
+
+[variables.primary]
+background = "#0d1117"
+foreground = "#c9d1d9"
+header = "#161b22"
+
+[variables.secondary]
+background = "#161b22"
+foreground = "#8b949e"
+header = "#161b22"
+
+[variables.tertiary]
+background = "#161b22"
+foreground = "#8b949e"
+
+[variables.status]
+online = "#3fb950"
+away = "#d29922"
+busy = "#f85149"
+streaming = "#a371f7"
+invisible = "#6e7681"

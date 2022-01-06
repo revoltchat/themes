@@ -1,0 +1,43 @@
+slug = "primer-dark-dimmed"
+name = "Primer Dark dimmed"
+creator = "bree"
+description = "Dark dimmed theme using primer color primatives."
+
+[variables]
+light = false
+accent = "#539bf5"
+background = "#22272e"
+foreground = "#adbac7"
+block = "#22272e"
+message-box = "#22272e"
+mention = "#c96198"
+success = "#57ab5a"
+warning = "#c69026"
+error = "#e5534b"
+hover = "rgba(99,110,123,0.1)"
+border-color = "#444c56"
+
+[variables.scrollbar]
+thumb = "#e5534b"
+track = "transparent"
+
+[variables.primary]
+background = "#22272e"
+foreground = "#adbac7"
+header = "#2d333b"
+
+[variables.secondary]
+background = "#2d333b"
+foreground = "#768390"
+header = "#2d333b"
+
+[variables.tertiary]
+background = "#2d333b"
+foreground = "#768390"
+
+[variables.status]
+online = "#57ab5a"
+away = "#c69026"
+busy = "#e5534b"
+streaming = "#986ee2"
+invisible = "#636e7b"

@@ -1,0 +1,43 @@
+slug = "primer-dark-high-contrast"
+name = "Primer Dark high contrast"
+creator = "bree"
+description = "Dark high contrast theme using primer color primatives."
+
+[variables]
+light = false
+accent = "#71b7ff"
+background = "#0a0c10"
+foreground = "#f0f3f6"
+block = "#0a0c10"
+message-box = "#0a0c10"
+mention = "#ef6eb1"
+success = "#26cd4d"
+warning = "#f0b72f"
+error = "#ff6a69"
+hover = "rgba(158,167,179,0.1)"
+border-color = "#7a828e"
+
+[variables.scrollbar]
+thumb = "#ff6a69"
+track = "transparent"
+
+[variables.primary]
+background = "#0a0c10"
+foreground = "#f0f3f6"
+header = "#272b33"
+
+[variables.secondary]
+background = "#272b33"
+foreground = "#f0f3f6"
+header = "#272b33"
+
+[variables.tertiary]
+background = "#272b33"
+foreground = "#f0f3f6"
+
+[variables.status]
+online = "#26cd4d"
+away = "#f0b72f"
+busy = "#ff6a69"
+streaming = "#b780ff"
+invisible = "#9ea7b3"
