@@ -19,7 +19,7 @@ error = "#ED4245"
 hover = "#1D242B"
 
 [variables.scrollbar]
-thumb = "#1E2731"
+thumb = "#124A81"
 track = "transparent"
 
 [variables.primary]

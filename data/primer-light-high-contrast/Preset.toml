@@ -1,0 +1,43 @@
+slug = "primer-light-high-contrast"
+name = "Primer Light high contrast"
+creator = "bree"
+description = "Light high contrast theme using primer color primatives."
+
+[variables]
+light = true
+accent = "#0349b4"
+background = "#ffffff"
+foreground = "#0E1116"
+block = "#0E1116"
+message-box = "#ffffff"
+mention = "#971368"
+success = "#055d20"
+warning = "#744500"
+error = "#a0111f"
+hover = "rgba(172,182,192,0.2)"
+border-color = "#20252C"
+
+[variables.scrollbar]
+thumb = "#d5232c"
+track = "transparent"
+
+[variables.primary]
+background = "#ffffff"
+foreground = "#0E1116"
+header = "#ffffff"
+
+[variables.secondary]
+background = "#ffffff"
+foreground = "#0E1116"
+header = "#ffffff"
+
+[variables.tertiary]
+background = "#ffffff"
+foreground = "#0E1116"
+
+[variables.status]
+online = "#055d20"
+away = "#744500"
+busy = "#a0111f"
+streaming = "#622cbc"
+invisible = "#66707B"
