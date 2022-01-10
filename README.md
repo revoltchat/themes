@@ -30,6 +30,11 @@ commit = "eea13a3"
 # Preset description
 description = "neat"
 
+# Theme Version
+# Use Semantic Versioning (https://semver.org/)
+# Default: 0.0.1
+version = "0.0.1"
+
 # Tags (optional)
 # Must be a single alphanumeric word
 tags = ["sunset", "blue"]
