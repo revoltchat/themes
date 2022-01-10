@@ -7,7 +7,7 @@ const OUT_DIR = 'built'
 await mkdir(OUT_DIR).catch(() => {});
 
 let list = await themeList();
-let themes = await Promise.all(list.map(async theme => [theme, await loadTheme(theme)]));
+let themes = await Promise.all(list.map(async theme => [theme, {version: '0.0.1', ...await loadTheme(theme)}]));
 
 // Full theme manifest
 const all_themes = [];
