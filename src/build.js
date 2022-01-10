@@ -12,7 +12,7 @@ let themes = await Promise.all(list.map(async theme => [theme, await loadTheme(t
 // Full theme manifest
 const all_themes = [];
 for (let [ id, theme ] of themes) {
-    const tags = new Set([...theme.tags]);
+    const tags = new Set(theme.tags ?? []);
     if (theme.variables.light) {
         tags.add('light');
     } else {
