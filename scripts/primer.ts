@@ -12,6 +12,8 @@ function capitalize(word: string) {
   return `${word[0].toUpperCase()}${word.slice(1)}`;
 }
 
+const tags = ["colorblind", "high-contrast"];
+
 function generateTheme(name: string, theme: PrimerTheme) {
   const light = name.includes("light");
   if (!light) {
@@ -64,8 +66,10 @@ function generateTheme(name: string, theme: PrimerTheme) {
   return {
     slug: `primer-${kebabName}`,
     name: `Primer ${humanName}`,
+    tags: tags.filter((tag) => kebabName.includes(tag)),
     creator: "bree",
     description: `${humanName} theme using primer color primatives.`,
+    version: "1.0.0",
     variables,
   };
 }

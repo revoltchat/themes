@@ -2,6 +2,8 @@ slug = "dark"
 name = "Dark Mode"
 creator = "Revolt"
 description = "This is the default dark theme for Revolt."
+tags = ["revolt"]
+version = "1.0.0"
 
 [variables]
 light = false
