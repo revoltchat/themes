@@ -2,6 +2,7 @@ slug = "amoled"
 name = "AMOLED"
 creator = "insert"
 description = "Pure black, perfect for mobile."
+tags = ["oled"]
 
 [variables]
 light = false

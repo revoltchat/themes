@@ -1,7 +1,9 @@
 slug = "primer-dark-dimmed"
 name = "Primer Dark dimmed"
+tags = []
 creator = "bree"
 description = "Dark dimmed theme using primer color primatives."
+version = "1.0.0"
 
 [variables]
 light = false
