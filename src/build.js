@@ -30,3 +30,4 @@ for (let [ id, theme ] of themes) {
 }
 
 writeFile(`${OUT_DIR}/manifest.json`, JSON.stringify(manifest));
+writeFile(`${OUT_DIR}/all.json`, JSON.stringify(themes));
