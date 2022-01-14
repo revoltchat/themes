@@ -2,45 +2,47 @@ slug = "discord-colors"
 name = "Discord Colors"
 creator = "Eleven"
 description = "Discord colors for Revolt."
+tags = ["discord", "blurple"]
+version = "0.0.2"
 
 [variables]
 light = false
-accent = "#4651c2"
+accent = "#5865F2"
 background = "#202225"
-foreground = "#F6F6F6"
+foreground = "#ffffff"
 
-block = "#2f3136"
+block = "#202225"
 message-box = "#40444b"
 mention = "#4b443b"
 
 success = "#57F287"
 warning = "#FEE75C"
 error = "#ED4245"
-hover = "#36393f"
+hover = "rgba(0, 0, 0, 0.1)"
 
 [variables.sidebar]
-active = "#202225"
+active = "#2f3136"
 
 [variables.scrollbar]
-thumb = "#4651c2"
+thumb = "#202225"
 track = "transparent"
 
 [variables.primary]
 background = "#36393f"
-header = "#36393f"
+header = "#2f3136"
 
 [variables.secondary]
 background = "#2f3136"
-foreground = "#C8C8C8"
-header = "#2f3136"
+foreground = "#b9bbbe"
+header = "#2a2c31"
 
 [variables.tertiary]
-background = "#2f3136"
-foreground = "#848484"
+background = "#202225"
+foreground = "#b9bbbe"
 
 [variables.status]
-online = "#57F287"
-away = "#FEE75C"
-busy = "#ED4245"
-streaming = "#7100fd"
+online = "#3ba55d"
+away = "#faa81a"
+busy = "#ed4245"
+streaming = "#593695"
 invisible = "#747f8d"
