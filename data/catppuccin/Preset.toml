@@ -1,0 +1,45 @@
+slug = "catppuccin"
+name = "Catppuccin"
+tags = []
+creator = "andreasgrafen"
+description = "A soothing pastel theme for Revolt."
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#C9CBFF"
+background = "#1E1D2F"
+foreground = "#D9E0EE"
+block = "#1E1D2F"
+message-box = "#1A1823"
+mention = "#rgba(87, 82, 104, 0.5)"
+success = "#ABE9B3"
+warning = "#F8BD96"
+error = "#F28FAD"
+hover = "rgba(19, 16, 32, 0.2)"
+border-color = "#131020"
+
+[variables.scrollbar]
+thumb = "#C9CBFF"
+track = "transparent"
+
+[variables.primary]
+background = "#1E1D2F"
+foreground = "#D9E0EE"
+header = "#131020"
+
+[variables.secondary]
+background = "#1A1823"
+foreground = "#C3BAC6"
+header = "#1A1823"
+
+[variables.tertiary]
+background = "#131020"
+foreground = "#988BA2"
+
+[variables.status]
+online = "#ABE9B3"
+away = "#F5E0DC"
+busy = "#E8A2AF"
+streaming = "#DDB6F2"
+invisible = "#575268"
