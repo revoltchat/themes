@@ -1,0 +1,61 @@
+:root {
+--font:"Handel Gothic", "Handel Gothic 2", "Handel Gothic 3", Sansation !important; /*some browsers really don't like the halo font for some reason, host crossorigin issues seem to be the culprit*/
+
+    --border-radius: 10px;
+    --border-radius-half: 10px;
+    --border-radius-user-icon: 5px;
+    --border-radius-channel-icon: 50%;
+    --border-radius-server-icon: 50%;
+}
+
+@font-face {
+    font-family:"Handel Gothic";
+  src:url(https://bonkmaykr.xyz/oldbanana/assets/fonts/handel_gothic_web.ttf);
+}
+
+@font-face {
+    font-family:"Handel Gothic 2";
+  src:url(https://files.gamebanana.com/bitpit/handel_gothic_web.ttf);
+}
+
+@font-face {
+    font-family:"Handel Gothic 3";
+  src:url(https://bonkmaykrq.github.io/handel_gothic_web.ttf);
+}
+
+@font-face {
+    font-family:Sansation;
+    src:url(https://files.gamebanana.com/bitpit/sansation_bold_fd334.ttf);
+}
+
+@font-face {
+    font-family:Exo2;
+    src:url(https://files.gamebanana.com/bitpit/exo2-variablefont_wght.ttf);
+}
+
+@font-face {
+    font-family:Bahnschrift;
+    src:url(https://bonkmaykr.xyz/oldbanana/assets/fonts/bahnschrift.ttf);
+}
+
+p, .UserShort__BotBadge-sc-1sbe9n1-0 {
+font-family:Exo2;
+}
+
+.ServerListSidebar__ServerList-sc-10bk066-1 > a {
+filter:drop-shadow(0px 0px 4px #4d4d61);
+}
+
+body {
+background:url(https://files.gamebanana.com/bitpit/lisnglsg.gif);
+background-size:cover !important;
+background-attachment:fixed;
+} div#app {
+backdrop-filter:blur(4px);}
+
+._content_wxlsj_76 {background:#00000088;backdrop-filter:blur(4px);}
+.Modal__ModalContainer-sc-1ppg3sd-1, .Modal__ModalContent-sc-1ppg3sd-2 {background:transparent !important;}
+
+.MessageBox__Base-sc-jul4fa-0 {background:#1c1b23 !important;}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 {background:rgba( var(--primary-header-rgb), max(var(--min-opacity),1) );z-index:400 !important;}
