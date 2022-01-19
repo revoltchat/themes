@@ -1,0 +1,59 @@
+:root {
+    --background: transparent !important;
+    --foreground: white !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+    --secondary-background: transparent !important;
+    --background-mentioned: rgba(0, 255, 0, 0.281) !important;
+    --info-warning-foreground: transparent !important;
+    --primary-background: rgba(0, 0, 0, 0.481) !important;
+    --primary-header: rgba(0, 0, 0, 0.749) !important;
+    --message-box: rgba(0, 0, 0, 0.481) !important;
+    --channeltextarea-background: transparent !important;
+    --scrollbar-auto-thumb: lightgreen !important;
+    --brand-experiment: darkgreen !important;
+    --channels-default: white !important;
+    --scrollbar-thin-thumb: lightgreen !important;
+    --hover: rgba(0, 0, 0, 0.149) !important;
+    --secondary-header: rgba(0, 0, 0, 0.749) !important;
+    --sidebar-active: rgba(0, 0, 0, 0.749) !important;
+    --block: rgba(0, 0, 0, 0.349) !important;
+}
+
+#app {
+    background-image: url(https://autumn.revolt.chat/attachments/4-BlYZNq8aV4Vql83ywchpLrWhemPBCg5aPY7Mf6QK/wFkwnZn.jpg) !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.VJVsA, ._button_1gz2n_99, .tippy-5, .dTEhWW {
+
+    background-color: rgba(0, 0, 0, 0.481) !important;
+
+}
+
+.gkZrLl {
+    background:  none !important;
+}
+
+._actions_1khrk_12 {
+    border-radius: 20px;
+}wi
+
+._contentcontainer_vku0p_66 {
+    transition: visibility 1.4s, opacity 0.5s;
+}
+
+.bPsCus {
+    background-color: lightgreen !important;
+}
+
+.fTpEXC {
+    background-color: red !important;
+}
+
+code[class*=language-], pre[class*=language-] {
+background-color: none !important;
+}
+
