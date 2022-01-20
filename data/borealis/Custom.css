@@ -65,32 +65,32 @@
 }
 
 /* Make logout button bold… */
-._logOut_5x2ru_127 {
+div[class^='_logOut_'], div[class*=' _logOut_'] {
     font-weight: bolder;
 }
 /* …and the SVG icon too */
-._logOut_5x2ru_127 > div > svg > path {
+:is(div[class^='_logOut_'], div[class*=' _logOut_']) > div > svg > path {
     font-weight: bolder;
-    stroke-width: 3px;
+    stroke-width: 10px;
 }
 /* Also make donate button grey because it's not needed for daily use */
-a[href="https://insrt.uk/donate"] > ._donate_5x2ru_124 {
+a[href="https://insrt.uk/donate"] > * {
     filter: grayscale(100%);
 }
 /* Required because hover filter was replaced with CSS above */
-:is(._donate_2mw2x_124 > *:hover, ._donate_2mw2x_124:hover) {
+:is(a[href="https://insrt.uk/donate"] > *:hover, ._donate_2mw2x_124:hover) {
     filter: grayscale(100%) brightness(2);
 }
 
 /* Hides scrollbar from channel list */
-.sc-dwfUuu {
+div[class^='ServerSidebar__ServerBase'] > *, div[class*=' ServerSidebar__ServerBase'] > * {
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
 }
 
 /* User Selected Backfill */
-/* TODO current CSS loctor doesn't work */
+/* TODO current CSS locator doesn't work */
 .sc-lcuiOb > div > div > svg > * {
     /* background: linear-gradient(160deg, black 0%, var(--accent-dark) 100%); */
 }
