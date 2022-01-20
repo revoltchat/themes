@@ -1,7 +1,7 @@
 :root {    
     --northern-lights: url("https://autumn.revolt.chat/attachments/J6WwVLghtyiobNknPPVYoVhQNEJ8AtGqCftu5-uvAa/image.png");
     
-    --northern-lights-darkend: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), var(--northern-lights);
+    --northern-lights-darkened: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), var(--northern-lights);
     
     --accent-hue: 165;
   
