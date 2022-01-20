@@ -23,10 +23,19 @@ name = "My Theme"
 # Authors' name
 creator = "An Individual"
 
-# The commit this preset was built against
+# The commit this preset was built against (optional)
 # Should only be specified if you use custom CSS that tends to break between updates
 commit = "eea13a3"
 
 # Preset description
 description = "neat"
+
+# Theme Version
+# Use Semantic Versioning (https://semver.org/)
+# Default: 0.0.1
+version = "0.0.1"
+
+# Tags (optional)
+# Must be a single alphanumeric word
+tags = ["sunset", "blue"]
 ```

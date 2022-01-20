@@ -1,7 +1,9 @@
 slug = "primer-light-high-contrast"
 name = "Primer Light high contrast"
+tags = ["high-contrast"]
 creator = "bree"
 description = "Light high contrast theme using primer color primatives."
+version = "1.0.0"
 
 [variables]
 light = true

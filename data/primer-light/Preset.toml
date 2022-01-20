@@ -1,7 +1,9 @@
 slug = "primer-light"
 name = "Primer Light"
+tags = []
 creator = "bree"
 description = "Light theme using primer color primatives."
+version = "1.0.0"
 
 [variables]
 light = true
