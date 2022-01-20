@@ -1,5 +1,5 @@
 :root {    
-    --northern-lights: url("https://autumn.revolt.chat/attachments/j0-i83zKSqLY5aR12tkObMwtXeCaL9tRkNlgaRTjNq/image.png");
+    --northern-lights: url("https://autumn.revolt.chat/attachments/J6WwVLghtyiobNknPPVYoVhQNEJ8AtGqCftu5-uvAa/image.png");
     
     --northern-lights-darkend: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), var(--northern-lights);
     
@@ -41,7 +41,7 @@
 }
 
 /* Settings sidebar */
-._settings_5x2ru_34 > ._sidebar_5x2ru_40 {
+._settings_1x72n_34 > ._sidebar_1x72n_40 {
     background: black;
     background-image: var(--northern-lights-darkend);
     background-repeat: no-repeat;
