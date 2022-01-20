@@ -8,7 +8,7 @@ creator = "Qaz Cetelic"
 # commit = ""
 # Preset description
 description = "Dark green theme inspired by the northern lights"
-
+version = "1.0.0"
 
 [variables]
 light = false
