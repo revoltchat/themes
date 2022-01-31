@@ -1,0 +1,43 @@
+slug = "pink"
+name = "Pink Theme"
+creator = "IanSkinner1982"
+description = "This is pink colored theme for Revolt."
+
+[variables]
+light = true
+accent = "#FD6671"
+background = "#ce5f5f"
+foreground = "#6c1414"
+
+block = "#414141"
+message-box = "#efc3c3"
+mention = "#00dbd8"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#ED4245"
+hover = "#ffadad"
+
+[variables.scrollbar]
+thumb = "#ca525a"
+track = "transparent"
+
+[variables.primary]
+background = "#fdcece"
+header = "#ffa8a8"
+
+[variables.secondary]
+background = "#e99696"
+foreground = "#711414"
+header = "#fdb4b4"
+
+[variables.tertiary]
+background = "#ffffff"
+foreground = "#813131"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#9161cc"
+invisible = "#A5A5A5"

@@ -1,18 +1,16 @@
-slug = "dark"
-name = "Dark Mode"
-creator = "Revolt"
-description = "This is the default dark theme for Revolt."
-tags = ["revolt"]
-version = "1.0.0"
+slug = "one-dark"
+name = "One Dark"
+creator = "Odyssey346"
+description = "A theme based on Mahmoud Ali's Atom One Dark VSCode theme."
 
 [variables]
 light = false
-accent = "#FD6671"
-background = "#191919"
-foreground = "#F6F6F6"
+accent = "#4D78CC"
+background = "#21252B"
+foreground = "#D7DAE0"
 
-block = "#2D2D2D"
-message-box = "#363636"
+block = "#082730"
+message-box = "#21252B"
 mention = "rgba(251, 255, 0, 0.06)"
 
 success = "#65E572"
@@ -25,17 +23,17 @@ thumb = "#CA525A"
 track = "transparent"
 
 [variables.primary]
-background = "#242424"
-header = "#363636"
+background = "#333842"
+header = "#21252B"
 
 [variables.secondary]
-background = "#1E1E1E"
+background = "#21252B"
 foreground = "#C8C8C8"
-header = "#2D2D2D"
+header = "#21252B"
 
 [variables.tertiary]
-background = "#4D4D4D"
-foreground = "#848484"
+background = "#21252B"
+foreground = "#D7DAE0"
 
 [variables.status]
 online = "#3ABF7E"
@@ -43,3 +41,6 @@ away = "#F39F00"
 busy = "#F84848"
 streaming = "#977EFF"
 invisible = "#A5A5A5"
+
+[variables.sidebar]
+sidebar-active = "#202225"

@@ -1,0 +1,4 @@
+/* This works but it may cause issues that I haven't seen yet. */
+* {
+  border-color: var(--border-color) !important;
+}

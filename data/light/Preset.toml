@@ -2,6 +2,8 @@ slug = "light"
 name = "Light Mode"
 creator = "Revolt"
 description = "This is the default light theme for Revolt."
+tags = ["revolt"]
+version = "1.0.0"
 
 [variables]
 light = true

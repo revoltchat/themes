@@ -1,0 +1,45 @@
+slug = "primer-dark-colorblind"
+name = "Primer Dark colorblind"
+tags = ["colorblind"]
+creator = "bree"
+description = "Dark colorblind theme using primer color primatives."
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#58a6ff"
+background = "#0d1117"
+foreground = "#c9d1d9"
+block = "#0d1117"
+message-box = "#0d1117"
+mention = "#db61a2"
+success = "#42a0ff"
+warning = "#d29922"
+error = "#c38000"
+hover = "rgba(110,118,129,0.1)"
+border-color = "#30363d"
+
+[variables.scrollbar]
+thumb = "#c38000"
+track = "transparent"
+
+[variables.primary]
+background = "#0d1117"
+foreground = "#c9d1d9"
+header = "#161b22"
+
+[variables.secondary]
+background = "#161b22"
+foreground = "#8b949e"
+header = "#161b22"
+
+[variables.tertiary]
+background = "#161b22"
+foreground = "#8b949e"
+
+[variables.status]
+online = "#42a0ff"
+away = "#d29922"
+busy = "#c38000"
+streaming = "#a371f7"
+invisible = "#6e7681"
