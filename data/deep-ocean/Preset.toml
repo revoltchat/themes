@@ -1,0 +1,45 @@
+slug = "deepocean"
+name = "Deep Ocean"
+creator = "hofq"
+description = "Deep oceanic blue inspired by Hyperocean"
+tags = ["ocean", "space", "blue", "dark"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#00b0ff"
+background = "#0f111a"
+foreground = "#FFFFFF"
+
+block = "rgba(144, 164, 255, 0.1)"
+message-box = "#1c2031"
+mention = "rgba(242, 242, 122, 0.3)"
+
+success = "#14b37d"
+warning = "#f2f27a"
+error = "#ff5f56"
+hover = "rgba(144, 164, 255, 0.03)"
+
+[variables.scrollbar]
+thumb = "#ff5f56"
+track = "transparent"
+
+[variables.primary]
+background = "#0b0c13"
+header = "#0f111a"
+
+[variables.secondary]
+background = "#0f111a"
+foreground = "#bcc6d6"
+header = "#1c2031"
+
+[variables.tertiary]
+background = "#1c2031"
+foreground = "#9ba3b0"
+
+[variables.status]
+online = "#14b37d"
+away = "#f2f27a"
+busy = "#ff5f56"
+streaming = "#703faf"
+invisible = "#8f93a2"
