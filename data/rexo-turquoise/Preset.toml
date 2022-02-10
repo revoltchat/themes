@@ -2,6 +2,8 @@ slug = "rexo-turquoise"
 name = "Rexo's Turquoise Theme"
 creator = "Rexogamer"
 description = "A dark turquoise theme for Revolt."
+version = "1.0.0"
+tags = ["turquoise", "seagreen"]
 
 [variables]
 light = false
