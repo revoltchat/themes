@@ -1,0 +1,45 @@
+slug = "modernx"
+name = "ModernX"
+creator = "Slddev"
+description = "A modern look for Revolt."
+version = "0.0.2"
+tags = ["modern", "dark", "transparent"]
+
+[variables]
+light = false
+accent = "hsl(0, 0%, 34%)"
+background = "#191919"
+foreground = "#F6F6F6"
+
+block = "#2D2D2D"
+message-box = "#4e4e4e"
+mention = "hsla(235, 85.6%, 64.7%, 0.3);"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#ED4245"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#4e4e4e"
+track = "#242424"
+
+[variables.primary]
+background = "#111111"
+header = "#363636"
+
+[variables.secondary]
+background = "#181818"
+foreground = "#c8c8c8"
+header = "#2D2D2D"
+
+[variables.tertiary]
+background = "hsl(0, 0%, 19%)"
+foreground = "#848484"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#a5a5a5"
