@@ -1,0 +1,9 @@
+slug = "modernx"
+name = "ModernX"
+creator = "Slddev"
+commit = "34a67a5"
+description = "A modern look for Revolt."
+version = "0.0.2"
+tags = ["modern", "dark", "transparent"]
+
+{"accent":"hsl(0, 0%, 34%)","background":"#191919","foreground":"#F6F6F6","block":"#2D2D2D","message-box":"#4e4e4e","mention":"rgba(251, 255, 0, 0.06)","success":"#65E572","warning":"#FAA352","tooltip":"#000000","error":"#ED4245","hover":"rgba(0, 0, 0, 0.1)","scrollbar-thumb":"#4e4e4e","scrollbar-track":"#242424","primary-background":"#111111","primary-header":"#363636","secondary-background":"#181818","secondary-foreground":"#C8C8C8","secondary-header":"#2D2D2D","tertiary-background":"hsl(0, 0%, 19%)","tertiary-foreground":"#848484","status-online":"#3ABF7E","status-away":"#F39F00","status-busy":"#F84848","status-streaming":"#977EFF","status-invisible":"#A5A5A5","light":false,"font":"Open Sans","monospaceFont":"Fira Code"}
