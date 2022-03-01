@@ -1,7 +1,6 @@
 slug = "modernx"
 name = "ModernX"
 creator = "Slddev"
-commit = "34a67a5"
 description = "A modern look for Revolt."
 version = "0.0.2"
 tags = ["modern", "dark", "transparent"]
