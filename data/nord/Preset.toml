@@ -1,0 +1,45 @@
+slug = "nord"
+name = "Nord Theme"
+creator =434c5ek"
+description = "Port of nord theme to revolt."
+tags = ["nord"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#5e81ac"
+background = "#4c566a"
+foreground = "#eceff4"
+
+block = "#2e3440"
+message-box = "#434c5e"
+mention = "#4c566a"
+
+success = "#a3be8c"
+warning = "#d08770"
+error = "#bf616a"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#CA525A"
+track = "transparent"
+
+[variables.primary]
+background = "#3b4252"
+header = "#434c5e"
+
+[variables.secondary]
+background = "#2e3440"
+foreground = "#e5e9f0"
+header = "#3b4252"
+
+[variables.tertiary]
+background = "#434c5e"
+foreground = "#d8dee9"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#ebcb8b"
+busy = "#bf616a"
+streaming = "#b48ead"
+invisible = "#4c566a"
