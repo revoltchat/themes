@@ -7,7 +7,7 @@
 }
 
 /* Adds a light blue line between the server and channel list */
-.dGrZZ {
+.jOonNm {
   border-right: 2px solid #72F5F3;
 }
 
@@ -17,21 +17,21 @@
 }
 
 /* Hides the wave used as a chosen server indicator by default */
-.QgupM span, .kGANuc span {
+.ckviiV span, .jFgSXl span {
   display: none;
 }
 
 /* Adds a light blue border around the active server's icon */
-.QgupM svg, .kGANuc svg {
+.ckviiV svg, .jFgSXl svg {
   outline-style: solid;
   outline-color: #72F5F3;
   outline-width: 2px;
 }
 
 /* Colored outline and name of picked channel */
-._compact_12e90_19[data-active=true],
-._normal_12e90_16[data-active=true],
-._user_12e90_23[data-active=true] {
+._compact_1avxi_19[data-active=true],
+._normal_1avxi_16[data-active=true],
+._user_1avxi_23[data-active=true] {
   color: #37FFF8;
   outline-style: solid;
   outline-color: #72F5F3;
@@ -39,14 +39,14 @@
 }
 
 /* Mention message colored + bold text */
-div.CaijV > div.jgcjMZ > ._markdown_8b8eo_2,
-div.cCwoWr > div.jgcjMZ > ._markdown_8b8eo_2 {
+div.cZEhIO > div.jkmmZm > ._markdown_1vk6d_2,
+div.fhGxEk > div.jkmmZm > ._markdown_1vk6d_2 {
   color: #4CFAFF;
   font-weight: bold;
 }
 
 /* Nice home screen */
-._home_1khrk_1 {
+._homeScreen_ag1so_6 {
   height: 100%;
   background-image: url("https://autumn.revolt.chat/attachments/hqI1nk7NBECh8n7GP3eqt-PXv-5tXGWGnbn9qJWZUO");
   background-repeat: no-repeat;
@@ -54,8 +54,7 @@ div.cCwoWr > div.jgcjMZ > ._markdown_8b8eo_2 {
   background-size: 100% 100%;
 }
 /* Outlining buttons on home screen for better readability */
-div._actions_1khrk_12 > a > div,
-div._actions_1khrk_12 > div > a > div {
+div._actions_ag1so_25 > a {
   outline-style: solid;
   outline-color: #72F5F3;
   outline-width: 1px;
@@ -77,26 +76,13 @@ h1>a:hover,h2>a:hover,h3>a:hover,h4>a:hover,h5>a:hover,h6>a:hover{
 }
 
 /* Readable buttons on pop-up menus and bot badges */
-.ZAptB, .iYfESC, .kqSFkj {
+.iWNKPN, .iQIPOg > svg {
   color: #000056;
   font-weight: bold;
 }
 
-/* Theme consistent colors on message search */
-.kRnBUt {
-  color: #000056;
-  font-weight: bold;
-  background: #00FFF5;
-}
-.kRnBUt:hover {
-  background: #4CFAFF;
-}
-.jqHpRY {
-  color: #00FFF5;
-}
-
-/* buttons and checkboxes */
-.check, .dvKiPb {
+/* Outlined checkboxes */
+.check {
   outline-style: solid;
   outline-color: #72F5F3;
   outline-width: 1px;
