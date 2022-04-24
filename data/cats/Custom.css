@@ -1,0 +1,44 @@
+body { 
+	background-image: url('https://autumn.revolt.chat/attachments/download/hS-vVwCKK0CUKP7w8arDC4QJdsvMsWwHGpYS3uc-nY');
+	background-size: cover;
+}
+
+.EmbedInvite__EmbedInviteBase-sc-154n8c6-0.bTyHZC,
+._attachment_197qa_1._file_197qa_25,
+.MessageBox__FileAction-sc-jul4fa-3.bHZKLX,
+.MessageBox__Base-sc-jul4fa-0.jBEnry,
+._embed_1912h_1._website_1912h_12,
+.Theme__ThemeInfo-sc-12nukt1-0.jPrjw,
+.Sidebar__Base-sc-1uh6eub-0.cRCSBm,
+._content_sso5v_77, ._details_605sm_31,
+._actions_ag1so_25 > *,
+.Modal__ModalBase-sc-1ppg3sd-0.bDDYwS,
+._settings_t7t23_33,
+
+input, textarea, button, .entry, blockquote, 
+pre.code, .context-menu
+{
+	backdrop-filter: blur(15px);
+}
+
+blockquote > blockquote {
+	backdrop-filter: none;
+}
+
+*::selection {
+	background-color: var(--accent);
+	color: #fff;
+}
+
+.context-menu, .context-menu > * {
+	transition: all 0.3s;
+	background-color: transparent;
+}
+
+.context-menu > *:hover {
+	color: var(--accent);
+}
+
+::root {
+	--sidebar-active: #00000069;
+}
