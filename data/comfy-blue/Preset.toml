@@ -2,6 +2,7 @@ slug = "comfy-blue"
 name = "Comfy Blue"
 creator = "Qky"
 description = "Soft and cute looking light blue theme."
+tags = ["blue","light","pastel"]
 
 [variables]
 light = true
