@@ -1,0 +1,47 @@
+slug = "comfy-blue"
+name = "Comfy Blue"
+creator = "Qky"
+description = "Soft and cute looking light blue theme."
+
+[variables]
+light = true
+accent = "#165EC9"
+background = "#FFFFFF"
+foreground = "#071D40"
+
+block = "rgb(43, 118, 231, 0.9)"
+message-box = "rgba(89, 148, 236, 0.7)"
+mention = "rgba(236, 89, 221, 0.3)"
+
+success = "#2BE79C"
+warning = "#E79C2B"
+tooltip = "#5994EC"
+error = "#EC6859"
+hover = "#c8dbf9"
+
+[variables.scrollbar]
+thumb = "rgba(177, 89, 236, 0.6)"
+track = "transparent"
+
+[variables.primary]
+background = "rgba(181, 207, 246, 0.31)"
+header = "#6296E3"
+
+[variables.secondary]
+background = "#87B2F1"
+foreground = "#0C336E"
+header = "#6C98DA"
+
+[variables.tertiary]
+background = "#5994EC"
+foreground = "#11489C"
+
+[variables.status]
+online = "#59EC68"
+away = "#ece75b"
+busy = "#EC6859"
+streaming = "#9C2BE7"
+invisible = "#747f8d"
+
+[variables.border]
+color = "#d0d7de"
