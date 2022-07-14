@@ -45,6 +45,10 @@ span.detail span.author {
     border-top: 2px solid var(--tertiary-background);
 }
 
+pre {
+	border: 1px solid var(--background);
+}
+
 /*
 	Custom Scrollbar
 */

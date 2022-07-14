@@ -13,7 +13,7 @@ accent = "#7289DA"
 background = "#202225"
 foreground = "#dcddde"
 
-block = "#202225"
+block = "#2f3136"
 message-box = "#34363c"
 mention = "hsla(38,95.7%,54.1%,0.1)"
 
