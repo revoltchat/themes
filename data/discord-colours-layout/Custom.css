@@ -1,6 +1,9 @@
 /*
 	Fonts
 */
+:root {
+	--font: "Helvetica Neue", Helvetica, Arial, sans-serif !important; /* Discord font stack without paid Whitney */
+}
 body {
 	font-weight: 400;
 }
@@ -30,6 +33,11 @@ span.detail span.author {
 
 [class^="UserShort__BotBadge-sc-"] {
 	height: 1.3em;
+}
+
+pre {
+	margin: 0;
+	margin-top: 6px;
 }
 
 /*
