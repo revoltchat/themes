@@ -6,6 +6,7 @@ description = "Original Discord colours as well as some custom CSS to replicate 
 
 tags = ["discord", "blurple"]
 version = "0.1.0"
+commit = "70bda88"
 
 [variables]
 light = false
