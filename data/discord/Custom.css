@@ -4,8 +4,12 @@
 body {
 	font-weight: 400;
 }
-[class^="_item_"] > div[class^="_name_"], [class^="Category-sc-"], span.author {
+[class^="_item_"] > div[class^="_name_"], [class^="Category-sc-"] {
 	font-weight: 500;
+}
+/* Revite actually uses important on the author, so we need to do a higher specificity important */
+span.detail span.author {
+	font-weight: 500 !important;
 }
 
 /*
