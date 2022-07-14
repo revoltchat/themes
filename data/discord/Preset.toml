@@ -36,8 +36,8 @@ foreground = "#C8C8C8"
 header = "#2f3136"
 
 [variables.tertiary]
-background = "#202225"
-foreground = "#848484"
+background = "#4f545c"
+foreground = "#a3a6aa"
 
 [variables.status]
 online = "#3ABF7E"

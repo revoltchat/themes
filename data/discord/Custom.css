@@ -32,10 +32,17 @@ span.detail span.author {
 	height: 1.3em;
 }
 
-/* Recolour selection (not accurate to discord but looks nice) */
+/*
+	Recolours
+*/
 ::selection {
 	background-color: var(--accent);
 	color: var(--foreground);
+}
+
+[class^="MessageReply__ReplyBase"]::before {
+	border-inline-start: 2px solid var(--tertiary-background);
+    border-top: 2px solid var(--tertiary-background);
 }
 
 /*
