@@ -3,6 +3,7 @@
 */
 :root {
 	--font: "Helvetica Neue", Helvetica, Arial, sans-serif !important; /* Discord font stack without paid Whitney */
+	--text-size: 15px;
 }
 body {
 	font-weight: 400;
@@ -18,9 +19,14 @@ span.detail span.author {
 /*
 	Layout
 */
+[class^="IconBase"] {
+	width: 40px;
+	height: 40px;
+}
+
 [class^="MessageBase"], .detail {
 	min-height: 1.375em;
-	padding: 0.125rem;
+	padding: 0.125em;
 }
 [class^="MessageBase__DetailBase"],
 [class^="MessageBase"] > time,
@@ -36,8 +42,8 @@ span.detail span.author {
 }
 
 pre {
+	padding: 0.5em !important;
 	margin: 0;
-	margin-top: 6px;
 }
 
 /*
