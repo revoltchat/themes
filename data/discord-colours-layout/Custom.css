@@ -2,7 +2,6 @@
 	Fonts
 */
 :root {
-	--font: "Helvetica Neue", Helvetica, Arial, sans-serif !important; /* Discord font stack without paid Whitney */
 	--text-size: 15px;
 }
 body {
