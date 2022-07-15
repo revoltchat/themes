@@ -1,0 +1,48 @@
+slug = "discord-colours-layout"
+
+name = "Discord Colours & Layout"
+creator = "Derpius"
+description = "Original Discord colours as well as some custom CSS to replicate the feel"
+
+tags = ["discord", "blurple"]
+version = "0.1.0"
+commit = "70bda88"
+
+[variables]
+light = false
+accent = "#7289DA"
+background = "#202225"
+foreground = "#dcddde"
+
+block = "#2f3136"
+message-box = "#34363c"
+mention = "hsla(38,95.7%,54.1%,0.1)"
+
+success = "hsl(139,calc(47.3%),43.9%);"
+warning = "#FAA352"
+error = "hsl(359,66.7%,54.1%);"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#202225"
+track = "#2f3136"
+
+[variables.primary]
+background = "#36393f"
+header = "#2d2f34"
+
+[variables.secondary]
+background = "#2f3136"
+foreground = "#C8C8C8"
+header = "#2f3136"
+
+[variables.tertiary]
+background = "#4f545c"
+foreground = "#a3a6aa"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
