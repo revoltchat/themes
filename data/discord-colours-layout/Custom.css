@@ -8,7 +8,7 @@
 body {
 	font-weight: 400;
 }
-[class^="_item_"] > div[class^="_name_"], [class^="Category-sc-"] {
+[class^="_item_"] > div[class^="_name_"], [class^="Category-sc-"], [class^="MessageReply__ReplyBase"] .user {
 	font-weight: 500;
 }
 /* Revite actually uses important on the author, so we need to do a higher specificity important */
@@ -19,6 +19,10 @@ span.detail span.author {
 /*
 	Layout
 */
+[class^="_settings_"] {
+	position: relative !important;
+}
+
 [class^="MessageBase"] [class^="IconBase"] {
 	width: 40px;
 	height: 40px;
@@ -91,8 +95,4 @@ pre {
 
 [data-scroll-offset]::-webkit-scrollbar-track {
 	margin-top: calc(var(--header-height) + 4px);
-}
-
-[class^="_settings_"] {
-	position: relative !important;
 }
