@@ -26,7 +26,7 @@ track = "transparent"
 
 [variables.primary]
 background = "#230431"
-header = "#230431"
+header = "#150020"
 
 [variables.secondary]
 background = "#1c0028"
