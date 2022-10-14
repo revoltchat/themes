@@ -1,0 +1,45 @@
+slug = "embark"
+name = "Embark"
+creator = "Seikatsu"
+description = "Bringing the inky purple Embark theme to Revolt. https://embark-theme.github.io/"
+version = "0.0.1"
+tags = ["dark", "purple", "blue"]
+
+[variables]
+light = false
+accent = "#A37ACC"
+background = "#1E1C31"
+foreground = "#CBE3E7"
+
+block = "#1E1C31"
+message-box = "#1E1C31"
+mention = "rgb(212, 191, 255, 0.05)"
+
+success = "#62D196"
+warning = "#F2B482"
+error = "#F02E6E"
+hover = "#1E1C31"
+
+[variables.scrollbar]
+thumb = "#100E23"
+track = "transparent"
+
+[variables.primary]
+background = "#1E1C31"
+header = "#1E1C31"
+
+[variables.secondary]
+background = "#1E1C31"
+foreground = "#91DDFF"
+header = "#1E1C31"
+
+[variables.tertiary]
+background = "#1E1C31"
+foreground = "#8A889D"
+
+[variables.status]
+online = "#62D196"
+away = "#F2B482"
+busy = "#F02E6E"
+streaming = "#A37ACC"
+invisible = "#8A889D"
