@@ -35,6 +35,12 @@ background-position: center;
 .Button-sc-1gxkzq3-0.iWNKPN,
 .Tile__Icon-sc-1szgf75-3.xlMfH,
 img._image_197qa_75,
+.Base-sc-1d91xkm-0.kVCswW,
+._embed_dxa3n_1._website_dxa3n_12,
+.sc-iBPTik.bnZuoo,
+.Details-sc-3j94yd-0.jKeKvP,
+.InviteBot__BotInfo-sc-eg29o6-0.fNvYYN,
+.ComboBox-sc-f94r78-0.jfwTbF,
 
 input, textarea, button, .entry, blockquote, .spoiler,
 pre.code, .context-menu, audio, table, .mobile, pre
@@ -48,6 +54,10 @@ pre.code, .context-menu, audio, table, .mobile, pre
 {
   background-color: transparent !important;
   fill: #000000 !important;
+}
+
+.InviteBot__BotInfo-sc-eg29o6-0.fNvYYN {
+  border-radius: 10px;
 }
 
 option, audio {
