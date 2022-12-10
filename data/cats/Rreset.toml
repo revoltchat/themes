@@ -1,7 +1,7 @@
 slug = "cats"
 name = "Cats"
 creator = "@LazyCat"
-description = "There is cats on bg and more blur."
+description = "There are cats on bg and more blur."
 tags = ["cats", "blur"]
 
 [variables]
