@@ -1,0 +1,44 @@
+slug = "amethyst"
+name = "Amethyst"
+creator = "Meow"
+description = "Purple... based on spinfish's amethyst betterdiscord theme."
+tags = ["dark", "purple"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#ff9100"
+background = "#230431"
+foreground = "#ffffff"
+block = "#1c0028"
+mention = "#310c44"
+message-box = "#2d0f3d"
+
+success = "#4dd75e"
+warning = "#FAA352"
+error = "#ed3f43"
+hover = "rgba(0, 0, 0, 0.2)"
+tooltip = "#160021"
+
+[variables.scrollbar]
+thumb = "#361741"
+track = "transparent"
+
+[variables.primary]
+background = "#230431"
+header = "#150020"
+
+[variables.secondary]
+background = "#1c0028"
+foreground = "#d2d2d2"
+header = "#1c0028"
+
+[variables.tertiary]
+background = "#8b8b8b"
+foreground = "#8b8b8b"
+
+[variables.status]
+online = "#3ba55d"
+away = "#faa81a"
+busy = "#ed4245"
+invisible = "#747f8d"
