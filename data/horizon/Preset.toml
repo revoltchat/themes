@@ -2,6 +2,7 @@ slug = "horizon"
 name = "Horizon"
 creator = "Demperor"
 description = "The VSCode Horizon theme ported to Revolt."
+version = "1.0.0"
 
 [variables]
 light = false
