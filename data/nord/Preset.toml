@@ -1,6 +1,6 @@
 slug = "nord"
 name = "Nord Theme"
-creator ="leark"
+creator = "leark"
 description = "Port of nord theme to revolt."
 tags = ["nord"]
 version = "1.0.0"
