@@ -1,0 +1,25 @@
+name: Check and build PR
+
+on:
+  pull_request:
+    branches:
+      - "master"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: 15
+        cache: 'yarn'
+
+    - run: yarn install
+    - run: yarn check
+
+    - name: Build
+      run: yarn build
