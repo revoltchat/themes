@@ -1,0 +1,46 @@
+slug = "cats"
+name = "Cats"
+creator = "@LazyCat"
+description = "There are cats on bg and more blur."
+tags = ["cats", "blur"]
+
+[variables]
+light = false
+accent = "#FD6671"
+background = "transparent"
+foreground = "#FFF"
+
+block = "#2D2D2D69"
+message-box = "#000000aa"
+mention = "#ffff0015"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "rgb(0, 0, 0, 0.1)"
+
+tooltip = "#000000"
+
+[variables.scrollbar]
+thumb = "#CA525A"
+track = "transparent"
+
+[variables.primary]
+background = "#000000a0"
+header = "#00000069"
+
+[variables.secondary]
+background = "#00000069"
+foreground = "#C8C8C869"
+header = "#00000069"
+
+[variables.tertiary]
+background = "#00000069"
+foreground = "#ffffff69"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"

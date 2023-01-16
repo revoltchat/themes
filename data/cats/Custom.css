@@ -1,0 +1,134 @@
+body { 
+background-image: url('https://autumn.revolt.chat/attachments/PGJcmqTljyBeHQAsqq8aaJjJ6bQBZbrfCfWkoIjhgC/Hauskatze_langhaar.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.EmbedInvite__EmbedInviteBase-sc-154n8c6-0.bTyHZC,
+._attachment_197qa_1._file_197qa_25,
+.MessageBox__Base-sc-jul4fa-0.jBEnry,
+._embed_1912h_1._website_1912h_12,
+.Theme__ThemeInfo-sc-12nukt1-0.jPrjw,
+.Sidebar__Base-sc-1uh6eub-0.cRCSBm,
+._content_sso5v_77, 
+._details_605sm_31,
+._actions_ag1so_25 > *,
+.Modal__ModalBase-sc-1ppg3sd-0.bDDYwS,
+._settings_t7t23_33,
+._actions_iu4oa_1,
+.ReplyBar__Base-sc-d2l7w7-0.jtuvHh,
+.VoiceHeader__VoiceBase-sc-mvbohh-0.coVeIl,
+.Tip__TipBase-sc-1b2fe6b-1.bVXzUI,
+.ComboBox-sc-djv074-0.ddkErI,
+.FilePreview__Container-sc-znkm6h-0.ewmXHm,
+.Discover__Container-sc-6nwhb3-0.gAGipD,
+.Details-sc-1qkt4w1-0.kyMBmJ,
+.Titlebar__TitlebarBase-sc-1ykozpe-0.hwmymO,
+.BottomNavigation__Base-sc-15obpw5-0.fmxapA,
+._invite_605sm_1, .Header-sc-39hpd7-0.fUpUzg,
+.ErrorBoundary__CrashContainer-sc-1s8h6qo-0.cHHQBt,
+._pending_sd6wo_95,
+._attachment_197qa_1._audio_197qa_13,
+.RequiresOnline__Base-sc-qthzj2-0.hwlBoN,
+._attachment_197qa_1._text_197qa_33,
+.RevoltApp__StatusBar-sc-1613ew5-1.iOZZrd,
+.Button-sc-1gxkzq3-0.iWNKPN,
+.Tile__Icon-sc-1szgf75-3.xlMfH,
+img._image_197qa_75,
+.Base-sc-1d91xkm-0.kVCswW,
+._embed_dxa3n_1._website_dxa3n_12,
+.sc-iBPTik.bnZuoo,
+.Details-sc-3j94yd-0.jKeKvP,
+.InviteBot__BotInfo-sc-eg29o6-0.fNvYYN,
+.ComboBox-sc-f94r78-0.jfwTbF,
+
+input, textarea, button, .entry, blockquote, .spoiler,
+pre.code, .context-menu, audio, table, .mobile, pre
+{
+  backdrop-filter: blur(25px) !important;
+}
+
+.MessageBox__Base-sc-jul4fa-0.jBEnry > * ,
+.MessageBox__Base-sc-jul4fa-0.jBEnry, 
+.ServerListSidebar__ServerEntry-sc-10bk066-2.jFgSXl > span > svg > path
+{
+  background-color: transparent !important;
+  fill: #000000 !important;
+}
+
+.InviteBot__BotInfo-sc-eg29o6-0.fNvYYN {
+  border-radius: 10px;
+}
+
+option, audio {
+  background-color: #000000;
+  color: #fff;
+}
+
+option:hover {
+  background-color: var(--accent);
+}
+
+blockquote < pre.code {
+  backdrop-filter: none;
+}
+
+blockquote > blockquote {
+  backdrop-filter: none;
+  backgound-color: #000000 !important;
+}
+
+*::selection {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+.RevoltApp__StatusBar-sc-1613ew5-1.iOZZrd {
+    color: var(--accent) !important;
+}
+
+.context-menu {
+  transition: all 0.3s;
+  background-color: #000000a0 !important;
+}
+
+.context-menu > *:hover {
+  color: var(--accent);
+  background-color: #00000015 !important;
+  backdrop-filter: none;
+}
+
+.SidebarBase-sc-1dma6vq-0.jyizw,
+.Button-sc-1gxkzq3-0.iWNKPN, 
+table, .Details-sc-1qkt4w1-0.kyMBmJ, time
+{
+  background-color: #00000069;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0.hwmymO {
+  background-color: #000000f0 !important;
+}
+
+textarea, time {
+  background-color: transparent !important;
+}
+
+::root {
+  --sidebar-active: #000000;
+}
+
+img._image_197qa_75 {
+  background-color: #00000069 !important;
+}
+
+._container_197qa_64 {
+  min-width: 20%;
+}
+
+.spoiler > img {
+  display: none;
+}
+
+.Modal__ModalBase-sc-1ppg3sd-0.bDDYwS {
+  background: rgba(0, 0, 0, 0.5);
+}
