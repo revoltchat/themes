@@ -1,0 +1,46 @@
+slug = "github-dark-dimmed"
+name = "Github Dark Dimmed"
+creator = "CodeWhiteOfficial"
+description = "Github's Dark Dimmed theme from the official color palette"
+tags = ["dark", "dark-dimmed", "github"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#0366d6"
+background = "#1B1B1B"
+foreground = "#C5C8C6"
+block = "#262626"
+mention = "rgba(3, 102, 214, 0.06)"
+message-box = "#2E2E2E"
+
+success = "#28A745"
+warning = "#F5A623"
+error = "#CB2431"
+hover = "rgba(0, 0, 0, 0.1)"
+tooltip = "#000000"
+
+[variables.scrollbar]
+thumb = "#3E3E3E"
+track = "transparent"
+
+[variables.primary]
+background = "#282828"
+header = "#3C3C3C"
+
+[variables.secondary]
+background = "#252525"
+foreground = "#C5C8C6"
+header = "#2E2E2E"
+
+[variables.tertiary]
+background = "#383838"
+foreground = "#848484"
+
+[variables.status]
+online = "#28A745"
+away = "#F5A623"
+focus = "#0366d6"
+busy = "#CB2431"
+streaming = "#3E3E3E"
+invisible = "#A5A5A5"
