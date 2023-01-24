@@ -1,0 +1,46 @@
+slug = "github-dark"
+name = "Github Dark"
+creator = "CodeWhiteOfficial"
+description = "Github's Dark theme from the official color palette"
+tags = ["dark", "github"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#6C63FF"
+background = "#1B1F23"
+foreground = "#CCCCCC"
+block = "#1B1F23"
+message-box = "#40444b"
+mention = "#4b443b"
+
+success = "#2D974D"
+warning = "#FEE75C"
+error = "#ED4245"
+hover = "rgba(0, 0, 0, 0.1)"
+tooltip = "#000000"
+
+[variables.scrollbar]
+thumb = "#1B1F23"
+track = "transparent"
+
+[variables.primary]
+background = "#1B1F23"
+header = "#181A1F"
+
+[variables.secondary]
+background = "#181A1F"
+foreground = "#b9bbbe"
+header = "#1B1F23"
+
+[variables.tertiary]
+background = "#1B1F23"
+foreground = "#b9bbbe"
+
+[variables.status]
+online = "#2D974D"
+away = "#FEE75C"
+focus = "#6C63FF"
+busy = "#ED4245"
+streaming = "#593695"
+invisible = "#747f8d"
