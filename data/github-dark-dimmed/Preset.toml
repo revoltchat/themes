@@ -2,7 +2,7 @@ slug = "github-dark-dimmed"
 name = "Github Dark Dimmed"
 creator = "CodeWhiteOfficial"
 description = "Github's Dark Dimmed theme from the official color palette"
-tags = ["dark", "dark-dimmed"]
+tags = ["dark", "dark-dimmed", "github"]
 version = "1.0.0"
 
 [variables]
