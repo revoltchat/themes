@@ -3,7 +3,7 @@ name = "Amethyst"
 creator = "Meow"
 description = "Purple... based on spinfish's amethyst betterdiscord theme."
 tags = ["dark", "purple"]
-version = "1.0.0"
+version = "1.0.1"
 
 [variables]
 light = false
