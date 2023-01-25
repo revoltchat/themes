@@ -18,7 +18,7 @@ success = "#4dd75e"
 warning = "#FAA352"
 error = "#ed3f43"
 hover = "rgba(0, 0, 0, 0.2)"
-tooltip = "#160021"
+tooltip = "#000000"
 
 [variables.scrollbar]
 thumb = "#361741"
