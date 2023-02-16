@@ -1,7 +1,266 @@
 :root {
---sidebar-active: #2f3136
+  --sidebar-active: #2f3136;
 }
 
-a, a:hover {
-color: #13abe8
+a,
+a:hover {
+  color: #13abe8;
 }
+
+/*  Apply margin to server scroller */
+[class*="SidebarBase"]:first-child > [class^="Base-sc"] {
+  margin: 10px;
+}
+
+[class*="SidebarBase"]
+  > [class^="Base-sc"]
+  > [data-test-id*="virtuoso-scroller"] {
+  width: 70px;
+} 
+
+[class*="MessageBox__Base"] {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 26px;
+  border-radius: 10px;
+}
+
+/* Padding at the end of the chat. */
+[class*="MessageArea__Area"] > div {
+  padding-bottom: 0px;
+}
+
+[class*="RevoltApp__Routes"] > [class*="Header"] {
+  background: #36393f;
+  box-shadow: 1px 1px 1px #27292e;
+  border-bottom: solid #363636 1px;
+}
+
+[class^="MessageBase__MessageInfo"].csvICB {
+  width: 90px;
+}
+
+[class*="MessageBase__MessageInfo"] > [class*="avatar"] {
+  height: 44px !important;
+  width: 44px;
+}
+
+[class*="MessageArea__Area"] {
+  --scrollbar-track: #2e3338;
+  --scrollbar-thickness: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  display: inline-block;
+  background: #202225;
+  border-radius: 15px;
+
+  background-clip: border-box !important;
+  height: 5px !important;
+  background-size: 5px 5px !important;
+  background-repeat: no-repeat;
+
+  max-height: 5px !important;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 30px;
+}
+
+:root {
+  --foreground: #d3d3d3;
+}
+
+._item_1avxi_1[data-alert="true"] {
+  color: #ffffff !important;
+}
+
+._item_1avxi_1[data-active="true"] {
+  color: #ffffff !important;
+}
+
+:root {
+  --hover: #3c3f45;
+}
+
+@media (hover: hover) {
+  [class*="ServerSidebar__ServerList"]:not(:hover) {
+    overflow: hidden;
+  }
+
+  [data-test-id*="virtuoso-scroller"]:not(:hover) {
+    overflow-y: hidden !important;
+    overflow: hidden;
+  }
+}
+
+[class*="FilePreview__Container"] {
+  margin: 10px;
+}
+
+[class*="MessageBox__Blocked"] {
+  margin-left: 20px;
+}
+
+[class*="MessageBox__Action"] {
+  margin-right: 10px;
+}
+
+[class*="MessageArea__Area"] > div > [class*="Base-sc"]:has(> time) {
+  border-top: solid 1px #42464d;
+  justify-content: center;
+}
+
+[class*="MessageArea__Area"] > div > [class*="Base-sc"]:has(> time) > time {
+  color: #b9bbbe;
+}
+
+[class*="MessageBase"]:hover {
+  background: #32353b;
+}
+
+[class*="ServerSidebar__ServerBase"] {
+  margin: 0 !important;
+}
+
+blockquote {
+  background: none !important;
+  border-radius: 2px !important;
+  border-inline-start-color: #4f545c !important;
+}
+
+@media (hover: none), (pointer: coarse) {
+  [class^="MessageBase__MessageInfo"].csvICB { 
+    width: 60px;
+    margin-right: 5px;
+  }
+
+  [class*="MessageBox__Action"] {
+    margin-right: 0px;
+  }
+
+  textarea[class*="TextArea"] {
+    width: 115%;
+  }
+
+  /* New observation, above and this can be deleted probably */
+  textarea[class*="TextArea"] {
+    width: 100%;
+  }
+}
+
+[class*="MessageArea__Area"] {
+  margin-bottom: -40px;
+}
+
+[class*="MessageArea__Area"] > div {
+  padding-bottom: 60px;
+}
+
+/* Messages scrollbar overflow fix */
+::-webkit-scrollbar-track {
+  margin-bottom: 65px;
+  margin-top: 53px;
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 0px !important;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+  color: #15afe3;
+}
+
+[class^="SidebarBase"] [class^="ParentBase-sc"] {
+  height: 48px;
+  width: 48px;
+}
+
+[class^="SwooshWrapper"] {
+  top: -58px;
+  left: -6px;
+}
+
+[class^="SwooshWrapper"] > svg {
+  width: 66px;
+  height: 163px;
+}
+
+[class^="MessageBase__MessageInfo"] {
+  max-height: 38px;
+}
+
+[class^="MessageBase-sc"] {
+  padding: 0.225rem;
+}
+
+[class^="MessageBase__MessageContent-sc"] > [class^="detail"] {
+  margin-bottom: 5px;
+}
+
+@media (hover: none), (pointer: coarse) {
+  [class^="MessageArea__Area-sc"]::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+[class^="Search__SearchBase-sc"] > input[class^="InputBox-sc"] {
+  background: #24262a;
+}
+
+
+@media (pointer: coarse) {
+  [class^="ServerSidebar__ServerList-sc"] [class^="_item"] {
+    height: 46px;
+  }
+}
+
+@media (pointer: coarse) {
+  [class^="MessageEditor__EditorBase-sc"] {
+    position: relative;
+    left: -6%;
+  }
+}
+
+@media (pointer: coarse) {
+  [class^="MessageBox__FloatingLayer-sc"] > [class^="Column-sc"] {
+    z-index: 6;
+  }
+
+  [class^="Header-sc"] {
+    z-index: 1;
+  }
+}
+
+[class^="MessageBox__FileAction-sc"] > [class^="IconButton-sc"] {
+  width: 56px;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+[class^="MessageBox__FileAction-sc"] {
+  padding-left: 4px;
+}
+
+
+/* Make scrollbar alike Discord for Desktop*/
+@media (pointer: fine) {
+	[class^="Channel__ChannelContent-sc"]{
+		margin-right: 5px;
+	 }
+	[class^="MessageArea__Area-sc"]{
+		padding-right: 4px;
+	}
+}
+
+[class^="MessageBase__MessageContent"] > [class^="_embed"] {
+	margin: 0.3em 0;
+}
+
+  
+/* Disable highlights on hover of server channels */
+[class^="ServerSidebar__ServerList-sc"]  [class^="_item_"]:hover{
+	color: var(--tertiary-foreground);
+} 
