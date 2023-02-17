@@ -3,7 +3,7 @@ name = "Discord Colors"
 creator = "Eleven"
 description = "Discord colors for Revolt."
 tags = ["discord", "blurple"]
-version = "0.0.2"
+version = "0.0.3"
 
 [variables]
 light = false
