@@ -1,0 +1,45 @@
+slug = "blobfox-theme"
+name = "Blobfox theme"
+creator = "Houl"
+description = "A dark theme using blobfox color"
+tags = ["blobfox", "orange"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#FF8702"
+background = "#101010"
+foreground = "#F6F6F6"
+
+block = "#202020"
+message-box = "#202020"
+mention = "rgba(255, 135, 2, 0.2)"
+
+success = "#57F287"
+warning = "#FE925C"
+error = "#ED4245"
+hover = "rgba(75, 75, 75, 0.1)"
+
+[variables.scrollbar]
+thumb = "#FF8702"
+track = "transparent"
+
+[variables.primary]
+background = "#101010"
+header = "#151515"
+
+[variables.secondary]
+background = "#151515"
+foreground = "#C8C8C8"
+header = "#181818"
+
+[variables.tertiary]
+background = "#505050"
+foreground = "#848484"
+
+[variables.status]
+online = "#57F287"
+away = "#FE925C"
+busy = "#ED4245"
+streaming = "#AE45EB"
+invisible = "#A5A5A5"
