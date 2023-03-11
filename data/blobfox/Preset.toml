@@ -1,7 +1,7 @@
 slug = "blobfox-theme"
 name = "Blobfox theme"
 creator = "Houl"
-description = "A dark theme using blobfox color"
+description = "A dark theme with blobfox orange"
 tags = ["blobfox", "orange"]
 version = "1.0.0"
 
