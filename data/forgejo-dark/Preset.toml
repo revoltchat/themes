@@ -1,0 +1,45 @@
+slug = "forgejo-dark"
+name = "Forgejo Dark"
+creator = "Freeplay"
+description = "Forgejo's Dark Colors"
+version = "1.0.0"
+tags = ["dark", "forgejo"]
+
+[variables]
+accent = "#e5873a"
+light = false
+background = "#10161d"
+foreground = "#D2E0F0"
+
+block = "#171e26"
+message-box = "#1d262f"
+mention = "#37435160"
+
+success = "#0be881"
+warning = "#ed8936"
+error = "#f66151"
+hover = "rgba(34, 45, 55, 0.5)"
+
+[variables.scrollbar]
+thumb = "#e5873a"
+track = "transparent"
+
+[variables.primary]
+background = "#171e26"
+header = "#242d38"
+
+[variables.secondary]
+background = "#131a21"
+foreground = "#D2E0F0CC"
+header = "#1d262f"
+
+[variables.tertiary]
+background = "#171e26"
+foreground = "#D2E0F099"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
