@@ -1,0 +1,47 @@
+slug = "twitch-theme"
+name = "Twitch Theme"
+creator = "NoLogicAlan"
+description = "Perfect for Twitch enthusiasts and streamers."
+tags = ["Twitch", "dark", "purple", "streaming"]
+version = "1.0.0"
+
+[variables]
+accent = "#9146FF"
+background = "#0F0F13"
+foreground = "#FFFFFF"
+block = "rgba(255, 255, 255, 0.1)"
+message-box = "rgba(255, 255, 255, 0.05)"
+mention = "rgba(236, 89, 221, 0.3)"
+success = "#2BE79C"
+warning = "#E79C2B"
+tooltip = "#9146FF"
+error = "#EC6859"
+hover = "#191919"
+scrollbar-thumb = "rgba(145, 70, 255, 0.6)"
+scrollbar-track = "transparent"
+
+[variables.primary]
+background = "#191919"
+header = "#9146FF"
+
+[variables.secondary]
+background = "#0F0F13"
+foreground = "#FFFFFF"
+header = "#9146FF"
+
+[variables.tertiary]
+background = "#383838"
+foreground = "#FFFFFF"
+
+[variables.status]
+online = "#4BBD4B"
+away = "#FFAF30"
+focus = "#9146FF"
+busy = "#FF453A"
+streaming = "#9146FF"
+invisible = "#747f8d"
+
+border-color = "#1F1F24"
+light = false
+font = "Roboto"
+monospaceFont = "Fira Code"
