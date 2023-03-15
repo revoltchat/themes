@@ -1,0 +1,47 @@
+slug = "nameless"
+name = "Nameless"
+creator = "irrvlo"
+description = "Clean, simple, unique theme with a yellow accent."
+version = "1.0.0"
+tags = ["unique", "yellow"]
+
+
+
+[variables]
+light = false
+accent = "#f5ca62"
+background = "#21212a"
+foreground = "#dcdcdd"
+block = "#1c1b22"
+mention = "rgba(245,202,98,0.1)"
+message-box = "1c1b22"
+
+success = "#28A745"
+warning = "#f5a361"
+error = "#e24f4f"
+hover = "#1c1b22"
+
+[variables.scrollbar]
+thumb = "#f5ca62"
+track = "#21212a"
+
+[variables.primary]
+background = "#1c1b22"
+header = "#21212a"
+
+[variables.secondary]
+background = "#21212a"
+foreground = "#87878b"
+header = "#1c1b22"
+
+[variables.tertiary]
+background = "#3c3c45d0"
+foreground = "#8b8b92"
+
+[variables.status]
+online = "#28A745"
+away = "#f5ca62"
+focus = "#0366d6"
+busy = "#e24f4f"
+streaming = "#820193"
+invisible = "#A5A5A5"
