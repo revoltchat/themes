@@ -146,4 +146,8 @@ flex-direction: column;
 
 ._profile_17p8w_21 ._details_17p8w_33 {
 align-items: center;
-} 
+}
+
+.emoji {
+margin: 0 !important;
+}
