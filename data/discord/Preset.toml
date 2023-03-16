@@ -1,0 +1,45 @@
+slug = "discord"
+name = "Discord"
+creator = "Axorax"
+description = "Theme based on Discord dark mode."
+version = "1.0.0"
+tags = ["dark", "discord"]
+
+[variables]
+light = false
+accent = "#5865F2"
+background = "#1E1F22"
+foreground = "#fff"
+
+block = "#2B2D31"
+message-box = "#313338"
+mention = "#444037"
+
+success = "#23A55A"
+warning = "#F0B132"
+error = "#DA373C"
+hover = "#2E3035"
+
+[variables.scrollbar]
+thumb = "#1A1B1E"
+track = "#2B2D31"
+
+[variables.primary]
+background = "#313338"
+header = "#313338"
+
+[variables.secondary]
+background = "#2B2D31"
+foreground = "#dbdee1"
+header = "#3F4147"
+
+[variables.tertiary]
+background = "#4f4f4f"
+foreground = "#8e8f90"
+
+[variables.status]
+online = "#23A55A"
+away = "#F0B232"
+busy = "#F23F43"
+streaming = "#593695"
+invisible = "#80848E"
