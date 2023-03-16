@@ -60,43 +60,46 @@
 }
 
 * {
-  font-family: Forza;
+font-family: Forza;
 }
 
 .Titlebar__TitlebarBase-sc-1ykozpe-0.hwmymO > .title:before {
-  content: "NAMELESS X";
-  font-size: 0.65rem;
-  margin-bottom: 10px;
-  margin-right: -0.15rem;
+content: "NAMELESS X";
+font-size: 0.65rem;
+margin-bottom: 10px;
+margin-right: -0.15rem;
+}
+
+._sidebar_t7t23_39 {
+flex: unset !important;
 }
 
 ._contentcontainer_t7t23_62 {
-  max-width: 95% !important;
+max-width: 95%!important;
 }
 
 .SwooshWrapper-sc-176t3v5-1.dDUwGF {
-  transform: rotate(180deg) !important;
-  top: -2.25rem !important;
+transform: rotate(180deg) !important;
+top: -2.25rem !important;
 }
 
 :root {
-  --status-focus: #618df5 !important;
+--status-focus: #618df5 !important;
 }
 
 .SwooshWrapper-sc-176t3v5-1.dDUwGF rect,
 .SwooshWrapper-sc-176t3v5-1.dDUwGF path {
-  fill: var(--status-focus) !important;
-  filter: brightness(0.5);
+fill: #3f5a97 !important;
 }
 
 HeightPreservingContainer-sc-2lkyp5-0.caIsnq {
-  position: absolute !important;
-  bottom: 0 !important;
+position: absolute !important;
+bottom: 0 !important;
 }
 
 ._container_t7t23_46 {
-  height: 100%;
-  justify-content: center !important;
+height: 100%;
+justify-content: center !important;
 }
 
 .Container-sc-asykym-0.iktQcs {
@@ -104,35 +107,43 @@ HeightPreservingContainer-sc-2lkyp5-0.caIsnq {
 }
 
 .ListHeader__Header-sc-edp5p2-0.jlstve {
-  margin: 3rem 0rem !important;
+margin: 3rem 0rem !important;
 }
 
-.Grid-sc-121r9yy-0.dhSbhx {
-  display: flex !important;
-  flex-wrap: wrap !important;
+.dhSbhx {
+display: flex !important;
+flex-wrap: wrap !important;
 }
 
 .Tile__Container-sc-1szgf75-0.gWDWsC {
-  flex-direction: row !important;
-  width: 49.4rem !important;
-  height: 15rem !important;
+flex-direction: row !important;
+width: 49.4rem !important;
+height: 15rem !important;
 }
 
 .Tile__BannerContainer-sc-1szgf75-1.aFytw {
-  width: 100% !important;
-  height: 100% !important;
+width: 100% !important;
+height: 100% !important;
 }
 
 .Tile__Overlay-sc-1szgf75-4.iLqPps {
-  top: 3rem !important;
-  width: unset !important;
+top: 3rem !important;
+width: unset !important;
 }
 
 .Tile__ContentContainer-sc-1szgf75-5.fDKGdI {
-  width: 100% !important;
+width: 100% !important;
 }
 
 .UserShort__BotBadge-sc-1sbe9n1-0.cYjFcE {
-  background: var(--status-focus) !important;
-  font-weight: 800 !important;
+background: var(--status-focus) !important;
+font-weight: 800 !important;
 }
+
+._profile_17p8w_21 {
+flex-direction: column;
+}
+
+._profile_17p8w_21 ._details_17p8w_33 {
+align-items: center;
+} 
