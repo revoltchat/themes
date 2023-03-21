@@ -1,0 +1,45 @@
+slug = "nord-dark"
+name = "Nord (Dark)"
+creator = "o69mar"
+description = "Nordic dark theme for revolt.chat"
+tags = ["dark", "nord"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#81a1c1"
+background = "#434c5e"
+foreground = "#f6f6f6"
+
+block = "#2e3440"
+message-box = "#3b4252"
+mention = "#434c5e"
+
+success = "#a3be8c"
+warning = "#ebcb8b"
+error = "#bf616a"
+hover = "#4c556a"
+
+[variables.scrollbar]
+thumb = "#81a1c1"
+track = "transparent"
+
+[variables.primary]
+background = "#2e3440"
+header = "#3b4252"
+
+[variables.secondary]
+background = "#3b4252"
+foreground = "#d8dee9"
+header = "#3b4252"
+
+[variables.tertiary]
+background = "#3b4252"
+foreground = "#d8dee9"
+
+[variables.status]
+online = "#a3be8c"
+away = "#ebcb8b"
+busy = "#bf616a"
+streaming = "#81a1c1"
+invisible = "#a5a5a5"
