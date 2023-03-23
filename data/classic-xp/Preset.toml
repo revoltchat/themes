@@ -1,0 +1,45 @@
+slug = "classic-xp"
+name = "Classic XP"
+creator = "Neptuner"
+description = "Throwback theme to the Windows XP era"
+tags = ["windows", "windows-xp", "xp", "throwback", "light"]
+version = "1.0.0"
+
+[variables]
+light = true
+accent = "#0855dd"
+background = "#ece9d8"
+foreground = "#000000"
+
+block = "#ece9d8"
+message-box = "#e2deca"
+mention = "rgba(252,207,3, 0.3)"
+
+success = "#81C046"
+warning = "#FAA352"
+error = "#DE482B"
+hover = "rgba(0, 0, 0, 0.2)"
+
+[variables.scrollbar]
+thumb = "#1255be"
+track = "transparent"
+
+[variables.primary]
+background = "#e2deca"
+header = "#e2deca"
+
+[variables.secondary]
+background = "#ece9d8"
+foreground = "#1f1f1f"
+header = "#e2deca"
+
+[variables.tertiary]
+background = "#4D4D4D"
+foreground = "#3a3a3a"
+
+[variables.status]
+online = "#81C046"
+away = "#F39F00"
+busy = "#DE482B"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
