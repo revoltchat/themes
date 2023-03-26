@@ -1,0 +1,45 @@
+slug = "vintage-terminal"
+name = "Vintage Terminal"
+creator = "Axorax"
+description = "Vintage looking terminal theme for Revolt."
+version = "1.0.0"
+tags = ["dark", "terminal", "vintage"]
+
+[variables]
+light = false
+accent = "#ffff33"
+background = "#000000"
+foreground = "#00ff00"
+
+block = "#333333"
+message-box = "#000000"
+mention = "#121212"
+
+success = "	#00ff00"
+warning = "#ffff33"
+error = "#FF0000"
+hover = "#00ff001A"
+
+[variables.scrollbar]
+thumb = "#ffffff"
+track = "transparent"
+
+[variables.primary]
+background = "#000000"
+header = "#333333"
+
+[variables.secondary]
+background = "#000000"
+foreground = "#00ff00"
+header = "#333333"
+
+[variables.tertiary]
+background = "#000000"
+foreground = "#ffffff"
+
+[variables.status]
+online = "#00ff00"
+away = "#ffff33"
+busy = "#FF0000"
+streaming = "#A020F0"
+invisible = "#80848E"
