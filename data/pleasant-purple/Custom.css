@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('https://fonts.gstatic.com/s/comfortaa/v40/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfIA.woff2') format('woff2');
+}
+
+p {
+  font-family: 'Comfortaa', sans-serif;
+}

@@ -1,0 +1,47 @@
+slug = "pleasant-purple"
+name = "Pleasant Purple"
+creator = "Ridglef"
+description = "A pleasant looking purple theme"
+tags = ["purple", "dark-purple"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#1ABC9C"
+background = "#464664"
+foreground = "#ffffff"
+
+block = "#303030"
+message-box = "#363636"
+mention = "#7d5f9b"
+
+success = "#65E572"
+warning = "#FAA352"
+tooltip = "#000000"
+error = "#F06464"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#15967d"
+track = "transparent"
+
+[variables.primary]
+background = "#5a4674"
+header = "#363636"
+
+[variables.secondary]
+background = "#59456e"
+foreground = "#C8C8C8"
+header = "#2D2D2D"
+
+[variables.tertiary]
+background = "#4D4D4D"
+foreground = "#dedede"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+focus = "#4799F0"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
