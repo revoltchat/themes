@@ -264,3 +264,23 @@ a:hover {
 [class^="ServerSidebar__ServerList-sc"]  [class^="_item_"]:hover{
 	color: var(--tertiary-foreground);
 } 
+
+/* Animations for Server List & Chat Containers */
+
+@keyframes scaleanimation{
+  0%    { transform: scale(0.9); } 
+  100%  { transform: scale(1.0); }  
+}   
+
+[class^=ParentBase-sc]:active, [class^=SwooshWrapper-sc] { 
+  animation: scaleanimation 2s forwards;
+}       
+
+@keyframes customfadein{
+  0%    { opacity: 0; } 
+  100%  { opacity: 1; }  
+}  
+
+[class^=SwooshWrapper-sc], [class^=Channel__ChannelContent-sc] > * {
+  animation: customfadein 1.4s forwards; 
+}     
