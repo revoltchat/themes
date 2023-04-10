@@ -1,0 +1,44 @@
+slug = "catppuccin-mocha"
+name = "Catppuccin Mocha"
+creator = "Catppuccin Org"
+description = "Soothing pastel theme for Revolt."
+tags = ["pastel", "soothing", "dark"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#f5e0dc"
+background = "#1e1e2e"
+foreground = "#b4befe"
+block = "#11111b"
+message-box = "#11111b"
+mention = "rgba(30, 29, 47, .1)"
+success = "#a6e3a1"
+warning = "#fab387"
+tooltip = "#000000"
+error = "#f38ba8"
+hover = "rgba(17, 17, 27, 0.75)"
+
+[variables.scrollbar]
+thumb = "#b4befe"
+track = "transparent"
+
+[variables.primary]
+background = "#1e1e2e"
+header = "#181825"
+
+[variables.secondary]
+background = "#181825"
+foreground = "#6c7086"
+header = "#181825"
+
+[variables.tertiary]
+background = "#11111b"
+foreground = "#585b70"
+
+[variables.status]
+online = "#a6e3a1"
+away = "#f2cdcd"
+busy = "#eba0ac"
+streaming = "#cba6f7"
+invisible = "#585b70"
