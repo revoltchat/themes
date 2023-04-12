@@ -1,0 +1,44 @@
+slug = "catppuccin-frappe"
+name = "Catppuccin Frappé"
+creator = "Catppuccin Org"
+description = "Soothing pastel theme for Revolt."
+tags = ["pastel", "soothing", "dark"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#f2d5cf"
+background = "#303446"
+foreground = "#babbf1"
+block = "#232634"
+message-box = "#232634"
+mention = "rgba(30, 29, 47, .1)"
+success = "#a6d189"
+warning = "#ef9f76"
+tooltip = "#000000"
+error = "#e78284"
+hover = "rgba(35, 38, 52, 0.75)"
+
+[variables.scrollbar]
+thumb = "#babbf1"
+track = "transparent"
+
+[variables.primary]
+background = "#303446"
+header = "#292c3c"
+
+[variables.secondary]
+background = "#292c3c"
+foreground = "#737994"
+header = "#292c3c"
+
+[variables.tertiary]
+background = "#232634"
+foreground = "#626880"
+
+[variables.status]
+online = "#a6d189"
+away = "#eebebe"
+busy = "#ea999c"
+streaming = "#ca9ee6"
+invisible = "#626880"
