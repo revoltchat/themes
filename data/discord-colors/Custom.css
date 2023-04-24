@@ -9,8 +9,14 @@ a:hover {
 
 /*  Apply margin to server scroller */
 [class*="SidebarBase"]:first-child > [class^="Base-sc"] {
-  margin: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+[data-test-id^="virtuoso-item-list"]{
+	margin-top: 10px !important;
+} 
 
 [class*="SidebarBase"]
   > [class^="Base-sc"]
