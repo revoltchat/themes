@@ -27,3 +27,8 @@ track = "#EDE8ED"
 [variables.primary]
 background = "#F1EAF2"
 header = "#F1EAF2"
+
+[variables.secondary]
+background = "#EDE8ED"
+foreground = "#5D5D5D"
+header = "#F4EFF4"
