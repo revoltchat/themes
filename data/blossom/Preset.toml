@@ -6,12 +6,12 @@ version = "1.0.0"
 tags = ["light", "blossom", "cherry"]
 
 [variables]
-light = false
+light = true
 accent = "#FF85A0"
 background = "#F6F0F7"
 foreground = "#2C2C2C"
 
-block = "#D6C5D6"
+block = "#c7a9c7"
 message-box = "#F1EAF2"
 mention = "#FFC2D6"
 
@@ -35,7 +35,7 @@ header = "#F4EFF4"
 
 [variables.tertiary]
 background = "#D4CDD4"
-foreground = "#868686"
+foreground = "#787878"
 
 [variables.status]
 online = "#70D84C"
