@@ -4,3 +4,18 @@ creator = "Axorax"
 description = "A visually enchanting theme inspired by cherry blossoms."
 version = "1.0.0"
 tags = ["light", "blossom", "cherry"]
+
+[variables]
+light = false
+accent = "#FF85A0"
+background = "#F6F0F7"
+foreground = "#2C2C2C"
+
+block = "#D6C5D6"
+message-box = "#F1EAF2"
+mention = "#FFC2D6"
+
+success = "#70D84C"
+warning = "#FFC93C"
+error = "#FF504E"
+hover = "#ECE7EC"
