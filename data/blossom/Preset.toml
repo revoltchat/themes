@@ -23,3 +23,7 @@ hover = "#ECE7EC"
 [variables.scrollbar]
 thumb = "#D8D1D8"
 track = "#EDE8ED"
+
+[variables.primary]
+background = "#F1EAF2"
+header = "#F1EAF2"
