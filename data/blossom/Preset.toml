@@ -3,3 +3,4 @@ name = "Blossom"
 creator = "Axorax"
 description = "A visually enchanting theme inspired by cherry blossoms."
 version = "1.0.0"
+tags = ["light", "blossom", "cherry"]
