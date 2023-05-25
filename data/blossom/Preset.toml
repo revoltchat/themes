@@ -19,3 +19,7 @@ success = "#70D84C"
 warning = "#FFC93C"
 error = "#FF504E"
 hover = "#ECE7EC"
+
+[variables.scrollbar]
+thumb = "#D8D1D8"
+track = "#EDE8ED"
