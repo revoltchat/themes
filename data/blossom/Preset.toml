@@ -36,3 +36,10 @@ header = "#F4EFF4"
 [variables.tertiary]
 background = "#D4CDD4"
 foreground = "#868686"
+
+[variables.status]
+online = "#70D84C"
+away = "#FFC93C"
+busy = "#FF504E"
+streaming = "#CFA0D0"
+invisible = "#BDB7BD"
