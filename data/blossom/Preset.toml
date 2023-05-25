@@ -1,0 +1,45 @@
+slug = "blossom"
+name = "Blossom"
+creator = "Axorax"
+description = "A visually enchanting theme inspired by cherry blossoms."
+version = "1.0.0"
+tags = ["light", "blossom", "cherry"]
+
+[variables]
+light = true
+accent = "#FF85A0"
+background = "#F6F0F7"
+foreground = "#2C2C2C"
+
+block = "#c7a9c7"
+message-box = "#F1EAF2"
+mention = "#FFC2D6"
+
+success = "#70D84C"
+warning = "#FFC93C"
+error = "#FF504E"
+hover = "#ECE7EC"
+
+[variables.scrollbar]
+thumb = "#D8D1D8"
+track = "#EDE8ED"
+
+[variables.primary]
+background = "#F1EAF2"
+header = "#F1EAF2"
+
+[variables.secondary]
+background = "#EDE8ED"
+foreground = "#5D5D5D"
+header = "#F4EFF4"
+
+[variables.tertiary]
+background = "#D4CDD4"
+foreground = "#787878"
+
+[variables.status]
+online = "#70D84C"
+away = "#FFC93C"
+busy = "#FF504E"
+streaming = "#CFA0D0"
+invisible = "#BDB7BD"
