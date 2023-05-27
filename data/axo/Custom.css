@@ -56,6 +56,15 @@ textarea#message::placeholder {
     backdrop-filter: blur(9px);
 }
 
+.ReplyBar__Base-sc-d2l7w7-0.jtuvHh {
+    background: #11111192;
+    width: calc(100% - 2rem);
+    margin: 0 0 0.5rem 0;
+    margin-left: 1rem;
+    border-radius: 6px;
+    backdrop-filter: blur(9px);
+}
+
 pre.sc-bkzYnD.cjWexI {
     background: #11111192;
     backdrop-filter: blur(9px);
@@ -207,4 +216,35 @@ div#Menu,
 .SidebarBase-sc-1dma6vq-0.jyizw {
     background: transparent;
     backdrop-filter: blur(0);
+}
+
+.Search__SearchBase-sc-rl8cbc-0.fTrPfq .sort {
+    flex-direction: column !important;
+    gap: .5rem !important;
+}
+
+.Search__SearchBase-sc-rl8cbc-0.fTrPfq .sort button {
+    padding: .5rem 1rem !important;
+}
+
+input.InputBox-sc-13s1218-0.bEeAEn {
+    background: #0c0c0c;
+    border: 1px solid #3d3d3d;
+    border-radius: 6px;
+}
+
+input.InputBox-sc-13s1218-0.bEeAEn:hover {
+    outline: 1px dashed #5eb0c3 !important;
+}
+
+input.InputBox-sc-13s1218-0.bEeAEn:focus {
+    outline: none !important;
+}
+
+._item_1avxi_1._user_1avxi_23 {
+    opacity: .7;
+}
+
+._item_1avxi_1._user_1avxi_23, ._item_1avxi_1 div._name_1avxi_60 ._subText_1avxi_67 {
+    color: #e7e7e7bd;
 }
