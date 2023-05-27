@@ -10,6 +10,7 @@ light = false
 background = "#11111192"
 
 mention = "rgba(251, 255, 0, 0.1)"
+hover = "rgba(0, 0, 0, 0.3)"
 
 [variables.primary]
 background = "#11111192"

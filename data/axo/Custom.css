@@ -95,12 +95,34 @@ pre.sc-bkzYnD.cjWexI {
     padding: 0.5rem;
 }
 
-.Header-sc-ujh2d9-0.fPzJRX {
+.Header-sc-ujh2d9-0.fPzJRX, .Header-sc-ujh2d9-0.fEKFaQ, .Header-sc-ujh2d9-0.dzRjrU {
     margin: 1rem;
     border-radius: 6px;
     width: calc(100vw - 22rem);
     backdrop-filter: blur(0px);
     background: #11111192;
+}
+
+.Header-sc-ujh2d9-0.fEKFaQ {
+    width: calc(100vw - 6.4rem) !important;
+    margin-left: -15.5rem !important;
+}
+
+._list_sd6wo_13.with-padding {
+    background: #11111192;
+    margin-right: 0.8rem;
+    margin-top: 5rem;
+    border-radius: 6px;
+    height: calc(100vh - 6rem);
+}
+
+.Details-sc-3j94yd-0.jKeKvP summary {
+    background: transparent;
+}
+
+.Header-sc-ujh2d9-0.dzRjrU {
+    width: calc(100vw - 7.4rem) !important;
+    margin-left: 1rem !important;
 }
 
 .ItemContainer-sc-176t3v5-0.iRFMLa {
@@ -114,13 +136,25 @@ pre.sc-bkzYnD.cjWexI {
     height: calc(100vh - 2rem);
 }
 
+.ThemeBaseSelector__List-sc-udzwdl-0.fTtexK > div h4 {
+    margin-top: .5rem;
+}
+
+.ThemeBaseSelector__List-sc-udzwdl-0.fTtexK > div h4::after {
+    content: ' (Disables Axo Theme)';
+    background: #11111192;
+    border-radius: 5px;
+}
+
 pre.sc-bkzYnD.cjWexI code,
 .MemberList__ListCategory-sc-1bwlier-0.fWMCga,
 .MemberList__ListCategory-sc-1bwlier-0.jOPNWX,
 .SidebarBase-sc-1dma6vq-0.jyizw,
 .Channel__ChannelMain-sc-k5myot-0.DmIgS,
-.RevoltApp__Routes-sc-1613ew5-2.hpNYLK {
-    background: transparent;
+.RevoltApp__Routes-sc-1613ew5-2.hpNYLK,
+.Channel__ChannelContent-sc-k5myot-1.hfkRtg,
+.RevoltApp__Routes-sc-1613ew5-2.jAWgqa {
+    background: transparent !important;
 }
 
 a.Base-sc-j9ukbi-0.eMqgHq,
@@ -140,8 +174,18 @@ div#Menu,
     content: "⠀";
 }
 
-._version_t7t23_53::after {
+._version_t7t23_53::before {
     content: "Theme: Axo";
+    border-radius: 6px;
+    background: #11111192;
+    border: 1px solid #3d3d3d;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+._version_t7t23_53::after {
+    content: "patreon.com/axorax";
     border-radius: 6px;
     background: #11111192;
     border: 1px solid #3d3d3d;
