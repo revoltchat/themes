@@ -1,14 +1,5 @@
-/*
-❤️ Support - https://www.patreon.com/axorax
-✨ Change background
-Go to console and type:
-document.querySelector("._11Ivv").style.background = "url('<image-url-here>')"
-*/
-
 ._11Ivv {
-    /* Background Start */
-    background: url("https://images.alphacoders.com/596/596630.jpg");
-    /* Background End */
+    background: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
     background-size: cover;
 }
