@@ -1,9 +1,9 @@
-slug = "axo"
-name = "Axo"
+slug = "nucleon"
+name = "Nucleon"
 creator = "Axorax"
 description = "Transparent background dark theme."
 version = "1.0.0"
-tags = ["dark", "axo", "background", "transparent", "glass"]
+tags = ["dark", "nucleon", "background", "transparent", "glass", "blur"]
 
 [variables]
 light = false
@@ -17,3 +17,4 @@ background = "#11111192"
 
 [variables.secondary]
 background = "#11111192"
+foreground = "#c9c9c9"

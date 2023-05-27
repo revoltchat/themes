@@ -88,12 +88,14 @@ pre.sc-bkzYnD.cjWexI {
     margin: 5rem 1rem 1rem 1rem;
     background: #11111192;
     border-radius: 6px;
+    backdrop-filter: blur(2.8px);
 }
 
 .MessageBox__Base-sc-jul4fa-0.jBEnry {
     background: #11111192;
     border-radius: 6px;
     margin: 0 1rem 1rem 1rem;
+    backdrop-filter: blur(3px);
 }
 
 .SidebarBase__GenericSidebarBase-sc-1dma6vq-1.dUCGFk {
@@ -104,12 +106,16 @@ pre.sc-bkzYnD.cjWexI {
     padding: 0.5rem;
 }
 
-.Header-sc-ujh2d9-0.fPzJRX, .Header-sc-ujh2d9-0.fEKFaQ, .Header-sc-ujh2d9-0.dzRjrU {
+.Header-sc-ujh2d9-0.fPzJRX, .Header-sc-ujh2d9-0.fEKFaQ, .Header-sc-ujh2d9-0.dzRjrU, .Header-sc-ujh2d9-0.gXyCoD {
     margin: 1rem;
     border-radius: 6px;
     width: calc(100vw - 22rem);
     backdrop-filter: blur(0px);
     background: #11111192;
+}
+
+.Header-sc-ujh2d9-0.gXyCoD {
+    width: calc(100vw - 7.4rem) !important;   
 }
 
 .Header-sc-ujh2d9-0.fEKFaQ {
@@ -123,10 +129,6 @@ pre.sc-bkzYnD.cjWexI {
     margin-top: 5rem;
     border-radius: 6px;
     height: calc(100vh - 6rem);
-}
-
-.Details-sc-3j94yd-0.jKeKvP summary {
-    background: transparent;
 }
 
 .Header-sc-ujh2d9-0.dzRjrU {
@@ -147,11 +149,15 @@ pre.sc-bkzYnD.cjWexI {
 
 .ThemeBaseSelector__List-sc-udzwdl-0.fTtexK > div h4 {
     margin-top: .5rem;
+    color: #c9c9c9;
+}
+
+._contentcontainer_t7t23_62 h4 {
+    color: #c9c9c9 !important;
 }
 
 .ThemeBaseSelector__List-sc-udzwdl-0.fTtexK > div h4::after {
-    content: ' (Disables Axo Theme)';
-    background: #11111192;
+    content: ' (Disables Glass Theme)';
     border-radius: 5px;
 }
 
@@ -162,7 +168,9 @@ pre.sc-bkzYnD.cjWexI code,
 .Channel__ChannelMain-sc-k5myot-0.DmIgS,
 .RevoltApp__Routes-sc-1613ew5-2.hpNYLK,
 .Channel__ChannelContent-sc-k5myot-1.hfkRtg,
-.RevoltApp__Routes-sc-1613ew5-2.jAWgqa {
+.RevoltApp__Routes-sc-1613ew5-2.jAWgqa,
+.Discover__Container-sc-6nwhb3-0.gAGipD,
+.Details-sc-3j94yd-0.jKeKvP summary {
     background: transparent !important;
 }
 
@@ -171,6 +179,11 @@ a.Base-sc-j9ukbi-0.bQqZNf,
 .TipBase-sc-upm053-0.jzUIcb {
     background: #11111192;
     border: 1px solid #3d3d3d;
+}
+
+iframe.Discover__Frame-sc-6nwhb3-1.kcZkuw {
+    margin: 1rem;
+    border-radius: 10px;
 }
 
 div#Menu,
@@ -184,7 +197,7 @@ div#Menu,
 }
 
 ._version_t7t23_53::before {
-    content: "Theme: Axo";
+    content: "Theme: Glass";
     border-radius: 6px;
     background: #11111192;
     border: 1px solid #3d3d3d;
