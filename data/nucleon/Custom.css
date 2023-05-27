@@ -194,26 +194,6 @@ div#Menu,
     content: "⠀";
 }
 
-._version_t7t23_53::before {
-    content: "Theme: Nucleon";
-    border-radius: 6px;
-    background: #11111192;
-    border: 1px solid #3d3d3d;
-    text-align: center;
-    padding: 0.5rem 1rem;
-    margin-bottom: 1rem;
-}
-
-._version_t7t23_53::after {
-    content: "patreon.com/axorax";
-    border-radius: 6px;
-    background: #11111192;
-    border: 1px solid #3d3d3d;
-    text-align: center;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-}
-
 ._embed_dxa3n_1._website_dxa3n_12 {
     backdrop-filter: blur(8px);
     background: #11111192;
