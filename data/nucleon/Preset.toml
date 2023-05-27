@@ -1,0 +1,20 @@
+slug = "nucleon"
+name = "Nucleon"
+creator = "Axorax"
+description = "Transparent background dark theme."
+version = "1.0.0"
+tags = ["dark", "nucleon", "background", "transparent", "glass", "blur"]
+
+[variables]
+light = false
+background = "#11111192"
+
+mention = "rgba(251, 255, 0, 0.1)"
+hover = "rgba(0, 0, 0, 0.3)"
+
+[variables.primary]
+background = "#11111192"
+
+[variables.secondary]
+background = "#11111192"
+foreground = "#c9c9c9"
