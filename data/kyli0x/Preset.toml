@@ -3,7 +3,7 @@ name = "kyli0x"
 creator = "kyli0x"
 description = "Cyan and gray based theme for Revolt"
 versions = "1.0.0"
-tags = ["dark" "cyan", "gray", "orange"]
+tags = ["dark", "cyan", "gray", "orange"]
 
 [variables]
 light = false
