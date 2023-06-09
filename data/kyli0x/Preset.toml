@@ -1,0 +1,47 @@
+slug = "kyli0x"
+name = "kyli0x"
+creator = "kyli0x"
+description = "Cyan and gray based theme for Revolt"
+versions = "1.0.0"
+tags = ["dark" "cyan", "gray", "orange"]
+
+[variables]
+light = false
+accent = "#1AABA0"
+background = "#444444"
+foreground = "#FFFFFF"
+
+block = "#333333"
+message-box = "#333333"
+mention = "AB581A"
+
+success = "#ff7d00"
+warning = "#aba01a"
+tooltip = "#5994EC"
+error = "#AB1A25"
+hover = "#222222"
+
+[variables.scrollbar]
+thumb = "#FF7D00"
+track = "transparent"
+
+[variables.primary]
+background = "#222222"
+header = "#222222"
+
+[variables.secondary]
+background = "#222222"
+foreground = "BCC6D6"
+header = "#444444"
+
+[variables.tertiary]
+background = "#FF7D00"
+foreground = "#9BA3B0"
+
+[variables.status]
+online = "#30B6A0"
+away = "#ABA01A"
+focus = "#9146FF"
+busy = "#AB1A25"
+streaming = "#A01AAB"
+invisible = "#8F93A2"
