@@ -43,3 +43,5 @@ streaming = "#9A81FD"
 invisible = "#A5A5A5"
 
 tags = ["pastel", "green"]
+
+version = "0.0.1"
