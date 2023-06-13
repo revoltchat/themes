@@ -41,3 +41,5 @@ away = "#F39F00"
 busy = "#E24050"
 streaming = "#9A81FD"
 invisible = "#A5A5A5"
+
+tags = ["pastel", "green"]
