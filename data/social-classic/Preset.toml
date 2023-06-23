@@ -1,0 +1,45 @@
+slug = "social-classic"
+name = "Social Classic"
+creator = "DragShot"
+description = "A mixture of light, dark and a primary color of your preference, inspired in social websites from the 2010s."
+tags = ["social", "classic", "light", "2010"]
+version = "1.0.0"
+
+[variables]
+light = true
+accent = "#3B5998"
+background = "#F6F6F6"
+foreground = "#101010"
+
+block = "#414141"
+message-box = "#F1F1F1"
+mention = "rgba(251, 255, 0, 0.40)"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "rgba(0, 0, 0, 0.2)"
+
+[variables.scrollbar]
+thumb = "#2F477A"
+track = "transparent"
+
+[variables.primary]
+background = "#FFFFFF"
+header = "#F1F1F1"
+
+[variables.secondary]
+background = "#F1F1F1"
+foreground = "#888888"
+header = "#F1F1F1"
+
+[variables.tertiary]
+background = "#4D4D4D"
+foreground = "#646464"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
