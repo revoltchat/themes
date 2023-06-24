@@ -1,15 +1,32 @@
+:root {
+    /* -- Settings Start -- */
+
+    --background: url("https://autumn.revolt.chat/attachments/FQkCgdyHs4z9OXbdGfbF396uhPahc3seYRFMdEMZqp/axo-theme-bg.jpg");
+    --buttons-bg: #11111192;
+    --auto-complete-base-button-active: #111111c9;
+    --message-time: var(--white-text);
+    --textarea-placeholder: #ffffff8e;
+    --base-border-top: #5eb0c3;
+    --basic-border: #3d3d3d;
+    --white-text: #c9c9c9;
+    --input-box-background: #0c0c0c;
+    --item-lavxi: #e7e7e7bd;
+
+    /* -- Settings End -- */
+}
+
 ._11Ivv {
-    background: url("https://autumn.revolt.chat/attachments/FQkCgdyHs4z9OXbdGfbF396uhPahc3seYRFMdEMZqp/axo-theme-bg.jpg");
+    background: var(--background);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .PreloaderBase-sc-1xcl5li-0.ddQdoB {
-    background: #11111192;
+    background: var(--buttons-bg);
 }
 
 .JumpToBottom__Bar-sc-v9kqir-0.gILwrq > div {
-    background: #11111192;
+    background: var(--buttons-bg);
     width: calc(100% - 2rem);
     margin-left: 1rem;
     margin-top: 2rem;
@@ -18,7 +35,7 @@
 
 .JumpToBottom__Bar-sc-v9kqir-0.ggHcXn > div,
 .TypingIndicator__Base-sc-1jama4m-0.fUFJYB > div {
-    background: #11111192;
+    background: var(--buttons-bg);
     width: calc(100% - 2rem);
     margin-left: 1rem;
     border-radius: 0 0 6px 6px;
@@ -26,7 +43,7 @@
 }
 
 .AutoComplete__Base-sc-dtvq9c-0.hkukmG > div {
-    background: #11111192;
+    background: var(--buttons-bg);
     width: calc(100% - 2rem);
     margin-left: 1rem;
     border-radius: 0 0 6px 6px;
@@ -35,20 +52,20 @@
 }
 
 .AutoComplete__Base-sc-dtvq9c-0.hkukmG > div button.active {
-    background: #111111c9;
-    border: 1px solid #3d3d3d;
+    background: var(--auto-complete-base-button-active);
+    border: 1px solid var(--basic-border);
 }
 
 .MessageBase__DetailBase-sc-1s9ehlg-3.kyoVXf time {
-    color: #c9c9c9;
+    color: var(--message-time);
 }
 
 textarea#message::placeholder {
-    color: #ffffff8e;
+    color: var(--textarea-placeholder);
 }
 
 .FilePreview__Container-sc-znkm6h-0.ewmXHm {
-    background: #11111192;
+    background: var(--buttons-bg);
     width: calc(100% - 2rem);
     margin: 0 0 1rem 0;
     margin-left: 1rem;
@@ -57,7 +74,7 @@ textarea#message::placeholder {
 }
 
 .ReplyBar__Base-sc-d2l7w7-0.jtuvHh {
-    background: #11111192;
+    background: var(--buttons-bg);
     width: calc(100% - 2rem);
     margin: 0 0 0.5rem 0;
     margin-left: 1rem;
@@ -66,17 +83,17 @@ textarea#message::placeholder {
 }
 
 pre.sc-bkzYnD.cjWexI {
-    background: #11111192;
+    background: var(--buttons-bg);
     backdrop-filter: blur(9px);
 }
 
 .Base-sc-1kllx7r-0.iIKZoW {
-    border-top: thin solid #5eb0c3;
+    border-top: thin solid var(--base-border-top);
 }
 
 .Base-sc-yb16g4-0.iDeTmr {
     margin: 1rem;
-    background: #11111192;
+    background: var(--buttons-bg);
     border-radius: 6px;
 }
 
@@ -86,20 +103,20 @@ pre.sc-bkzYnD.cjWexI {
 
 .MessageArea__Area-sc-1q4cka6-0.kpVPRw {
     margin: 5rem 1rem 1rem 1rem;
-    background: #11111192;
+    background: var(--buttons-bg);
     border-radius: 6px;
     backdrop-filter: blur(2.8px);
 }
 
 .MessageBox__Base-sc-jul4fa-0.jBEnry {
-    background: #11111192;
+    background: var(--buttons-bg);
     border-radius: 6px;
     margin: 0 1rem 1rem 1rem;
     backdrop-filter: blur(3px);
 }
 
 .SidebarBase__GenericSidebarBase-sc-1dma6vq-1.dUCGFk {
-    background: #11111192;
+    background: var(--buttons-bg);
     margin: 5rem 1rem 0 0;
     height: calc(100vh - 6rem);
     border-radius: 6px;
@@ -111,7 +128,7 @@ pre.sc-bkzYnD.cjWexI {
     border-radius: 6px;
     width: calc(100vw - 22rem);
     backdrop-filter: blur(0px);
-    background: #11111192;
+    background: var(--buttons-bg);
 }
 
 .Header-sc-ujh2d9-0.gXyCoD {
@@ -124,7 +141,7 @@ pre.sc-bkzYnD.cjWexI {
 }
 
 ._list_sd6wo_13.with-padding {
-    background: #11111192;
+    background: var(--buttons-bg);
     margin-right: 0.8rem;
     margin-top: 5rem;
     border-radius: 6px;
@@ -141,7 +158,7 @@ pre.sc-bkzYnD.cjWexI {
 }
 
 .ServerSidebar__ServerBase-sc-1lca5oe-0.JkpVA {
-    background: #11111192;
+    background: var(--buttons-bg);
     border-radius: 6px;
     margin: 1rem 0;
     height: calc(100vh - 2rem);
@@ -149,11 +166,11 @@ pre.sc-bkzYnD.cjWexI {
 
 .ThemeBaseSelector__List-sc-udzwdl-0.fTtexK > div h4 {
     margin-top: .5rem;
-    color: #c9c9c9;
+    color: var(--white-text);
 }
 
 ._contentcontainer_t7t23_62 h4 {
-    color: #c9c9c9 !important;
+    color: var(--white-text) !important;
 }
 
 pre.sc-bkzYnD.cjWexI code,
@@ -172,8 +189,8 @@ pre.sc-bkzYnD.cjWexI code,
 a.Base-sc-j9ukbi-0.eMqgHq,
 a.Base-sc-j9ukbi-0.bQqZNf,
 .TipBase-sc-upm053-0.jzUIcb {
-    background: #11111192;
-    border: 1px solid #3d3d3d;
+    background: var(--buttons-bg);
+    border: 1px solid var(--basic-border);
 }
 
 iframe.Discover__Frame-sc-6nwhb3-1.kcZkuw {
@@ -184,7 +201,7 @@ iframe.Discover__Frame-sc-6nwhb3-1.kcZkuw {
 div#Menu,
 .MessageBase__MessageContent-sc-1s9ehlg-2.jkmmZm .sc-iBPTik.bnZuoo {
     backdrop-filter: blur(9px);
-    background: #11111192;
+    background: var(--buttons-bg);
 }
 
 ._contentcontainer_t7t23_62::after {
@@ -193,7 +210,7 @@ div#Menu,
 
 ._embed_dxa3n_1._website_dxa3n_12 {
     backdrop-filter: blur(8px);
-    background: #11111192;
+    background: var(--buttons-bg);
 }
 
 .Header-sc-ujh2d9-0.fPzJRX svg {
@@ -216,8 +233,8 @@ div#Menu,
 }
 
 input.InputBox-sc-13s1218-0.bEeAEn {
-    background: #0c0c0c;
-    border: 1px solid #3d3d3d;
+    background: var(--input-box-background);
+    border: 1px solid var(--basic-border);
     border-radius: 6px;
 }
 
@@ -234,5 +251,5 @@ input.InputBox-sc-13s1218-0.bEeAEn:focus {
 }
 
 ._item_1avxi_1._user_1avxi_23, ._item_1avxi_1 div._name_1avxi_60 ._subText_1avxi_67 {
-    color: #e7e7e7bd;
+    color: var(--item-lavxi);
 }
