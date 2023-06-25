@@ -5,3 +5,6 @@ commit = "5363ff2"
 description = "Skeuomorphic theme, based on/sourced from Marda33's Skeuocord"
 version = "1.0.1"
 tags = ["skeuomorphism", "skeuomorphic", "gradient", "dark", "skeuocord", "grey", "black"]
+
+[variables]
+accent = white
