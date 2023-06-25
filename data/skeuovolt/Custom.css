@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
-
 :root {
     --primary-background: linear-gradient(to top, rgb(20,20,20) 0%, (60,60,60) 50%, rgb(20,20,20) 100%);
     --message-box-padding: 10px;
@@ -117,10 +115,16 @@
     background-color: hsl(220, calc(var(--saturation-factor, 1) * 7.6%), 23.3%);
     box-shadow: inset 0 0 0 2px black;
 }
-.cZEhIO {
+.cZEhIO, .fhGxEk {
     border: 1px solid rgba(255,255,0,0.3);
     border-radius: 7px;
     background: linear-gradient(to top, rgba(255,255,0,0.05) 0%, rgba(255,255,0,0.3) );
+}
+
+.cZEhIO:hover, .fhGxEk:hover {
+    border: 1px solid rgba(255,255,0,0.1);
+    border-radius: 7px;
+    background: linear-gradient(to top, rgba(128,128,0,0.05) 0%, rgba(128,128,0,0.3) );
 }
 
 .Base-sc-1kllx7r-0, .iIKZoW {
