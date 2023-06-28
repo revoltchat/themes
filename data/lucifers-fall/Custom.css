@@ -1,0 +1,24 @@
+:root {
+   --border-radius-user-icon: 12px;
+   --primary-background: rgba(var(--primary-background-rgb), 0.70);
+   --secondary-background: rgba(var(--secondary-background-rgb), 0.35);
+   --message-box: rgba(var(--secondary-background-rgb), 0.70);
+   --block: rgba(var(--primary-background-rgb), 0.70);
+}
+
+[class^="RevoltApp__AppContainer-sc-"] {
+    z-index: -999;
+    background: url('https://autumn.revolt.chat/attachments/KHu7zDNg6LcIvIYq22cICwDL8FzqRfjCpFiTW7UvG8/Untitled281_20221101085844.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    inset: 0;
+    top: 0;
+}
+
+[class^="MessageReply__ReplyBase"]::before  {
+border-inline-start: 2px solid var(--tertiary-background);
+border-top: 2px solid var(--tertiary-background);}
