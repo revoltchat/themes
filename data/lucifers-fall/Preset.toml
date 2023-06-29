@@ -3,6 +3,7 @@ slug = "lucifers-fall"
 creator = "The Humanoid"
 version = "v0.0.1"
 tags = ["amoled", "purple"]
+description = "AMOLED black theme based around Lucifer's Fall with a purple accent."
 
 [variables]
 light = false
