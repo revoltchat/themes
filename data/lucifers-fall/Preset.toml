@@ -1,7 +1,7 @@
 name = "Lucifer's Fall"
 slug = "lucifers-fall"
-creator = "TheHumanoid#6640"
-version = "v.0.1"
+creator = "The Humanoid"
+version = "0.0.1"
 tags = ["amoled", "purple"]
 
 [variables]
