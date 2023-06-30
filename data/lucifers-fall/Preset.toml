@@ -1,0 +1,44 @@
+name = "Lucifer's Fall"
+slug = "lucifers-fall"
+creator = "The Humanoid"
+version = "v0.0.1"
+tags = ["amoled", "purple"]
+description = "AMOLED black theme based around Lucifer's Fall with a purple accent."
+
+[variables]
+light = false
+accent = "#662d73"
+background = "#000000"
+foreground = "#F6F6F6"
+block = "#000000"
+message-box = "#000000"
+mention = "#662d73" 
+success = "#65E572"
+warning = "#FAA352"
+error = "#ED4245"
+hover = "rgba(0, 0, 0, 0.1)"
+tooltip = "#000000"
+
+[variables.scrollbar]
+track = "transparent"
+thumb = "#662d73"
+
+[variables.primary]
+header = "#000000"
+background = "#000000"
+
+[variables.secondary]
+header = "#000000"
+background = "#000000"
+foreground = "#C8C8C8"
+[variables.tertiary]
+background = "#662d73"
+foreground = "#C8C8C8"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+focus = "#4799F0"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5" 
