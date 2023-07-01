@@ -3,7 +3,7 @@ name = "Social Classic"
 creator = "DragShot"
 description = "A mixture of light, dark and a primary color of your preference, inspired by social websites from the 2010s."
 tags = ["social", "classic", "light", "2010"]
-version = "1.0.0"
+version = "v1.0.0"
 
 [variables]
 light = true
