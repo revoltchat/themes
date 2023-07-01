@@ -1,13 +1,18 @@
 @font-face {
-    font-family: "Squalandire";
-    src: url("https://autumn.revolt.chat/attachments/y3APi1WY6Z0U5h6EQLNNOUss9fyRJwmzKIWeKh2Ft7/squalandire.ttf");
+    font-family: "Nucleon";
+    src: url("https://autumn.revolt.chat/attachments/0Qm-1U3VI_7c1q9avRUz-Q6p7MrRbks9Oi_sw9zapW/pixelia-7.ttf");
+}
+
+@font-face {
+    font-family: "NucleonMono";
+    src: url("https://autumn.revolt.chat/attachments/tBqVI_KhfODiWvvnq61H1yk9Ewv3jh_oZ-Gj5qYW1q/pixelbabania-vi-deluxe.ttf");
 }
 
 :root {
     --scrollbar-thickness: 8px !important;
     --retheme-main-bg: url("https://preview.redd.it/m0zhfbiq61v21.png?auto=webp&s=a33df442f3a83d062e777faba8dcf9466a438b77");
     --Nucleon-font: "Squalandire";
-    --Nucleon-monospace-font: "Squalandire";
+    --Nucleon-monospace-font: "NucleonMono";
 }
 
 
