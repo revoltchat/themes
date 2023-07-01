@@ -18,3 +18,42 @@ version = "0.0.1"
 # Tags (optional)
 # Must be a single alphanumeric word
 tags = ["retro", "image","transparent"]
+
+[variables]
+light = false
+accent = "#6470F5"
+background = "#313338"
+foreground = "#DBDEE1"
+
+block = "#2c2d30"
+message-box = "#333438"
+mention = "#e7ae3c1a"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#505ac4"
+track = "2b2d31"
+
+[variables.primary]
+background = "#313338"
+header = "#333438"
+
+[variables.secondary]
+background = "#2b2d31"
+foreground = "#959ba3"
+header = "#2c2d30"
+
+[variables.tertiary]
+background = "#1e1f22"
+foreground = "#848484"
+
+[variables.status]
+online = "#299e5b"
+away = "#e7af3c"
+busy = "#e9484b"
+streaming = "#977EFF"
+invisible = "#959ba3"
