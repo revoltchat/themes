@@ -1,0 +1,652 @@
+/* Constants */
+
+:root{
+  --serverbar-background: #303440;
+  --serverbar-foreground: #F7F7F7;
+  --serverbar-border: #1C202B;
+  --serverbar-highlight: #505460;
+  --scrollbar-color: rgba(0, 0, 0, 0.25);
+  --accent-10: rgba(var(--accent-rgb), 0.10);
+  --accent-15: rgba(var(--accent-rgb), 0.15);
+  --accent-25: rgba(var(--accent-rgb), 0.25);
+  --accent-50: rgba(var(--accent-rgb), 0.50);
+  --accent-60: rgba(var(--accent-rgb), 0.60);
+  --accent-75: rgba(var(--accent-rgb), 0.75);
+  --form-border: #CCC;
+  --button-success-border: #3B6E22;
+  --button-success-background: #67A54B;
+  --button-success-foreground: #F7F7F7;
+  --white-pixel: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=);
+  --error-darker: #CD2225;
+  --mention: #FFF5CE;
+  --mention-darker: #F6ECC2;
+  --border-radius-user-icon: 6px;
+}
+
+/* Server Sidebar */
+
+div[class^="SidebarBase-sc"] > [class^="Base-sc"] {
+  background: var(--serverbar-background);
+  border: solid 1px var(--serverbar-border);
+  width: 58px;
+}
+
+div[class^="SidebarBase-sc"] > [class^="Base-sc"] [class^="ItemContainer-sc"] div[class^="LineDivider-sc"] {
+  background: var(--serverbar-border);
+  border-top: solid 1px #282B38;
+  border-bottom: solid 1px #393D48;
+  margin: 5px auto;
+  width: 100%;
+  height: 3px;
+}
+
+div[class^="SidebarBase-sc"] > [class^="Base-sc"] > [class^="Shadow-sc"] > div {
+  background: linear-gradient(to bottom, transparent, var(--serverbar-background));
+  margin-top: -24px;
+  height: 24px;
+}
+
+div[class^="SidebarBase-sc"] > [class^="Base-sc"] [class^="ItemContainer-sc"] [class^="FallbackBase-sc"] {
+  background: var(--serverbar-border);
+  color: var(--serverbar-foreground);
+  /*padding-right: 8px;*/
+}
+
+div[class^="SidebarBase-sc"] > [class^="Base-sc"] [class^="ItemContainer-sc"] [class^="FallbackBase-sc"] > svg > * {
+  color: var(--serverbar-foreground);
+}
+
+div[class^="SwooshWrapper-sc"] {
+  --sidebar-active: var(--serverbar-highlight);
+  top: -8px;
+  overflow-y: hidden;
+  /* z-index: 0; */
+}
+
+[class^="SwooshWrapper-sc-"] > svg {
+  margin-top: -24px;
+}
+
+[class^="SwooshWrapper-sc-"] > svg > path:not(:first-child), 
+[class^="SwooshWrapper-sc-"] > svg > rect {
+  display: none;
+}
+
+[class^="SwooshWrapper-sc-"] > svg > path:first-child {
+  fill: var(--accent);
+  /* Fix uneven bubble around the server icon - by lo-kiss@github.com */
+  transform: translateX(.8px) scale(0.95);
+  transform-origin: center;
+}
+
+div[class^="ItemContainer-sc"] > div:nth-child(1),
+div[class^="ItemContainer-sc"] > a > div:nth-child(1) {
+  position: relative;
+  z-index: 0;
+}
+
+div[class^="ItemContainer-sc"] > div:nth-child(2),
+div[class^="ItemContainer-sc"] > a > div:nth-child(2) {
+  position: relative;
+  z-index: 1;
+}
+
+/* Tooltips */
+
+div[id^="tippy"] > .tippy-box {
+  background: var(--serverbar-border);
+  color: var(--serverbar-foreground);
+  border-radius: 6px;
+}
+
+div[id^="tippy"] > .tippy-box * {
+  color: var(--serverbar-foreground);
+}
+
+div[id^="tippy"] > .tippy-box > .tippy-content {
+  background: var(--serverbar-border);
+  color: var(--serverbar-foreground);
+  border-radius: 6px;
+}
+
+div[id^="tippy"] > .tippy-box[data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: var(--serverbar-border);
+}
+
+div[id^="tippy"] > .tippy-box[data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: var(--serverbar-border);
+}
+
+div[id^="tippy"] > .tippy-box[data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: var(--serverbar-border);
+}
+
+div[id^="tippy"] > .tippy-box[data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: var(--serverbar-border);
+}
+
+/* Server Header */
+
+div[class^="ServerSidebar__ServerBase-sc"] {
+  border-radius: 0px;
+}
+
+[class^="RevoltApp__AppContainer-sc"] > div > [class^="SidebarBase-sc"] > [class^="SidebarBase__GenericSidebarBase-sc"],
+[class^="RevoltApp__AppContainer-sc"] > div > div > div > [class^="SidebarBase-sc"] > [class^="SidebarBase__GenericSidebarBase-sc"] {
+  margin-top: calc(var(--header-height) + 24px);
+}
+[class^="RevoltApp__AppContainer-sc"] > div > [class^="SidebarBase-sc"] > [class^="SidebarBase__GenericSidebarBase-sc"] > [class^="HomeSidebar__Navbar-sc"],
+[class^="RevoltApp__AppContainer-sc"] > div > div > div > [class^="SidebarBase-sc"] > [class^="SidebarBase__GenericSidebarBase-sc"] > [class^="HomeSidebar__Navbar-sc"] {
+  background-image: url("/assets/wide.svg");
+  margin-top: -40px;
+  padding-top: 40px;
+  height: 88px;
+  background-position-x: 12px;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+div[class^="ServerSidebar__ServerBase-sc"] > [class^="ServerHeader__ServerBanner-sc"] {
+  background-color: var(--accent);
+}
+
+div[class^="ServerSidebar__ServerBase"] > [class^="ServerHeader__ServerBanner"].dKFhRZ > .container {
+	background: linear-gradient(0deg, var(--serverbar-background), transparent);
+}
+
+div[class^="ServerSidebar__ServerBase"] > [class^="ServerHeader__ServerBanner"].jXEHHp > .container {
+	margin-top: 24px;
+}
+
+div[class^="ServerSidebar__ServerBase"] > [class^="ServerHeader__ServerBanner"] > .container > a.title,
+div[class^="ServerSidebar__ServerBase"] > [class^="ServerHeader__ServerBanner"] > .container a[class^="IconButton-sc"] {
+  color: var(--serverbar-foreground);
+  /* text-shadow: -1px 0px black, 0px 1px black,
+               1px 0px black, 0px -1px black; */
+}
+
+div[class^="ServerSidebar__ServerBase-sc"] > div[class^="ServerSidebar__ServerList-sc"] {
+  border-top: solid 5px var(--accent-60);
+}
+
+/* Server Channels */
+
+[class^="ServerSidebar__ServerList"] {
+  padding-right: 0px;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+[class^="ServerSidebar__ServerList"]::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+[class^="ServerSidebar__ServerList"] a > div[class^="_item"],
+[class^="ServerSidebar__ServerList"] a > div[class^="_item"] * {
+  transition: none;
+}
+
+[class^="ServerSidebar__ServerList"] a > div[class^="_item"] > [class^="_name"] {
+  font-weight: normal;
+}
+
+[class^="ServerSidebar__ServerList"] a > div[class^="_item"][data-alert="true"]:not(:hover) > div {
+  color: var(--accent);
+}
+
+[class^="ServerSidebar__ServerList"] a > div[class^="_item"][data-alert="true"] > [class^="_button"] > div {
+  background: var(--accent);
+}
+
+[class^="ServerSidebar__ServerList"] a > div[class^="_item"][data-alert="true"]:hover > [class^="_button"] > div {
+  background: var(--serverbar-foreground);
+}
+
+[class^="ServerSidebar__ServerList"] a > div[class^="_item"]:hover,
+[class^="ServerSidebar__ServerList"] a > div[class^="_item"][data-active="true"] {
+  background: var(--accent-75);
+  color: var(--serverbar-foreground);
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* Content Header */
+
+div[class^="RevoltApp__Routes-sc"],
+div[class^="Header-sc"] {
+  border-radius: 0px;
+}
+
+div[class^="RevoltApp__Routes-sc"] > [class^="Header-sc"],
+div[class^="RevoltApp__Routes-sc"] [class^="Home__Overlay-sc"] [class^="Header-sc"] {
+  background: var(--accent);
+}
+
+div[class^="RevoltApp__Routes-sc"] > [class^="Header-sc"] > div,
+div[class^="RevoltApp__Routes-sc"] [class^="Home__Overlay-sc"] [class^="Header-sc"],
+div[class^="RevoltApp__Routes-sc"] [class^="Home__Overlay-sc"] [class^="Header-sc"] > div,
+div[class^="RevoltApp__Routes-sc"] > [class^="Header-sc"] > [class^="HeaderActions__Container"] > a,
+div[class^="RevoltApp__Routes-sc"] > [class^="Header-sc"] a[class^="IconButton-sc"],
+div[class^="ChannelHeader__Info"] > .desc {
+  color: var(--serverbar-foreground);
+}
+
+div[class^="ChannelHeader__Info"] > .desc a {
+  color: var(--serverbar-foreground);
+  text-decoration: underline;
+}
+
+div[class^="ChannelHeader__Info"] > .divider {
+  background: var(--serverbar-foreground);
+}
+
+div[class^="Home__Overlay-sc"] > .content h3 > img {
+  filter: brightness(0%);
+}
+
+/* Chat Area */
+
+[class^="MessageArea__Area-sc"]/*,
+[class^="_home_"] .content > [class^="_homeScreen_"],
+[class^="RevoltApp__Routes"] > div[data-scroll-offset="true"] > [class^="_list_"]*/ {
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  padding-top: 0px;
+  margin-top: var(--header-height);
+}
+
+[class^="MessageBase-sc"]:hover {
+  background: var(--accent-10);
+}
+
+[class^="TypingIndicator__Base"] {
+  left: 1px;
+}
+
+[class^="MessageBox__Blocked-sc"] > [class^="MessageBox__Action-sc"],
+[class^="MessageBox__Blocked-sc"] > .text {
+  margin-left: 12px;
+}
+
+[class^="MessageArea__Area-sc"] div[class^="Base-sc"] { /* Day/NEW message separators */
+  height: auto;
+  margin: 8px 0px -4px 2px;
+  border-top: solid 1px var(--accent);
+  background: var(--accent-15);
+  padding: 4px 4px 6px 4px;
+}
+
+[class^="MessageArea__Area-sc"] div[class^="Base-sc"] > time {
+  margin: 0px;
+  background: unset;
+  color: var(--accent);
+  display: block;
+}
+
+[class^="MessageArea__Area-sc"] div[class^="Base-sc"] > [class^="Unread-sc"] {
+  padding: 4px 6px;
+  border-radius: 0px;
+  margin: -5px 4px -6px -4px;
+}
+
+.fDfxAc { /* Reactions */
+  background: var(--accent-10);
+}
+
+.fDfxAc:hover {
+  filter: none;
+  background: var(--accent-25)
+}
+
+.cZEhIO:not(:hover), .fhGxEk:not(:hover) { /* Mentions */
+  /* border-bottom: solid 1px var(--mention-darker);*/
+  box-shadow: inset 0px -1px 0px 0px var(--mention-darker);
+}
+
+/* Embeds */
+
+[class^="AutoComplete__Base-sc"] > div {
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  border-bottom: none;
+}
+
+[class^="ReplyBar__Base-sc"],
+[class^="MessageBox__Base-sc"] {
+  border-left: solid 1px rgba(0, 0, 0, 0.5);
+  border-right: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+[class^="ReplyBar__Base-sc"] {
+  background: var(--accent-15);
+}
+
+[class^="MessageBox__Base-sc"] {
+  background: linear-gradient(to right, var(--accent-15), var(--accent-15)), var(--white-pixel);
+}
+
+/* Unread notification */
+
+[class^="JumpToBottom__Bar-sc"] > div,
+[class^="JumpToBottom__Bar-sc"] > div:hover {
+  background: linear-gradient(to right, var(--accent-15), var(--accent-15)), var(--white-pixel);
+  border: solid 1px var(--accent);
+  color: var(--accent);
+}
+
+/* Right bar */
+
+div[class^="SidebarBase-sc"] {
+  background: var(--accent);
+  padding-right: 0px;
+}
+
+div[class^="SidebarBase__GenericSidebarBase-sc"] {
+  border-top: solid 5px var(--accent-25);
+  padding-top: 0px;
+  margin-top: var(--header-height);
+  margin-right: 0px;
+}
+
+/* BottonNav */
+
+div[class^="BottomNavigation__Base-sc"] {
+  /*background: var(--background);*/
+  background: linear-gradient(to right, var(--accent-25), var(--accent-25)), var(--white-pixel);
+  border-top: solid 2px var(--accent);
+}
+
+/*div[class^="BottomNavigation__Base-sc"] > div[class^="BottomNavigation__Navbar-sc"] {
+  background: var(--accent-25);
+}*/
+
+/*div[class^="BottomNavigation__Base-sc"] div[class^="BottomNavigation__Button-sc"] > div[class^="IconButton-sc"] {*/
+.bkKKgS * {
+  color: var(--accent) !important;
+}
+
+.bkKKgS > a > a > svg {
+  text-shadow: 0px 0px 2px var(--serverbar-foreground);
+}
+
+.brHoXv {
+  background: var(--accent);
+}
+
+.brHoXv * {
+  color: var(--serverbar-foreground) !important;
+}
+
+/* Floating action bar */
+
+[class^="MessageBase__MessageContent-sc"] > .sc-iBPTik {
+  background: var(--accent);
+  border: solid 1px var(--scrollbar-thumb);
+}
+
+[class^="MessageBase__MessageContent-sc"] > .sc-iBPTik .sc-fubCzh:hover {
+  background: var(--scrollbar-thumb);
+}
+
+[class^="MessageBase__MessageContent-sc"] > .sc-iBPTik div {
+  color: var(--serverbar-foreground);
+}
+
+/* Context menu */
+
+.preact-context-menu > .context-menu > span:not([data-disabled="true"]):hover,
+.preact-context-menu > .context-menu > span:not([data-disabled="true"]):hover > .tip {
+  background-color: var(--accent);
+  color: var(--serverbar-foreground);
+}
+
+.preact-context-menu > .context-menu > span:not([data-disabled="true"]):hover > span[style^="color:var(--error)"] {
+  color: var(--serverbar-foreground) !important;
+  background: var(--error);
+  width: 100%;
+  margin: -6px -8px;
+  padding: 6px 8px;
+  border-radius: calc(var(--border-radius) / 2);
+  box-sizing: content-box;
+}
+
+/* Users/DMs sidebar */
+
+[class^="SidebarBase__GenericSidebarBase-sc"] div[data-test-id="virtuoso-item-list"] div[class^="_item_"]:hover,
+[class^="SidebarBase__GenericSidebarBase-sc"] div[class^="SidebarBase__GenericSidebarList"] div[class^="_item_"]:hover,
+[class^="SidebarBase__GenericSidebarBase-sc"] div[class^="SidebarBase__GenericSidebarList"] div[class^="_item_"][data-active="true"] {
+  background: var(--accent-15);
+}
+
+[class^="SidebarBase__GenericSidebarBase-sc"] div[data-test-id="virtuoso-item-list"] div[class^="_item_"]:hover > div[class^="_name_"] [class^="UserShort__Name-sc"],
+[class^="SidebarBase__GenericSidebarBase-sc"] div[class^="SidebarBase__GenericSidebarList"] div[class^="_item_"]:hover > div[class^="_content_"],
+[class^="SidebarBase__GenericSidebarBase-sc"] div[class^="SidebarBase__GenericSidebarList"] div[class^="_item_"][data-active="true"] > div[class^="_content_"],
+[class^="SidebarBase__GenericSidebarBase-sc"] div[class^="SidebarBase__GenericSidebarList"] div[class^="_item_"]:hover > div[class^="_name_"] [class^="UserShort__Name-sc"],
+[class^="SidebarBase__GenericSidebarBase-sc"] div[class^="SidebarBase__GenericSidebarList"] div[class^="_item_"][data-active="true"] > div[class^="_name_"] [class^="UserShort__Name-sc"] {
+  color: var(--accent);
+}
+
+[class^="SidebarBase__GenericSidebarBase-sc"] div[class^="SidebarBase__GenericSidebarList"] div[class^="_item_"][data-active="true"] {
+  border-bottom: solid 1px var(--accent);
+}
+
+/* User Profile */
+
+[class^="Base-sc"] > [class^="Container-sc"] [class^="_header_"] {
+  background: var(--accent);
+  padding-bottom: 0px !important;
+}
+
+[class^="Base-sc"] > [class^="Container-sc"] [class^="_header_"] * {
+  color: var(--serverbar-foreground);
+}
+
+[class^="Base-sc"] > [class^="Container-sc"] [class^="_header_"] > [class^="_profile_"] + div:not([class]) {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  /*box-sizing: border-box;
+  display: block;*/
+}
+
+[class^="Base-sc"] > [class^="Container-sc"] [class^="_header_"] > [class^="_tabs_"] > div,
+[class^="Base-sc"] > [class^="Container-sc"] [class^="_header_"] > [class^="_tabs_"] > div:hover {
+  border-bottom: 0px solid transparent;
+  text-align: center;
+}
+
+[class^="Base-sc"] > [class^="Container-sc"] [class^="_header_"] > [class^="_tabs_"] > div[data-active="true"] {
+  background: linear-gradient(to right, var(--accent-25), var(--accent-25)), var(--white-pixel);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-bottom: 0px solid transparent;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+[class^="Base-sc"] > [class^="Container-sc"] [class^="_content_"] [class^="_entry_"]:hover {
+  background: var(--accent-15);
+  color: var(--accent);
+}
+
+/* Settings */
+
+[class^="_settings_"] [class^="_sidebar_"] {
+  background: var(--accent);
+}
+
+[class^="_settings_"][data-mobile="true"] [class^="_sidebar_"] [class^="_container_"] {
+  background: var(--accent-15);
+}
+
+[class^="_settings_"][data-mobile="true"] [class^="Header-sc"],
+[class^="_settings_"][data-mobile="true"] [class^="Header-sc"] > a {
+  background: var(--accent);
+  color: white;
+}
+
+[class^="_settings_"][data-mobile="true"] [class^="Settings__AccountHeader-sc"] {
+  border: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+[class^="_settings_"][data-mobile="true"] [class^="Settings__AccountHeader-sc"] > .statusChanger {
+  --secondary-foreground: var(--accent);
+  color: var(--accent);
+  background: white;
+  border-top: solid 1px rgba(0, 0, 0, 0.25);
+}
+
+[class^="_settings_"]:not([data-mobile="true"]) [class^="_sidebar_"] * {
+  color: white;
+}
+
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"],
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"] * {
+  transition: none;
+}
+
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"]:hover,
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"][data-active="true"] {
+  background: linear-gradient(to right, var(--accent-25), var(--accent-25)), var(--white-pixel);
+}
+
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"]:hover *,
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"][data-active="true"] * {
+  color: var(--accent);
+}
+
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"][class*="_donate_"]:hover,
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"][class*="_donate_"]:hover * {
+  background: #daa520;
+  color: white;
+}
+
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"][class*="_logOut_"]:hover,
+[class^="_settings_"] [class^="_sidebar_"] div[class^="_item_"][class*="_logOut_"]:hover * {
+  background: var(--error);
+  color: white;
+}
+
+/* Text fields */
+
+div[class^="MessageBox__Base-sc"] div[class^="TextAreaAutoSize__Container-sc"] > textarea {
+  background: white;
+  border: solid 1px var(--accent);
+  border-radius: 4px;
+  /*;padding: 11px 7px 11px 7px;
+  margin: 3px 7px 3px 0px;*/
+  padding: 12px 7px 12px 7px;
+  margin: 0px 7px 0px 0px;
+  max-height: 120px;
+}
+
+div[class^="MessageBox__Base-sc"] div[class^="TextAreaAutoSize__Container-sc"] > textarea:not(:focus):placeholder-shown {
+  border: solid 1px var(--form-border);
+  /*border-bottom: solid 2px var(--accent);*/
+  padding: 7px 7px 7px 7px;
+  margin: 5px 7px 5px 0px;
+  height: 38px !important;
+}
+
+input[class^="InputBox-sc"],
+select[class^="ComboBox-sc"] {
+  background: white;
+  border: solid 1px var(--form-border);
+  border-radius: 4px;
+}
+
+div[class^="MessageBox__Base-sc"] div[class^="TextAreaAutoSize__Container-sc"] > textarea:not(:focus):placeholder-shown,
+input[class^="InputBox-sc"]:focus,
+select[class^="ComboBox-sc"]:focus {
+  border-bottom: solid 1px var(--accent);
+  -webkit-box-shadow: inset 0px -1px 0px 0px var(--accent);
+  -moz-box-shadow: inset 0px -1px 0px 0px var(--accent);
+  box-shadow: inset 0px -1px 0px 0px var(--accent);
+}
+
+input[class^="InputBox-sc"]:hover,
+select[class^="ComboBox-sc"]:hover {
+  background: white;
+}
+
+/* Buttons */
+
+button[class^="Button-sc"]:not(.jMjzeh) { /* Default */
+  border: solid 1px var(--form-border);
+  box-shadow: inset 0px 1px 0px 0px hsla(0deg, 0%, 100%, 0.25);
+  padding: 1px 11px 1px 11px !important;
+  border-radius: 4px;
+}
+
+button[class^="Button-sc"].uZBqX { /* Primary */
+  border-color: var(--scrollbar-thumb);
+}
+
+button[class^="Button-sc"].claKep {
+  --foreground: white;
+  background: var(--accent);
+  border-color: var(--scrollbar-thumb);
+}
+
+button[class^="Button-sc"].claKep:hover {
+  filter: brightness(1.2);
+}
+
+button[class^="Button-sc"].hWskOV { /* Danger */
+  border-color: var(--error-darker);
+}
+
+/* Invite links */
+
+[class^="EmbedInvite__EmbedInviteBase"] {
+  background: var(--accent-15);
+  border: solid 1px var(--accent-25);
+}
+
+[class^="EmbedInvite__EmbedInviteBase"] [class^="EmbedInvite__EmbedInviteName-sc"] {
+  color: var(--scrollbar-thumb);
+}
+
+[class^="EmbedInvite__EmbedInviteBase"] [class^="EmbedInvite__EmbedInviteDetails-sc"] {}
+
+@media(min-width: 1024px) {
+  /*[class^="EmbedInvite__EmbedInviteBase"] [class^="Button-sc"].jbwUqj*/
+  [class^="EmbedInvite__EmbedInviteBase"] [class^="EmbedInvite__EmbedInviteDetails-sc"]  {
+    /*margin-left: 6px;*/
+    padding-right: 6px;
+  }
+}
+
+[class^="EmbedInvite__EmbedInviteBase"] [class^="Button-sc"].jbwUqj { /* Invite */
+  border-color: var(--button-success-border);
+  background: var(--button-success-background);
+  color: var(--button-success-foreground);
+  padding-top: 0px !important;
+  z-index: auto;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-thickness);
+  height: var(--scrollbar-thickness);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  min-width: 30px;
+  min-height: 30px;
+  background-clip: content-box;
+  background: var(--scrollbar-color);
+  border-radius: 15px;
+}
+
+html,
+body {
+  scrollbar-color: var(--scrollbar-color) var(--scrollbar-track);
+}
+
+* {
+  scrollbar-width: var(--scrollbar-thickness-ff);
+}
