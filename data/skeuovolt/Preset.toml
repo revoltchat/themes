@@ -7,4 +7,5 @@ version = "1.0.1"
 tags = ["skeuomorphism", "skeuomorphic", "gradient", "dark", "skeuocord", "grey", "black"]
 
 [variables]
-accent = white
+light = false
+accent = "#FFFFFF"
