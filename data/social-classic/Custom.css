@@ -1,6 +1,9 @@
 /* Constants */
 
 :root{
+  /* --background: #F6F6F6;
+  --foreground: #101010; */
+  --primary-header: #F1F1F1;
   --serverbar-background: #303440;
   --serverbar-foreground: #F7F7F7;
   --serverbar-border: #1C202B;
@@ -286,6 +289,10 @@ div[class^="Home__Overlay-sc"] > .content h3 > img {
   padding: 4px 6px;
   border-radius: 0px;
   margin: -5px 4px -6px -4px;
+}
+
+.cYBcvy {
+  --emoji-size: 3.428em; /* 48px */
 }
 
 .fDfxAc { /* Reactions */
