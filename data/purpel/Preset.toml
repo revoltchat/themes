@@ -1,0 +1,45 @@
+slug = "purpel"
+name = "Purpel"
+creator = "Lea"
+description = "Sleek purple theme"
+version = "v1.0.0"
+tags = ["purple"]
+
+[variables]
+light = false
+accent = "#b18fe9"
+background = "#150d1f"
+foreground = "#d3b5d9"
+
+block = "var(--secondary-background)"
+message-box = "var(--secondary-background)"
+mention = "rgba(251, 255, 0, 0.06)"
+
+success = "#a6d189"
+warning = "#ef9f76"
+error = "#e78284"
+hover = "#b18fe920"
+
+[variables.scrollbar]
+thumb = "#b261bd"
+track = "transparent"
+
+[variables.primary]
+background = "#150d1f"
+header = "var(--secondary-background)"
+
+[variables.secondary]
+background = "#21182c"
+foreground = "#b88fbf"
+header = "var(--secondary-background)"
+
+[variables.tertiary]
+background = "#96619f"
+foreground = "#a57bad"
+
+[variables.status]
+online = "#a6d189"
+away = "#eebebe"
+busy = "#ea999c"
+streaming = "#8260e0"
+invisible = "#88748b"
