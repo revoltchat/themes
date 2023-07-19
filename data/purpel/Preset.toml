@@ -2,6 +2,7 @@ slug = "purpel"
 name = "Purpel"
 creator = "Lea"
 description = "Sleek purple theme"
+version = "v1.0.0"
 tags = ["purple"]
 
 [variables]
