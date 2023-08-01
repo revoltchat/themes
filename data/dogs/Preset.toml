@@ -1,0 +1,40 @@
+name = "Dogs" 
+slug = "dogs" 
+author = "spamixofficial" 
+version = "v0.0.1"
+description = "If a cat theme exists, then an opposite power also must exist....It's a dog theme! :D"
+tags = ['dogs', 'transparent']
+
+[variables] 
+light = false 
+accent = "#a04822" 
+background = "transparent" 
+foreground = "#ffffff" 
+block = "#2D2D2D69"
+message-box = "#000000aa" 
+mention = "#ffff0015" 
+success = "#65E572" 
+warning = "#FAA352" 
+error = "#F06464" 
+hover = "rgb(0, 0, 0, 0.1)" 
+tooltip = "#000000" 
+[variables.scrollbar] 
+track = "transparent" 
+thumb = "#4e1e09" 
+[variables.primary] 
+header = "#00000069" 
+background = "#000000a0" 
+[variables.secondary] 
+header = "#00000069" 
+background = "#00000069" 
+foreground = "#C8C8C869" 
+[variables.tertiary] 
+background = "#00000069" 
+foreground = "#ffffff69" 
+[variables.status] 
+online = "#3ABF7E" 
+away = "#F39F00" 
+focus = "#9146FF" 
+busy = "#F84848" 
+streaming = "#977EFF" 
+invisible = "#A5A5A5"
