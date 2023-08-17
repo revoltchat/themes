@@ -1,0 +1,46 @@
+slug = "skeuovolt"
+name = "Skeuovolt"
+creator = "Septicity"
+commit = "9d83d7c"
+description = "A semi-skeuomorphic theme, based on/sourced from Marda33's Skeuocord"
+version = "1.2.0"
+tags = ["skeuomorphism", "skeuomorphic", "gradient", "dark", "skeuocord", "grey", "black"]
+
+[variables]
+light = false
+accent = "#FD6671"
+background = "#191919"
+foreground = "#F6F6F6"
+
+block = "#2D2D2D"
+message-box = "#c1c1e0"
+mention = "rgba(251, 255, 0, 0.2)"
+
+success = "#65E572"
+warning = "#DB7F29"
+error = "#F06464"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#A8A8A8"
+track = "#212121"
+
+[variables.primary]
+background = "#242424"
+header = "#363636"
+
+[variables.secondary]
+background = "#050505"
+foreground = "#C8C8C8"
+header = "#323232"
+
+[variables.tertiary]
+background = "#5E5E5E"
+foreground = "#848484"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
