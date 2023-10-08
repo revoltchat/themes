@@ -1,0 +1,24 @@
+# URL friendly name
+slug = "my-theme"
+
+# Display name
+name = "My Theme"
+
+# Authors' name
+creator = "An Individual"
+
+# The commit this preset was built against (optional)
+# Should only be specified if you use custom CSS that tends to break between updates
+commit = "782a9b5"
+
+# Preset description
+description = "Cool neon theme i made that is inspired by Opera GX."
+
+# Theme Version
+# Use Semantic Versioning (https://semver.org/)
+# Default: 0.0.1
+version = "0.0.1"
+
+# Tags (optional)
+# Must be a single alphanumeric word
+tags = ["neon", "blue"]
