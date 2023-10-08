@@ -1,11 +1,11 @@
 # URL friendly name
-slug = "my-theme"
+slug = "neon-blue"
 
 # Display name
-name = "My Theme"
+name = "Neon Blue"
 
 # Authors' name
-creator = "An Individual"
+creator = "WlodekM"
 
 # The commit this preset was built against (optional)
 # Should only be specified if you use custom CSS that tends to break between updates
