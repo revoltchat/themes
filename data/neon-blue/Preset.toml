@@ -25,7 +25,7 @@ tags = ["neon", "blue"]
 
 [variables]
 light = false
-accent = "#15161a"
+accent = "#0084ff"
 background = "#11111192"
 foreground = "#dcddde"
 
@@ -36,10 +36,10 @@ mention = "rgba(251, 255, 0, 0.1)"
 success = "#3ABF7E"
 warning = "#FAA352"
 error = "hsl(359,66.7%,54.1%);"
-hover = "#3c6ebe50"
+hover = "#0084ff50"
 
 [variables.scrollbar]
-thumb = "#202225"
+thumb = "#0084ff"
 track = "#2f3136"
 
 [variables.primary]
