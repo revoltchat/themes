@@ -1,0 +1,63 @@
+# URL friendly name
+slug = "neon-blue"
+
+# Display name
+name = "Neon Blue"
+
+# Authors' name
+creator = "WlodekM"
+
+# The commit this preset was built against (optional)
+# Should only be specified if you use custom CSS that tends to break between updates
+commit = "782a9b5"
+
+# Preset description
+description = "Neon theme inspired by Opera GX."
+
+# Theme Version
+# Use Semantic Versioning (https://semver.org/)
+# Default: 0.0.1
+version = "0.0.1"
+
+# Tags (optional)
+# Must be a single alphanumeric word
+tags = ["neon", "blue"]
+
+[variables]
+light = false
+accent = "#15161a"
+background = "#11111192"
+foreground = "#dcddde"
+
+block = "#2f3136"
+message-box = "#34363c"
+mention = "rgba(251, 255, 0, 0.1)"
+
+success = "#3ABF7E"
+warning = "#FAA352"
+error = "hsl(359,66.7%,54.1%);"
+hover = "#3c6ebe50"
+
+[variables.scrollbar]
+thumb = "#202225"
+track = "#2f3136"
+
+[variables.primary]
+background = "#11111192"
+header = "#2d2f34"
+
+[variables.secondary]
+background = "#11111192"
+foreground = "#c9c9c9"
+header = "#2f3136"
+
+[variables.tertiary]
+background = "#4f545c"
+foreground = "#a3a6aa"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
