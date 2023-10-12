@@ -29,13 +29,18 @@ export function flatten(object, prefix = '') {
 export const themeList = () => readdir('data');
 export const resolve = (theme, file) => `data/${theme}/${file}`;
 export async function loadTheme(theme) {
-    let file = await readFile(resolve(theme, 'Preset.toml'));
+    try {
+        let file = await readFile(resolve(theme, 'Preset.toml'));
+    } catch (err) {
+        throw `Could not load Preset.toml for ${theme} - does it exist?`
+    }
+
     let data = parse(file.toString());
 
     try {
         ensureDefined(data, [ 'slug', 'name', 'creator', 'description', 'variables' ]);
     } catch (err) {
-        throw `Failed to load "${theme}", ${err}`;
+        throw `Failed to parse "${theme}": ${err}`;
     }
 
     let css = resolve(theme, 'Custom.css');
