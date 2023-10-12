@@ -1,7 +1,7 @@
 slug = "mint-glow"
 name = "Mint Glow"
 creator = "Potato#9983"
-description = "This is dark them with pastel green highlights for Revolt."
+description = "Dark theme with pastel green highlights."
 
 [variables]
 light = false
