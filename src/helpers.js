@@ -29,8 +29,9 @@ export function flatten(object, prefix = '') {
 export const themeList = () => readdir('data');
 export const resolve = (theme, file) => `data/${theme}/${file}`;
 export async function loadTheme(theme) {
+    let file;
     try {
-        let file = await readFile(resolve(theme, 'Preset.toml'));
+        file = await readFile(resolve(theme, 'Preset.toml'));
     } catch (err) {
         throw `Could not load Preset.toml for ${theme} - does it exist?`
     }
