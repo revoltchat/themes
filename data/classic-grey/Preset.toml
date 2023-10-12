@@ -1,0 +1,47 @@
+slug = "classic-grey"
+name = "Classic Grey"
+creator = "Sandwich247"
+description = "A classic grey theme with orange accents."
+tags = ["light", "grey", "orange"]
+version = "1.0.0"
+
+[variables]
+light = true
+accent = "#F39F00"
+background = "#787878"
+foreground = "#ffffff"
+
+block = "#2e2e2e"
+message-box = "#3d3d3d"
+mention = "#637eb6"
+
+success = "#669a4d"
+warning = "#F39F00"
+tooltip = "#000000"
+error = "#420000"
+hover = "#7d7d7d"
+
+[variables.scrollbar]
+thumb = "#F39F00"
+track = "#3d3d3d"
+
+[variables.primary]
+background = "#707070"
+header = "#3d3d3d"
+
+[variables.secondary]
+background = "#5e5e5e"
+foreground = "#d9d9d9"
+header = "#4f4f4f"
+
+[variables.tertiary]
+background = "#4f4f4f"
+foreground = "#cccccc"
+
+[variables.status]
+online = "#669a4d"
+away = "#F39F00"
+focus = "#4799F0"
+busy = "ff0000"
+streaming = "#977EFF"
+invisible = "#383838"

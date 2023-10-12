@@ -37,6 +37,6 @@ for (let [ id, theme ] of themes) {
             ]
         );
     } catch (err) {
-        throw `Failed to check "${id}", ${err}`;
+        throw `Failed to check "${id}": ${err}`;
     }
 }

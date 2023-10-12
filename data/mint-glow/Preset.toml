@@ -1,0 +1,47 @@
+slug = "mint-glow"
+name = "Mint Glow"
+creator = "Potato#9983"
+description = "Dark theme with pastel green highlights."
+
+[variables]
+light = false
+accent = "#B8F684"
+background = "#141414"
+foreground = "#F5F3E7"
+
+block = "#414141"
+message-box = "#EEC3C3"
+mention = "#FBFF00"
+
+success = "#AAE95A"
+warning = "#F7D145"
+error = "#EA2A2A"
+hover = "#000000"
+
+[variables.scrollbar]
+thumb = "#B8F684"
+track = "transparent"
+
+[variables.primary]
+background = "#1E1E1E"
+header = "#30313B"
+
+[variables.secondary]
+background = "#252526"
+foreground = "#BFBFBF"
+header = "#1A1A1A"
+
+[variables.tertiary]
+background = "#252526"
+foreground = "#D8E4DA"
+
+[variables.status]
+online = "#3BBF51"
+away = "#F39F00"
+busy = "#E24050"
+streaming = "#9A81FD"
+invisible = "#A5A5A5"
+
+tags = ["pastel", "green"]
+
+version = "0.0.1"
