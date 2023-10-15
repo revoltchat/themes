@@ -1,7 +1,7 @@
 name = "Darkmode Pink"
 slug = "darkmode-pink"
 description = "A pleasant dark theme with pink highlights."
-author = "maloriemeows"
+creator = "maloriemeows"
 version = "v1.0.0" 
 
 [variables] 
