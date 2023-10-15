@@ -1,0 +1,44 @@
+name = "Darkmode Pink"
+slug = "darkmode-pink"
+description = "A pleasant dark theme with pink highlights."
+author = "maloriemeows"
+version = "v1.0.0" 
+
+[variables] 
+light = false 
+accent = "#e8a6aa" 
+background = "#101010" 
+foreground = "#faebeb" 
+block = "#2D2D2D" 
+message-box = "#282828" 
+mention = "#564848" 
+success = "#65E572" 
+warning = "#FAA352" 
+error = "#F06464" 
+hover = "rgba(0, 0, 0, 0.1)"
+tooltip = "#000000"
+
+[variables.scrollbar] 
+track = "transparent" 
+thumb = "#ffb3b8" 
+
+[variables.primary] 
+header = "#665c5c" 
+background = "#0d0d0d" 
+
+[variables.secondary]
+header = "#2D2D2D" 
+background = "#131313"
+foreground = "#ccadad" 
+
+[variables.tertiary]
+background = "#323232"
+foreground = "#848484" 
+
+[variables.status] 
+online = "#3ABF7E"
+away = "#F39F00"
+focus = "#4799F0"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5" 
