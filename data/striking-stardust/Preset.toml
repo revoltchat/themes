@@ -3,7 +3,6 @@ name = "Striking Stardust"
 creator = "giantspacemonster"
 description = "a vibrant purple theme"
 tags = ["purple", "dark"]
-‎
 [variables]
 light = false
 accent = "#00b46c"
