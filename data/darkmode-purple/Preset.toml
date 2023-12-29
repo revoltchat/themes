@@ -1,0 +1,59 @@
+# URL friendly name
+slug = "darkmode-purple"
+
+# Display name
+name = "Darkmode Purple"
+
+# Authors' name
+creator = "gurblygirl"
+
+# Preset description
+description = "A snazzy, purple, and black theme"
+
+# Theme Version
+# Use Semantic Versioning (https://semver.org/)
+# Default: 0.0.1
+version = "0.0.1"
+
+# Tags (optional)
+# Must be a single alphanumeric word
+tags = ["purple", "dark", "darkmode"]
+
+[variables]
+light = false
+accent = "#ad90a9"
+background = "#101010"
+foreground = "#c8c8c8"
+block = "#1e1e1e"
+message-box = "#0f0f0f"
+mention = "#171717"
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "rgba(0, 0, 0, 0.1)"
+tooltip = "#000000"
+
+[variables.scrollbar]
+track = "transparent"
+thumb = "#191919"
+
+[variables.primary]
+header = "#1d1b1d"
+background = "#0a0a0a"
+
+[variables.secondary]
+header = "#1e1e1e"
+background = "#0d0d0d"
+foreground = "#998593"
+
+[variables.tertiary]
+background = "#262224"
+foreground = "#969696"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+focus = "#4799F0"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
