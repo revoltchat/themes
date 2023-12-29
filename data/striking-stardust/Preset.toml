@@ -1,0 +1,36 @@
+slug = "striking-stardust"
+name = "Striking Stardust"
+creator = "giantspacemonster"
+description = "a vibrant purple theme"
+tags = ["purple", "dark"]
+[variables]
+light = false
+accent = "#00b46c"
+background = "#160a33"
+foreground = "#9dffec"
+block = "#2e1948"
+message-box = "#461e59"
+mention = "11393c"
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "rgba(0, 0, 0, 0.1)"
+[variables.scrollbar]
+thumb = "#00b46c"
+track = "transparent"
+[variables.primary]
+background = "#241440"
+header = "#461e59"
+[variables.secondary]
+background = "#2e1948"
+foreground = "#51dff4"
+header = "#3c1c55"
+[variables.tertiary]
+background = "#3c1c55"
+foreground = "#44bcfa"
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
