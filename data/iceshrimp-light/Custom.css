@@ -1,0 +1,29 @@
+/*
+    This is the default CSS for the IceShrimp Light theme.
+
+    This applies small fixes that makes Revolt more in place with the
+    theme, it is entirely optional to have this CSS as-is, but
+    things may feel slightly off.
+*/
+
+:root {
+    font-feature-settings: "liga" 1, "calt" 1;
+}
+
+.name {
+    font-size: larger;
+    font-weight: 900;
+}
+
+a[href^="/server/"] svg>circle {
+    fill: #303446 !important;
+}
+
+[class^="UserShort__Name"] {
+    filter: contrast(75%);
+}
+
+[class^="MessageReply__ReplyBase-sc-"]::before {
+    border-inline-start: 2px solid #a5adce;
+    border-top: 2px solid #a5adce;
+}
