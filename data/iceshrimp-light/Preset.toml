@@ -38,9 +38,8 @@ background = "#9A92FF"
 foreground = "#3B364C"
 
 [variables.status]
-online = "#a6da95"
-away = "#e5c890"
-busy = "#e78284"
-
-streaming = "#8caaee"
+online = "#40a02b"
+away = "#df8e1d"
+busy = "#e64553"
+streaming = "#7287fd"
 invisible = "#c6d0f5"
