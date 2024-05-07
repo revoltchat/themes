@@ -17,7 +17,7 @@ mention = "rgb(229, 200, 144, 0.40)"
 
 success = "#a6d189"
 warning = "#ef9f76"
-error = "#e78284"
+error = "#e64553"
 hover = "rgba(0, 0, 0, 0.1)"
 
 [variables.scrollbar]
