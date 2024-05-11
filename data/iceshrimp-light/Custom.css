@@ -12,7 +12,7 @@
     font-feature-settings: "liga" 1, "calt" 1;
 }
 
-a[href^="/server/"] svg>circle {
+a[href^="/server/"] svg > circle {
     fill: #303446 !important;
 }
 
