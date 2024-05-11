@@ -6,13 +6,10 @@
     things may feel slightly off.
 */
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 :root {
     font-feature-settings: "liga" 1, "calt" 1;
-}
-
-.name {
-    font-size: larger;
-    font-weight: 900;
 }
 
 a[href^="/server/"] svg>circle {
@@ -20,7 +17,8 @@ a[href^="/server/"] svg>circle {
 }
 
 [class^="UserShort__Name"] {
-    filter: contrast(75%);
+    filter: contrast(70%);
+    font-family: "DM Sans", sans-serif;
 }
 
 [class^="MessageReply__ReplyBase-sc-"]::before {
