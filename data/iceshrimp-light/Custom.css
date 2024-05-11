@@ -9,6 +9,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 :root {
+    --border-radius-user-icon: 8px;
+    
     font-feature-settings: "liga" 1, "calt" 1;
 }
 
@@ -24,4 +26,12 @@ a[href^="/server/"] svg > circle {
 [class^="MessageReply__ReplyBase-sc-"]::before {
     border-inline-start: 2px solid #a5adce;
     border-top: 2px solid #a5adce;
+}
+
+[class^="TypingIndicator__Base-sc-"] > div > [class^="avatars"] > img {
+	border-radius: var(--border-radius-user-icon);
+}
+
+[data-item-index="0"] [class^="ItemContainer-sc-176t3v5-0"] foreignObject :is(div, img) {
+	border-radius: var(--border-radius-user-icon) !important;
 }
