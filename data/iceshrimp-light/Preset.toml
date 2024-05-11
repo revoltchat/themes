@@ -2,7 +2,7 @@ slug = "iceshrimp-light"
 name = "IceShrimp Light"
 creator = "theycallhermax"
 description = "The light theme from the Misskey fork bringing you no-nonsense fixes, features and improvements you actually want"
-tags = ["light", "iceshrimp"]
+tags = ["light", "blue", "iceshrimp"]
 version = "1.0.0"
 
 [variables]
