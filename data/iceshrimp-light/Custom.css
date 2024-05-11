@@ -1,0 +1,42 @@
+/*
+    This is the default CSS for the IceShrimp Light theme.
+
+    This applies small fixes that makes Revolt more in place with the
+    theme, it is entirely optional to have this CSS as-is, but
+    things may feel slightly off.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+    --border-radius-user-icon: 8px;
+    
+    font-feature-settings: "liga" 1, "calt" 1;
+}
+
+a[href^="/server/"] svg > circle {
+    fill: #303446 !important;
+}
+
+[class^="UserShort__Name"] {
+    filter: contrast(70%);
+    font-family: "DM Sans", sans-serif;
+}
+
+[class^="MessageReply__ReplyBase-sc-"]::before {
+    border-inline-start: 2px solid #a5adce;
+    border-top: 2px solid #a5adce;
+}
+
+[class^="TypingIndicator__Base-sc-"] > div > [class^="avatars"] > img {
+    border-radius: var(--border-radius-user-icon);
+}
+
+[data-item-index="0"] [class^="ItemContainer-sc-176t3v5-0"] foreignObject :is(div, img) {
+    border-radius: var(--border-radius-user-icon) !important;
+}
+
+[class^="ServerHeader__ServerBanner-sc-"] {
+    margin: 0.5rem;
+    border-radius: var(--border-radius-user-icon);
+}

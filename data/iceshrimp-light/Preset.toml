@@ -1,0 +1,45 @@
+slug = "iceshrimp-light"
+name = "IceShrimp Light"
+creator = "theycallhermax"
+description = "The light theme from the Misskey fork bringing you no-nonsense fixes, features and improvements you actually want"
+tags = ["light", "blue", "iceshrimp"]
+version = "1.0.0"
+
+[variables]
+light = true
+accent = "#9A92FF"
+background = "#f1f5ff"
+foreground = "#3B364C"
+
+block = "#414141"
+message-box = "#f1f5ff"
+mention = "rgb(229, 200, 144, 0.40)"
+
+success = "#a6d189"
+warning = "#ef9f76"
+error = "#e64553"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#9A92FF"
+track = "transparent"
+
+[variables.primary]
+background = "#E7EDFF"
+header = "#f1f5ff"
+
+[variables.secondary]
+background = "#f1f5ff"
+foreground = "#3B364C"
+header = "#c6d0f5"
+
+[variables.tertiary]
+background = "#9A92FF"
+foreground = "#3B364C"
+
+[variables.status]
+online = "#40a02b"
+away = "#df8e1d"
+busy = "#e64553"
+streaming = "#7287fd"
+invisible = "#c6d0f5"
