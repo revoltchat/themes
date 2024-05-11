@@ -29,9 +29,14 @@ a[href^="/server/"] svg > circle {
 }
 
 [class^="TypingIndicator__Base-sc-"] > div > [class^="avatars"] > img {
-	border-radius: var(--border-radius-user-icon);
+    border-radius: var(--border-radius-user-icon);
 }
 
 [data-item-index="0"] [class^="ItemContainer-sc-176t3v5-0"] foreignObject :is(div, img) {
-	border-radius: var(--border-radius-user-icon) !important;
+    border-radius: var(--border-radius-user-icon) !important;
+}
+
+[class^="ServerHeader__ServerBanner-sc-"] {
+    margin: 0.5rem;
+    border-radius: var(--border-radius-user-icon);
 }
