@@ -288,5 +288,10 @@ a:hover {
 }  
 
 [class^=SwooshWrapper-sc], [class^=Channel__ChannelContent-sc] > * {
-  animation: customfadein 1.4s forwards; 
+  animation: customfadein 1.0s forwards; 
 }     
+
+/* Quick fix for the emoji picker due to recent changes in Revolt's emoji picker behavior. */
+[data-test-id="virtuoso-item-list"] > .RowContainer-sc-1c6g74-5.euVwBi {
+  flex-wrap: nowrap;
+}
