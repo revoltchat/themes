@@ -6,8 +6,6 @@
     things may feel slightly off.
 */
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
-
 :root {
     --border-radius-user-icon: 8px;
     
@@ -20,7 +18,6 @@ a[href^="/server/"] svg > circle {
 
 [class^="UserShort__Name"] {
     filter: contrast(70%);
-    font-family: "DM Sans", sans-serif;
 }
 
 [class^="MessageReply__ReplyBase-sc-"]::before {
