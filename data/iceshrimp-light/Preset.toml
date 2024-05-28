@@ -3,7 +3,7 @@ name = "IceShrimp Light"
 creator = "theycallhermax"
 description = "The light theme from the Misskey fork bringing you no-nonsense fixes, features and improvements you actually want"
 tags = ["light", "blue", "iceshrimp"]
-version = "1.1.0"
+version = "1.2.0"
 
 [variables]
 light = true
@@ -15,9 +15,9 @@ block = "#414141"
 message-box = "#f1f5ff"
 mention = "rgb(229, 200, 144, 0.40)"
 
-success = "#a6d189"
-warning = "#ef9f76"
-error = "#e64553"
+success = "rgb(134, 179, 0)"
+warning = "rgb(255, 240, 219)"
+error = "rgb(236, 65, 55)"
 hover = "rgba(0, 0, 0, 0.1)"
 
 [variables.scrollbar]
