@@ -1,0 +1,43 @@
+slug = "space-grey"
+name = "Space Grey"
+creator = "bonkmaykr"
+description = "A blueish grey star vacation."
+
+[variables]
+light = false
+accent = "#6888fd"
+background = "#19191e"
+foreground = "#e6e6e6"
+
+block = "#2d2d41aa"
+message-box = "#36364a88"
+mention = "#1d327277"
+
+success = "#0ed600"
+warning = "#faf452"
+error = "#ff6600"
+hover = "rgba(100, 100, 150, 0.3)"
+
+[variables.scrollbar]
+thumb = "#ca525a"
+track = "transparent"
+
+[variables.primary]
+background = "#24242988"
+header = "#36363b"
+
+[variables.secondary]
+background = "#1e1e2888"
+foreground = "#c8c8d2"
+header = "#2d2d37"
+
+[variables.tertiary]
+background = "#4d4d6188"
+foreground = "#848498"
+
+[variables.status]
+online = "#c8ff00"
+away = "#f39f00"
+busy = "#d23737"
+streaming = "#0037ff"
+invisible = "#a5a5a5"
