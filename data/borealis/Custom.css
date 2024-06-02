@@ -1,0 +1,96 @@
+:root {    
+    --northern-lights: url("https://autumn.revolt.chat/attachments/J6WwVLghtyiobNknPPVYoVhQNEJ8AtGqCftu5-uvAa/image.png");
+    
+    --northern-lights-darkened: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), var(--northern-lights);
+    
+    --accent-hue: 165;
+  
+    --accent-light: hsl(var(--accent-hue), 95%, 55%);
+    --accent-dark: hsl(var(--accent-hue), 100%, 15%);
+    --standard: #1e1e1e;
+}
+
+/* Sidebar */
+#app > * {
+    background: linear-gradient(0deg, black 0%, var(--accent-dark) 100%); 
+}
+
+/* Chat background */
+.MessageArea__Area-sc-1q4cka6-0 {
+    /* Uses gradient to darken image */
+    background-image: var(--northern-lights-darkened);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Channel description and some other stuff */
+:is(.fCZYAb > *, .fCZYAb) {
+    background: linear-gradient(160deg, black 0%, var(--accent-dark) 100%);
+}
+
+/* Friend list */
+:is(.gSMWE > *, .gSMWE) {
+    background: linear-gradient(0deg, var(--standard) 0%, var(--accent-dark) 100%);
+}
+/* Friend list catagories */
+:is(.dbiFXv > *, .dbiFXv, .dxJENu) {
+    /* background: linear-gradient(0deg, var(--standard) 0%, var(--accent-dark) 100%); */
+    /* Removes background */
+    background: none;
+}
+
+/* Settings sidebar */
+._settings_1x72n_34 > ._sidebar_1x72n_40 {
+    background: black;
+    background-image: var(--northern-lights-darkened);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+:is(
+    div.drwAci,
+    /* "Looking to customize…" button */
+    .cTfrSn,
+    /* Delete Account Button */
+    .iRhROc,
+    /* "Edit Profile" Button */
+    .sc-bdfBQB,
+    /* Text Blocks, except for the message box */
+    .sc-cxFLGX > textarea:not(#message)
+) {
+    background: hsla(var(--accent-hue), 100%, 50%, 0.05);
+    border: none;
+}
+
+/* Make logout button bold… */
+div[class^='_logOut_'], div[class*=' _logOut_'] {
+    font-weight: bolder;
+}
+/* …and the SVG icon too */
+:is(div[class^='_logOut_'], div[class*=' _logOut_']) > div > svg > path {
+    font-weight: bolder;
+    stroke-width: 10px;
+}
+/* Also make donate button grey because it's not needed for daily use */
+a[href="https://insrt.uk/donate"] > * {
+    filter: grayscale(100%);
+}
+/* Required because hover filter was replaced with CSS above */
+:is(a[href="https://insrt.uk/donate"] > *:hover, ._donate_2mw2x_124:hover) {
+    filter: grayscale(100%) brightness(2);
+}
+
+/* Hides scrollbar from channel list */
+div[class^='ServerSidebar__ServerBase'] > *, div[class*=' ServerSidebar__ServerBase'] > * {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+/* User Selected Backfill */
+/* TODO current CSS locator doesn't work */
+.sc-lcuiOb > div > div > svg > * {
+    /* background: linear-gradient(160deg, black 0%, var(--accent-dark) 100%); */
+}
