@@ -3,7 +3,7 @@ name = "IceShrimp Light"
 creator = "theycallhermax"
 description = "The light theme from the Misskey fork bringing you no-nonsense fixes, features and improvements you actually want"
 tags = ["light", "blue", "iceshrimp"]
-version = "1.2.0"
+version = "1.3.0"
 
 [variables]
 light = true
@@ -38,8 +38,8 @@ background = "#9A92FF"
 foreground = "#3B364C"
 
 [variables.status]
-online = "#40a02b"
-away = "#df8e1d"
-busy = "#e64553"
-streaming = "#7287fd"
-invisible = "#c6d0f5"
+online = "#58d4c9"
+away = "#e8cd7e"
+busy = "#ea5353"
+streaming = "#89b4fa"
+invisible = "#888888"
