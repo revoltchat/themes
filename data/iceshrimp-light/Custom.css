@@ -38,6 +38,6 @@ a[href^="/server/"] svg > circle {
     border-radius: var(--border-radius-user-icon);
 }
 
-a, a:visited {
+a, a:visited, a:hover {
     color: #FF7268;
 }
