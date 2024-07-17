@@ -1,0 +1,147 @@
+
+
+/* change the default font */
+@font-face {
+    font-family: Blank;
+    src: url("https://raw.githack.com/adobe-fonts/adobe-blank/master/AdobeBlank.ttf.woff?raw=true");
+}
+:root {
+    font-variant-ligatures:normal!important;
+    --font: var(--monospace-font) !important;
+}
+/* hide homescreen bs */
+[class^="_home_"] [class^="_homeScreen_"] [class^="_actions_"] {
+  display: none;
+}
+
+/* pfp killer */
+.bTjVNf {
+    display: none;
+}
+
+/* message area stuffs */
+[class^=MessageBase__MessageInfo] {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 10px
+}
+
+.time {
+    font-size: 10px;
+}
+/* message area border */
+[class^="MessageArea__Area"] {
+    border: 2px var(--accent) solid;
+    margin: .5rem;
+    margin-top: 2.4rem;
+    transform: translate(0px, -1rem);
+}
+
+[class^="name"], [class^="StyledIconBase"] {
+    background: var(--primary-background);
+    border: .1rem var(--primary-background) solid;
+    color: var(--accent);
+    border-radius: 0;
+    font-size: 17px;
+    text-transform: lowercase;
+}
+/* mass of hover */
+[class^="MessageArea__Area"]:hover, [class^="SidebarBase"]:hover,
+[class^="MessageBox"]:hover
+[class^="list"]:hover {
+    border-color: #98bb6c !important;
+}
+/* header killer */
+[class^="Header"] {
+    background: none;
+    backdrop-filter: none;
+    padding-top: 0px;
+}
+/* desc and typing indec. killer */
+[class^="TypingIndicator"] {
+    display: none important;
+}
+.cnyIwU .desc {
+    display: none !important;
+}
+/* i cant remember what this does lmao */
+[class^="FallbackBase"] {
+    background: var(--primary-background);
+}
+/* name stuff */
+[class^="MessageBase__MessageContent"]>.detail>.author::before {
+    content: '> '
+}
+
+/* time flourishes */
+[class^=MessageBase__]>time::before {
+    content: '['
+}
+[class^=MessageBase__]>time::after {
+    content: ']'
+}
+[class^=MessageBase__]>time {
+    color: var(--secondary-foreground)
+}
+/* fix height issues */
+[class^=MessageBase__MessageContent] {
+    height: fit-content
+}
+[class^=MessageBase] {
+    padding-top: 2px;
+}
+
+[class^="ItemContainer"] {
+     background: var(--primary-background);
+   
+}
+.jCxwsP {
+    margin-top: 3px;
+}
+.gRLOyd {
+    padding: 2px; 
+    margin-bottom: 0px; 
+}
+[class^="SidebarBase"] {
+    border: 2px var(--accent) solid;
+    margin: .5rem;
+    margin-top: 1.4rem;
+    height: 93%
+}
+/* sidebar visual fixes */
+[class^="SidebarBase__GenericSidebarBase"] {
+    border: 0;
+padding: 4px 6px 0px 0px;
+}
+
+[class^="SidebarBase__GenericSidebarList"] {
+    border: 0;
+padding: 4px 6px 0px 0px;
+top: 0px
+}
+/* border stuff again */
+[class^="Titlebar__TitlebarBase"] {
+    border: 2px var(--accent) solid;
+    margin: .5rem;
+}
+/* removes the (edited) and side text things (u dont wanna re-enable this it looks like shit with this theme) */
+.csvICB .edited, .csvICB time {
+    display: none;
+}
+/* j benry */
+.jBEnry {
+    transform: translate(0px, -20px);
+    border: 2px var(--accent) solid;
+    margin: .5rem;
+}
+[class^="divider"] {
+   display: none;
+}
+/* linkey stuffs */
+a, a:link, a:visited, a:hover {
+   color: var(--secondary-foreground);
+   
+}
+

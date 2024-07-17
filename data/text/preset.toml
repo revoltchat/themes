@@ -1,0 +1,42 @@
+slug = "text"
+name = "text"
+creator = "violet"
+commit = "e8a8229"
+desc = "a tui theme based on the "text" theme from spicetify"
+version = "0.0.1"
+tags = ["tui", "dark", "textui"]
+
+accent = "#3d334c"
+background = "#2e2837"
+foreground = "#ffefdf"
+
+block = "#2d2d2d"
+message-box = "#2e2837"
+
+mention = "rgba(251, 255, 0, 0.06)
+success = "#65e572"
+warning = "#faa352"
+tooltip = "#2e2837"
+
+hover = "rgba(0, 0, 0, 0.1)"
+scrollbar-thumb = "rgba(0,0,0,0)"
+scrollbar-track = "rgba(0,0,0,0)"
+
+primary-background = "#2e2837"
+primary-header: "#1e1e1e"
+secondary-foreground = "#ffd8b0"
+secondary-header = "#2d2d2d"
+tertiary-background = "#4d4d4d"
+tertiary-foreground = "#848484"
+
+status-online = "#3ABF7E"
+status-away = "#F39F00"
+status-focus = "#4799f0"
+status-busy = "#F84848"
+status-streaming = "#977eff"
+status-invisible = "#a5a5a5"
+
+
+
+
+
