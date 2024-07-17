@@ -8,7 +8,6 @@
 
 :root {
     --border-radius-user-icon: 8px;
-    
     font-feature-settings: "liga" 1, "calt" 1;
 }
 
@@ -36,8 +35,4 @@ a[href^="/server/"] svg > circle {
 [class^="ServerHeader__ServerBanner-sc-"] {
     margin: 0.5rem;
     border-radius: var(--border-radius-user-icon);
-}
-
-a, a:visited, a:hover {
-    color: #FF7268;
 }
