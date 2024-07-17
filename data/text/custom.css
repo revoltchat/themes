@@ -61,10 +61,10 @@
 }
 /* desc and typing indec. killer */
 [class^="TypingIndicator"] {
-    display: none important;
+    display: none !important
 }
 .cnyIwU .desc {
-    display: none !important;
+    display: none !important
 }
 /* i cant remember what this does lmao */
 [class^="FallbackBase"] {
@@ -110,7 +110,7 @@
     margin-top: 1.4rem;
     height: 93%
 }
-/* sidebar visual fixes */
+
 [class^="SidebarBase__GenericSidebarBase"] {
     border: 0;
 padding: 4px 6px 0px 0px;
@@ -121,7 +121,7 @@ padding: 4px 6px 0px 0px;
 padding: 4px 6px 0px 0px;
 top: 0px
 }
-/* border stuff again */
+
 [class^="Titlebar__TitlebarBase"] {
     border: 2px var(--accent) solid;
     margin: .5rem;
@@ -136,12 +136,16 @@ top: 0px
     border: 2px var(--accent) solid;
     margin: .5rem;
 }
-[class^="divider"] {
-   display: none;
-}
+
 /* linkey stuffs */
 a, a:link, a:visited, a:hover {
    color: var(--secondary-foreground);
-   
 }
 
+[class^="divider"] {
+   display: none;
+}                                                                                                                                                                                                                                                                                                                                                               
+
+.jtuvHh > div, span.actions {
+margin-bottom: 2rem
+}
