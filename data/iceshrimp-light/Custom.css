@@ -1,14 +1,13 @@
 /*
     This is the default CSS for the IceShrimp Light theme.
 
-    This applies small fixes that makes Revolt more in place with the
-    theme, it is entirely optional to have this CSS as-is, but
-    things may feel slightly off.
+    This applies small fixes that makes Revolt more in place
+    with the upstream theme, it is entirely optional to have
+    this CSS as-is, but things may feel slightly off.
 */
 
 :root {
     --border-radius-user-icon: 8px;
-    
     font-feature-settings: "liga" 1, "calt" 1;
 }
 
