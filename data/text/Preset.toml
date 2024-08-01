@@ -23,7 +23,7 @@ scrollbar-thumb = "rgba(0,0,0,0)"
 scrollbar-track = "rgba(0,0,0,0)"
 
 primary-background = "#2e2837"
-primary-header: "#1e1e1e"
+primary-header = "#1e1e1e"
 secondary-foreground = "#ffd8b0"
 secondary-header = "#2d2d2d"
 tertiary-background = "#4d4d4d"
