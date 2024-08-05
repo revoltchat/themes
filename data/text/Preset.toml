@@ -2,7 +2,7 @@ slug = "text"
 name = "text"
 creator = "violet"
 commit = "e8a8229"
-desc = "a tui theme based on the \"text\" theme from spicetify"
+description = "a tui theme based on the \"text\" theme from spicetify"
 version = "0.0.2"
 tags = ["tui", "dark", "textui"]
 
