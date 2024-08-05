@@ -13,7 +13,7 @@ foreground = "#ffefdf"
 block = "#2d2d2d"
 message-box = "#2e2837"
 
-mention = "rgba(251, 255, 0, 0.06)
+mention = "rgba(251, 255, 0, 0.06)"
 success = "#65e572"
 warning = "#faa352"
 tooltip = "#2e2837"
