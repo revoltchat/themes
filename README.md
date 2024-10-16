@@ -1,6 +1,3 @@
-> [!CAUTION]
-> No maintainers currently assigned, [help wanted](https://wiki.revolt.chat/notes/project/maintainers/).
-
 # Revolt Themes
 
 ## Folder Structure
