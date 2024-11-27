@@ -1,0 +1,50 @@
+slug = "blood-and-rust"
+name = "Blood and Rust"
+creator = "Rosenkvarts#2611"
+descripition = "Very dark theme with dark red letters and orange/brown accents. Hard to see for some, pleasant for certain goblins like me. Enjoy!"
+version = "0.0.1"
+tags = ["dark", "red", "brown", "orange", "blood", "rust", "black"]
+
+[variables]
+light = false
+accent = "#903014"
+background = "#101010"
+foreground = "#640000"
+
+block = "#1e1e1e"
+message-box = "#0f0f0f"
+mention = "#171717"
+
+success = "#154719"
+warning = "#be641e"
+tooltip = "#000000"
+error = "#ff0000"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#191919"
+track = "transparent"
+
+[variables.primary]
+background = "#0a0a0a"
+header = "#1d1b1d"
+
+[variables.secondary]
+background = "#0d0d0d"
+foreground = "#903014"
+header = "#1e1e1e"
+
+[variables.tertiary]
+background = "#262224"
+foreground = "#640000"
+
+[variables.status]
+online = "#355a48"
+away = "#907441"
+focus = "#4799F0"
+busy = "#7e3a3a"
+streaming = "#584c85"
+invisible = "#5f5858"
+
+font = "Poppins"
+monospaceFont = "Space Mono"
