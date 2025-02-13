@@ -1,0 +1,24 @@
+:root {
+  --sidebar-active: #2f3136;
+}
+
+[class*="MessageBox__Base"] {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 90px;
+}
+
+[class^="MessageBase__MessageInfo"].csvICB {
+  width: 50px;
+}
+
+[class*="MessageBase__MessageInfo"] > [class*="avatar"] {
+  height: 28px !important;
+  width: 28px;
+}
+
+/* Fix for emoji picker */
+[data-test-id="virtuoso-item-list"] > [class^=RowContainer-sc] {
+  flex-wrap: nowrap;
+}

@@ -1,0 +1,45 @@
+slug = "darksignal"
+name = "Dark Signal"
+creator = "Scout339"
+description = "My rendition of the Signal app's Dark theme [2024]"
+tags = ["dark", "blue", "signal"]
+version = "0.0.1"
+
+[variables]
+light = false
+accent = "#2667ed"
+background = "#292929"
+foreground = "#e9e9e9"
+block = "#292929"
+mention = "rgba(251, 255, 0, 0.2)"
+message-box = "#3b3b3b"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#f44339"
+hover = "rgba(300, 300, 300, 0.1)"
+tooltip = "#000000"
+
+[variables.scrollbar]
+thumb = "#848484"
+track = "transparent"
+
+[variables.primary]
+background = "#121212"
+header = "#2e2e2e"
+
+[variables.secondary]
+background = "#2e2e2e"
+foreground = "#C8C8C8"
+header = "#292929"
+
+[variables.tertiary]
+background = "#4D4D4D"
+foreground = "#848484"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#f44339"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
