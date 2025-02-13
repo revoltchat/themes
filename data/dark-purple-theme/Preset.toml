@@ -1,0 +1,54 @@
+# URL friendly name
+slug = "dark-purple"
+# Display name
+name = "Dark Purple Theme"
+# Authors' name
+creator = "MisterZurg"
+# Preset description
+description = "A dark theme in purple tones for Revolt as in JetBrains IDEs."
+tags = ["ui", "purple", "dark", "revolt", "2022"]
+version = "0.0.1"
+
+[variables]
+accent = "#b279f2"
+background = "#2C2C3B"
+foreground = "#D0D0D9"
+block = "#2C2C3B"
+message-box = "rgba(255, 255, 255, 0.05)"
+mention = "#9649cc"
+success = "#239E62"
+warning = "#cca929"
+tooltip = "#9146FF"
+error = "#bd3c5f"
+hover = "#693687"
+
+[variables.scrollbar]
+thumb = "#524e66"
+track = "transparent"
+
+[variables.primary]
+background = "1d1d21"
+header = "#3d3952"
+
+[variables.secondary]
+background = "#363445"
+foreground = "#6d6a80"
+header = "#453A5C"
+
+[variables.tertiary]
+background = "#646078"
+foreground = "#FFFFFF"
+
+[variables.status]
+online = "#239E62"
+away = "#cca929"
+focus = "#9146FF"
+busy = "#c63a5d"
+streaming = "#8a64b3"
+invisible = "#5e5b6b"
+sidebar-active = "#202225"
+border-color = "#1F1F24"
+
+light = false
+font = "Lexend"
+monospaceFont = "JetBrains Mono"
