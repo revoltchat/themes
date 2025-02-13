@@ -1,0 +1,45 @@
+slug = "sonar"
+name = "Sonar"
+creator = "Scout339"
+description = "Just a sleek dark theme."
+tags = ["dark", "blue"]
+version = "0.0.1"
+
+[variables]
+light = false
+accent = "#2667ed"
+background = "#191919"
+foreground = "#F6F6F6"
+block = "#2D2D2D"
+mention = "rgba(251, 255, 0, 0.06)"
+message-box = "#3b3b3b"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#ED4245"
+hover = "rgba(255, 255, 255, 0.05)"
+tooltip = "#000000"
+
+[variables.scrollbar]
+thumb = "#848484"
+track = "transparent"
+
+[variables.primary]
+background = "#242424"
+header = "#363636"
+
+[variables.secondary]
+background = "#1E1E1E"
+foreground = "#C8C8C8"
+header = "#2D2D2D"
+
+[variables.tertiary]
+background = "#4D4D4D"
+foreground = "#848484"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "977EFF"
+invisible = "#A5A5A5"
