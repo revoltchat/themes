@@ -1,7 +1,7 @@
 slug = "blood-and-rust"
 name = "Blood and Rust"
 creator = "Rosenkvarts#2611"
-descripition = "Very dark theme with dark red letters and orange/brown accents. Hard to see for some, pleasant for certain goblins like me. Enjoy!"
+description = "Very dark theme with dark red letters and orange/brown accents. Hard to see for some, pleasant for certain goblins like me. Enjoy!"
 version = "0.0.1"
 tags = ["dark", "red", "brown", "orange", "blood", "rust", "black"]
 
