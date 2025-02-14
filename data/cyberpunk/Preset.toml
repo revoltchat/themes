@@ -1,9 +1,9 @@
-slug = "cyberpunk-edgerunners"
-name = "Cyberpunk Edgerunners"
+slug = "cyberpunk"
+name = "Cyberpunk"
 creator = "HyShin"
 description = "Sorry, wish we could go to the moon together."
 version = "0.0.1"
-tags = ["cyberpunk", "edgerunners", "dark"]
+tags = ["cyberpunk", "edgerunners", "dark", "hyshin"]
 
 [variables]
 accent = "#FFD700"
