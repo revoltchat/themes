@@ -1,0 +1,46 @@
+slug = "cyberpunk-edgerunners"
+name = "Cyberpunk Edgerunners"
+creator = "HyShin"
+description = "Sorry, wish we could go to the moon together."
+version = "0.0.1"
+tags = ["cyberpunk", "edgerunners", "dark"]
+
+[variables]
+accent = "#FFD700"
+background = "#121212"
+foreground = "#F6F6F6"
+
+block = "#2D2D2D"
+message-box = "#1E1E1E"
+mention = "rgba(255, 217, 0, 0.3)"
+
+[variables.scrollbar]
+thumb = "#D10000"
+track = "transparent"
+
+[variables.primary]
+background = "#1E1E1E"
+header = "#363636"
+
+[variables.secondary]
+background = "#252525"
+foreground = "#C8C8C8"
+header = "#2D2D2D"
+
+[variables.tertiary]
+background = "#444444"
+foreground = "#848484"
+
+[variables.status]
+online = "#00FF00"
+away = "#F39F00"
+busy = "#D10000"
+streaming = "#00FFFF"
+invisible = "#A5A5A5"
+
+[variables.feedback]
+success = "#65E572"
+warning = "#FFA500"
+error = "#FF0000"
+
+hover = "rgba(255, 217, 0, 0.1)"
