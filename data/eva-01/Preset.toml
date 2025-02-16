@@ -1,0 +1,50 @@
+slug = "eva-01"
+name = "eva-01"
+creator = "HyShin"
+description = "I mustn't run away."
+tags = ["dark", "evangelion", "mecha", "nerv"]
+version = "2.0.0"
+
+[variables]
+light = false
+accent = "#7FFF00" # Verde neón (detalles de energía)
+background = "#0D0D0D" # Negro oscuro (base)
+foreground = "#E6E6E6" # Gris claro (texto principal)
+
+block = "#1A1A1A" # Fondo de bloques
+message-box = "#222222" # Caja de mensajes
+mention = "rgba(127, 255, 0, 0.2)" # Verde neón translúcido
+
+success = "#4CAF50" # Verde de éxito
+warning = "#FF9800" # Naranja de advertencia
+error = "#FF0000" # Rojo de alerta
+hover = "rgba(127, 255, 0, 0.1)" # Efecto al pasar el mouse
+
+[variables.scrollbar]
+thumb = "#7FFF00" # Verde neón
+track = "transparent"
+
+[variables.primary]
+background = "#0D0D0D"
+header = "#1A1A1A"
+
+[variables.secondary]
+background = "#161616"
+foreground = "#B0B0B0"
+header = "#222222"
+
+[variables.tertiary]
+background = "#7A00A8" # Púrpura de Eva-01
+foreground = "#C8A2C8"
+
+[variables.status]
+online = "#7FFF00"
+away = "#FFA500"
+busy = "#FF0000"
+streaming = "#6B00B8"
+invisible = "#A5A5A5"
+
+[variables.feedback]
+success = "#4CAF50"
+warning = "#FFA500"
+error = "#FF0000"

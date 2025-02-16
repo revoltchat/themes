@@ -1,0 +1,49 @@
+/* Fondo personalizado con imagen de NERV */
+body {
+    background: url('https://images.alphacoders.com/829/829479.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Bordes y detalles mecánicos */
+.message {
+    border-left: 3px solid #7FFF00;
+    background-color: rgba(13, 13, 13, 0.8);
+}
+
+/* Efecto de neón en los nombres */
+.username {
+    color: #7FFF00;
+    text-shadow: 0 0 5px #7FFF00;
+}
+
+/* Personalización de la barra lateral */
+.sidebar {
+    background: #161616;
+    border-right: 3px solid #7A00A8;
+}
+
+/* Cambios en la barra superior */
+.header {
+    background: #1A1A1A;
+    color: #E6E6E6;
+    text-transform: uppercase;
+}
+
+/* Personalización de botones */
+.button {
+    background: #7FFF00;
+    color: black;
+    border-radius: 5px;
+}
+.button:hover {
+    background: #9AFF00;
+}
+
+/* Scrollbar futurista */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #7FFF00;
+    border-radius: 5px;
+}
