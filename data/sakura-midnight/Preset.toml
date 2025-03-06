@@ -17,7 +17,7 @@ description = "A dreamy blend of soft Sakura Pinks and Deep Midnight Purples, in
 # Theme Version
 # Use Semantic Versioning (https://semver.org/)
 # Default: 0.0.1
-version = "0.0.1"
+version = "0.0.2"
 
 # Tags (optional)
 # Must be a single alphanumeric word
@@ -31,7 +31,7 @@ foreground = "#FCE4EC"
 
 block = "#3A1D3F"
 message-box = "#3A1D3F"
-mention = "#963666"
+mention = "#76284f"
 
 success = "#FFB6C1"
 warning = "#FF69B4"
