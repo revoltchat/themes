@@ -5,7 +5,7 @@ slug = "sakura-midnight"
 name = "Sakura Midnight"
 
 # Authors' name
-creator = "Kiyoshi#5907"
+creator = "Mia#5907"
 
 # The commit this preset was built against (optional)
 # Should only be specified if you use custom CSS that tends to break between updates
@@ -17,7 +17,7 @@ description = "A dreamy blend of soft Sakura Pinks and Deep Midnight Purples, in
 # Theme Version
 # Use Semantic Versioning (https://semver.org/)
 # Default: 0.0.1
-version = "0.0.2"
+version = "0.0.3"
 
 # Tags (optional)
 # Must be a single alphanumeric word
