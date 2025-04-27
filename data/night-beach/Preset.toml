@@ -6,10 +6,10 @@ tags = ["Navy", "dark"]
 [variables]
 light = false
 accent = "#448cab"
-background = "#191f71"
+background = "#060a3c"
 foreground = "#b4e49b"
 block = "#7848b1"
-message-box = "#446775"
+message-box = "#060a3c"
 mention = "#ead653"
 success = "#9de1c2"
 warning = "#e3740d"
@@ -17,16 +17,16 @@ error = "#db1a1a"
 hover = "rgba(0, 0, 0, 0.1)"
 [variables.scrollbar]
 thumb = "#ece37e"
-track = "#051142"
+track = "#060a3c"
 [variables.primary]
-background = "#24223f"
-header = "#5b68a4"
+background = "#030a2b"
+header = "#314e7d"
 [variables.secondary]
-background = "#2a5091"
+background = "#132353"
 foreground = "#75ad48"
 header = "#3f6692"
 [variables.tertiary]
-background = "#16307e"
+background = "#e6e4b7"
 foreground = "#e2b1d5"
 [variables.status]
 online = "#d8f570"
