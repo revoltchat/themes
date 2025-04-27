@@ -1,7 +1,7 @@
 slug = "night-beach"
 name = "Night Beach"
 creator = "KnightKore"
-description = "a summer night based themes with colorful text!"
+description = "A summer night based theme with colourful text."
 tags = ["Navy", "dark"]
 [variables]
 light = false
