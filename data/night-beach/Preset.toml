@@ -1,0 +1,36 @@
+slug = "night-beach"
+name = "Night Beach"
+creator = "KnightKore"
+description = "a summer night based themes with colorful text!"
+tags = ["Navy", "dark"]
+[variables]
+light = false
+accent = "#3a5fb0"
+background = "#1e2647"
+foreground = "#baf799"
+block = "#100b3d"
+message-box = "#446775"
+mention = "#fae85f"
+success = "#65E572"
+warning = "#f05016"
+error = "#d41717"
+hover = "rgba(0, 0, 0, 0.1)"
+[variables.scrollbar]
+thumb = "#00b46c"
+track = "transparent"
+[variables.primary]
+background = "#2a5091"
+header = "#2e6780"
+[variables.secondary]
+background = "#2a5091"
+foreground = "#dc62de"
+header = "#2e6780"
+[variables.tertiary]
+background = "#2a5091"
+foreground = "#f25041"
+[variables.status]
+online = "#bff5e6"
+away = "#4f64ab"
+busy = "#e06c83"
+streaming = "#cc85de"
+invisible = "#807661"
