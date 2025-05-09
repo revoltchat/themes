@@ -3,16 +3,16 @@ name = "Catppuccin Macchiato"
 creator = "Catppuccin Org"
 description = "Soothing pastel theme for Revolt."
 tags = ["pastel", "soothing", "dark"]
-version = "1.0.0"
+version = "2.0.0"
 
 [variables]
 light = false
-accent = "#f4dbd6"
+accent = "#c6a0f6"
 background = "#24273a"
-foreground = "#b7bdf8"
+foreground = "#cad3f5"
 block = "#181926"
 message-box = "#181926"
-mention = "rgba(30, 29, 47, .1)"
+mention = "rgba(36, 39, 58, 0.10)"
 success = "#a6da95"
 warning = "#f5a97f"
 tooltip = "#000000"
@@ -38,7 +38,8 @@ foreground = "#5b6078"
 
 [variables.status]
 online = "#a6da95"
-away = "#f0c6c6"
-busy = "#ee99a0"
+away = "#eed49f"
+focus = "#8aadf4"
+busy = "#ed8796"
 streaming = "#c6a0f6"
 invisible = "#5b6078"
