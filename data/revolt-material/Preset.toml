@@ -1,0 +1,45 @@
+slug = "Revolt-Material"
+name = "Revolt Material"
+creator = "netpa"
+description = "A theme based on Google's Material Design"
+tags = ["Material", "Google", "Dark", "Blue"]
+version = "1.0.0"
+
+[variables]
+light = false
+accent = "#557be2"
+background = "#0e0f11"
+foreground = "#F6F6F6"
+
+block = "#2D2D2D"
+message-box = "#27272a"
+mention = "#303d5f"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "#2b2d31"
+
+[variables.scrollbar]
+thumb = "#d1d1d1"
+track = "transparent"
+
+[variables.primary]
+background = "#151619"
+header = "#151619"
+
+[variables.secondary]
+background = "#4D4D4D"
+foreground = "#848484"
+header = "#151619"
+
+[variables.tertiary]
+background = "#4D4D4D"
+foreground = "#848484"
+
+[variables.status]
+online = "#43b683"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
