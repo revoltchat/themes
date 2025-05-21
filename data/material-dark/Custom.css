@@ -1,8 +1,4 @@
-@import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/fonts/google-sans.css"); 
-/* I currently don't know how to fix the fonts not loading issue so for now it will be using the Discord version's font file */
-
 :root {
-    --font: "Google Sans", sans-serif !important;
     --messagebgcolor: rgb(33, 35, 38);
     --embedbgcolor: rgb(21, 23, 25);
     --mediaradius: calc(18px / 1.75);
