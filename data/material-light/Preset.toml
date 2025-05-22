@@ -34,7 +34,7 @@ foreground = "#C8C8C8"
 header = "#FAFAFA"
 
 [variables.tertiary]
-background = "#4D4D4D"
+background = "#ADADAD"
 foreground = "#323339"
 
 [variables.status]
