@@ -1,0 +1,45 @@
+slug = "material-light"
+name = "Material Light"
+creator = "netpa"
+description = "A theme based on Google's Material Design"
+tags = ["Material", "Google", "Blue"]
+version = "1.0.0"
+
+[variables]
+light = true
+accent = "#557BE2"
+background = "#E8E8E8"
+foreground = "#323339"
+
+block = "#C7C9CC"
+message-box = "#E4E6E7"
+mention = "#557BE2"
+
+success = "#65E572"
+warning = "#FAA352"
+error = "#F06464"
+hover = "#DADBDD"
+
+[variables.scrollbar]
+thumb = "#D1D1D1"
+track = "transparent"
+
+[variables.primary]
+background = "#FAFAFA"
+header = "#FAFAFA"
+
+[variables.secondary]
+background = "#E8E8E8"
+foreground = "#C8C8C8"
+header = "#FAFAFA"
+
+[variables.tertiary]
+background = "#ADADAD"
+foreground = "#323339"
+
+[variables.status]
+online = "#43b683"
+away = "#F39F00"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
