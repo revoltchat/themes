@@ -1,7 +1,7 @@
 slug = "solarized-dark"
 name = "Solarized Dark"
 creator = "CrystalENVT"
-description = "Solarized Dark theme for Revolt. https://ethanschoonover.com/solarized/"
+description = "Solarized Dark theme for Revolt."
 
 [variables]
 light = false
