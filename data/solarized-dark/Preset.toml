@@ -1,0 +1,43 @@
+slug = "solarized-dark"
+name = "Solarized Dark"
+creator = "CrystalENVT"
+description = "Solarized Dark theme for Revolt. https://ethanschoonover.com/solarized/"
+
+[variables]
+light = false
+accent = "#d33682"
+background = "#002b36"
+foreground = "#fdf6e3"
+
+block = "#2D2D2D"
+message-box = "#073642"
+mention = "d33682"
+
+success = "#859900"
+warning = "#cb4b16"
+error = "#dc322f"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#268bd2"
+track = "transparent"
+
+[variables.primary]
+background = "#002b36"
+header = "#2aa198"
+
+[variables.secondary]
+background = "#073642"
+foreground = "#eee8d5"
+header = "#268bd2"
+
+[variables.tertiary]
+background = "#586e75"
+foreground = "#93a1a1"
+
+[variables.status]
+online = "#859900"
+away = "#b58900"
+busy = "#dc322f"
+streaming = "#6c71c4"
+invisible = "#93a1a1"
