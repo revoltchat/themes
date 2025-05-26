@@ -2,7 +2,3 @@ node_modules
 built
 !built/theme_dark.json
 !built/theme_light.json
-
-### Ignore Emacs temporary files ###
-*~
-\#*\#
