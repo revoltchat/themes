@@ -2,8 +2,8 @@ slug = "material-dark"
 name = "Material Dark"
 creator = "netpa"
 description = "A theme based on Google's Material Design"
-tags = ["Material", "Google", "Blue"]
-version = "1.0.0"
+tags = ["material", "google", "blue"]
+version = "1.1.0"
 
 [variables]
 light = false
@@ -11,7 +11,7 @@ accent = "#557BE2"
 background = "#0E0F11"
 foreground = "#F6F6F6"
 
-block = "#2D2D2D"
+block = "#151719"
 message-box = "#27272A"
 mention = "#303D5F"
 

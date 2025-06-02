@@ -1,15 +1,60 @@
 :root {
     --messagebgcolor: rgb(228, 230, 231);
     --embedbgcolor: rgb(199, 201, 204);
+    --popoutcolor: rgb(255, 255, 255);
+    --serverbarselectedcolor: rgb(47, 48, 53);
+    --actionbarbuttonhovercolor: rgb(228, 228, 228);
+    --actionbarbgcolor: rgb(255, 255, 255);
+    --dividerlinecolor: rgb(205, 205, 205);
+    --contextmenubuttonhovercolor: rgb(229, 229, 229);
+    --tippybgcolor: rgba(97, 97, 97, 0.9);
+    --tippytextcolor: rgb(197, 197, 197);
+    --pendingrequestbgcolor: rgb(220, 220, 220);
     --mediaradius: calc(18px / 1.75);
+    --messageboxradius: calc(48px / 2);
+    --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .MessageBox__Base-sc-jul4fa-0 {
-    border-radius: 50px !important;
+    border-radius: var(--messageboxradius) !important;
     position: relative;
     top: -10px;
     width: 98%;
     margin-left: 15px;
+}
+
+.FilePreview__Container-sc-znkm6h-0 {
+    border-radius: var(--messageboxradius) var(--messageboxradius) 0 0;
+    position: relative;
+    top: -10px;
+    width: 98%;
+    margin-left: 15px;
+}
+
+.FilePreview__Container-sc-znkm6h-0:before, .FilePreview__Container-sc-znkm6h-0:after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: calc(18px / 0.95* -1);
+    background-color: transparent;
+    border: calc(18px / 1.8) solid transparent;
+    border-top-color: var(--message-box);
+    pointer-events: none;
+}
+
+.FilePreview__Container-sc-znkm6h-0:before {
+    border-right-color: var(--message-box);
+    right: -0.01px;
+}
+
+.FilePreview__Container-sc-znkm6h-0:after {
+    border-left-color: var(--message-box);
+    left: -0.3px;
+}
+
+.FilePreview__PreviewBox-sc-znkm6h-6, .FilePreview__EmptyEntry-sc-znkm6h-5 {
+    border-radius: 18px;
 }
 
 .sc-dmlqKv {
@@ -28,7 +73,6 @@
 }
 
 .Container-sc-1d91xkm-1 {
-    border-radius: 18px;
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
 }
 
@@ -41,7 +85,7 @@
 }
 
 ._item_1avxi_1 {
-    transition: background-color .3s ease
+    transition: background-color 250ms var(--cubicbezieranimation) !important;
 }
 
 .ServerSidebar__ServerList-sc-1lca5oe-1 {
@@ -63,9 +107,9 @@
 }
 
 .MessageBase-sc-1s9ehlg-0 {
-    background-color: rgb(228, 230, 231);
+    background-color: var(--messagebgcolor);
     border-radius: 18px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms var(--cubicbezieranimation);
     margin-left: 78px;
     margin-right: 10px;
 }
@@ -89,50 +133,55 @@
     left: -30px;
 }
 
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .MessageBase__MessageContent-sc-1s9ehlg-2 {
+    left: -66px;
+    flex: 0 0 auto;
+    width: calc(100% - 40px);
+}
+
+.SystemMessage__SystemContent-sc-1au0o14-0 {
+    left: -55px;
+    position: relative;
+}
+
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) {
     border-radius: 0 0 18px 18px;
 }
 
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .sc-jJEKmz {
-    position: relative;
-    left: -36.25px;
+.MessageBase-sc-1s9ehlg-0:has(.SystemMessage__SystemContent-sc-1au0o14-0) {
+    border-radius: 18px !important;
 }
 
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .sc-iBPTik {
-    right: -40px;
-}
-
-.MessageBase-sc-1s9ehlg-0:not(:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time)) .sc-iBPTik {
-    right: -26.75px;
-}
 
 .sc-iBPTik {
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
-    background: rgb(255, 255, 255);
+    background: var(--actionbarbgcolor);
     border: none;
     border-radius: 16px;
+    right: -26.75px;
+    transition: width 250ms var(--cubicbezieranimation);
 }
 
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
     content: " ";
     position: relative;
     width: 0;
     height: 0;
     top: calc(18px / 1.15 * -1);
     background-color: transparent;
-    border: calc(18px / 2.3) solid transparent;
+    border: calc(18px / 2.275) solid transparent;
     border-bottom-color: var(--messagebgcolor);
     pointer-events: none;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) border-color;
+    transition: border-color 250ms var(--cubicbezieranimation);
 }
 
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):before {
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before {
     left: -2px;
     border-left-color: var(--messagebgcolor);
 }
 
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):after {
-    right: -16px;
+.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
+    right: 34px;
     border-right-color: var(--messagebgcolor);
 }
 
@@ -149,11 +198,6 @@
 .EmbedInvite__EmbedInviteBase-sc-154n8c6-0 {
     background-color: var(--embedbgcolor);
     border-radius: var(--mediaradius);
-}
-
-.MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .Grid-sc-iv0lk8-0, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) ._embed_dxa3n_1, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .EmbedInvite__EmbedInviteBase-sc-154n8c6-0, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .sc-hKgJUU {
-    position: relative;
-    left: -35px;
 }
 
 ._attachment_197qa_1 {
@@ -249,14 +293,114 @@
     background-color: transparent;
 }
 
-.tippy-box {
-    color: #C5C5C5;
+.Actions-sc-1d91xkm-4 {
+    background: var(--secondary-header);
 }
 
-.Actions-sc-1d91xkm-4 {
-    background: var(--secondary-header)
+.sc-fubCzh {
+    border-radius: 50px;
+}
+
+.sc-fubCzh:hover {
+    background-color: var(--actionbarbuttonhovercolor);
 }
 
 ._item_1avxi_1[data-active=true] {
     background-color: color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.context-menu {
+    background-color: var(--popoutcolor) !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0) ;
+    animation: opacity-anim 100ms ease, context-menu-anim 300ms var(--cubicbezieranimation);
+    transform-origin: top;
+    backdrop-filter: none !important;
+}
+
+.context-menu > span {
+    transition: background-color 250ms var(--cubicbezieranimation);
+    min-height: 32px;
+    padding: 9px 12px !important;
+    margin: 0 !important;
+}
+
+.context-menu > span:not([data-disabled=true]):hover, .context-menu .main > span:not([data-disabled=true]):hover {
+    background-color: var(--contextmenubuttonhovercolor) !important;
+}
+
+.LineDivider-sc-135498f-0 {
+    width: 100%;
+    background-color: var(--dividerlinecolor);
+    margin: 8px 0;
+}
+
+._friend_sd6wo_33 {
+    transition: background-color .2s ease;
+    border-radius: 18px;
+}
+
+._friend_sd6wo_33:hover {
+    background-color: var(--hover);
+}
+
+._button_sd6wo_44 {
+    background-color: transparent;
+}
+
+.SwooshWrapper-sc-176t3v5-1 {
+    transform: rotate(180deg);
+    left: -33px;
+    top: -37px;
+}
+
+.SwooshWrapper-sc-176t3v5-1 > svg {
+    width: 30px;
+}
+
+.SwooshWrapper-sc-176t3v5-1 > svg > path {
+    fill: var(--serverbarselectedcolor);
+}
+
+.Base-sc-j9ukbi-0 {
+    border-radius: 16px;
+}
+
+.tippy-box {
+    border-radius: 8px;
+    background-color: var(--tippybgcolor);
+    color: var(--tippytextcolor);
+}
+
+.tippy-arrow {
+    display: none;
+}
+
+._header_kup3j_8 {
+    border-radius: 18px 18px 0 0;
+}
+
+._content_kup3j_90 {
+    border-radius: 0 0 18px 18px;
+}
+
+._pending_sd6wo_95 {
+    border-radius: 18px;
+    background: var(--pendingrequestbgcolor);
+}
+
+._entry_kup3j_140 {
+    transition: background-color 250ms var(--cubicbezieranimation);
+}
+
+@keyframes opacity-anim {
+    from {
+        opacity: 0;
+    }
+}
+
+@keyframes context-menu-anim {
+    from {
+        transform: scale(1, 0.5);
+    }
 }
