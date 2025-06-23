@@ -1,0 +1,45 @@
+slug = "vaporwave"
+name = "Vaporwave"
+creator = "tyzbit"
+description = "a purple and turquoise theme with vaporwave vibes"
+
+[variables]
+light = false
+accent = "#D6008F"
+background = "#220C32"
+foreground = "#00D0FF"
+block = "#35114F"
+message-box = "#0D203F"
+mention = "rgba(2, 175, 233, 0.5)"
+success = "#65E572"
+warning = "#FAA352"
+tooltip = "#000000"
+error = "#ED4245"
+hover = "rgba(72, 19, 120, 0.5)"
+
+[variables.scrollbar]
+thumb = "#02BBE4"
+track = "#D50091"
+
+[variables.primary]
+background = "#13081C"
+header = "#35114F"
+
+[variables.secondary]
+background = "#1F0C2C"
+foreground = "#BF2BA9"
+header = "#5A8FDC"
+
+[variables.tertiary]
+background = "#31104A"
+foreground = "#5A1D85"
+
+[variables.status]
+online = "#3ABF7E"
+away = "#F39F00"
+focus = "#4799F0"
+busy = "#F84848"
+streaming = "#977EFF"
+invisible = "#A5A5A5"
+font = "Poppins"
+monospaceFont = "Space Mono"
