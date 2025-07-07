@@ -3,7 +3,7 @@ name = "Material Light"
 creator = "netpa"
 description = "A theme based on Google's Material Design"
 tags = ["material", "google", "blue"]
-version = "1.1.0"
+version = "1.2.0"
 
 [variables]
 light = true
