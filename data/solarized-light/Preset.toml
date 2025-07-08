@@ -1,0 +1,45 @@
+slug = "solarized-light"
+name = "Solarized Light"
+creator = "theycallhermax"
+description = "Solarized Light theme for Revolt."
+tags = ["solarized"]
+version = "1.0.0"
+
+[variables]
+light = true
+accent = "#586e75"
+background = "#eee8d5"
+foreground = "#657b83"
+
+block = "#eee8d5"
+message-box = "#eee8d5"
+mention = "rgba(181, 137, 0, 0.2)"
+
+success = "#859900"
+warning = "rgba(181, 137, 0, 0.5)"
+error = "#dc322f"
+hover = "rgba(0, 0, 0, 0.1)"
+
+[variables.scrollbar]
+thumb = "#586e75"
+track = "#eee8d5"
+
+[variables.primary]
+background = "#fdf6e3"
+header = "#eee8d5"
+
+[variables.secondary]
+background = "#eee8d5"
+foreground = "#657b83"
+header = "#eee8d5"
+
+[variables.tertiary]
+background = "#586e75"
+foreground = "#657b83"
+
+[variables.status]
+online = "#859900"
+away = "#b58900"
+busy = "#dc322f"
+streaming = "#268bd2"
+invisible = "#93a1a1"
