@@ -26,13 +26,13 @@ background = "#13081C"
 header = "#35114F"
 
 [variables.secondary]
-background = "#1F0C2C"
+background = "#1A0826"
 foreground = "#BF2BA9"
 header = "#5A8FDC"
 
 [variables.tertiary]
 background = "#31104A"
-foreground = "#5A1D85"
+foreground = "#AA33FF"
 
 [variables.status]
 online = "#3ABF7E"
