@@ -1,0 +1,9 @@
+div[data-style="unread"] {
+  background: var(--secondary-foreground);
+}
+circle[fill="white"] {
+  fill: var(--secondary-foreground);
+}
+div:has(span[class*="UserShort__Name"]) {
+  color: unset;
+}
