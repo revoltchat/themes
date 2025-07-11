@@ -1,33 +1,81 @@
 :root {
-    --messagebgcolor: rgb(228, 230, 231);
-    --embedbgcolor: rgb(199, 201, 204);
-    --popoutcolor: rgb(255, 255, 255);
-    --serverbarselectedcolor: rgb(47, 48, 53);
-    --actionbarbuttonhovercolor: rgb(228, 228, 228);
-    --actionbarbgcolor: rgb(255, 255, 255);
-    --dividerlinecolor: rgb(205, 205, 205);
-    --contextmenubuttonhovercolor: rgb(229, 229, 229);
-    --tippybgcolor: rgba(97, 97, 97, 0.9);
-    --tippytextcolor: rgb(197, 197, 197);
-    --pendingrequestbgcolor: rgb(220, 220, 220);
-    --mediaradius: calc(18px / 1.75);
-    --messageboxradius: calc(48px / 2);
-    --cubicbezieranimation: cubic-bezier(0.4, 0, 0.2, 1);
+    --MessageBackgroundColor: rgb(228, 230, 231);
+    --EmbedBackgroundColor: rgb(199, 201, 204);
+    --PopoutColor: rgb(255, 255, 255);
+    --ServerBarSelectedServerColor: rgb(47, 48, 53);
+    --ActionBarButtonBackgroundHoverColor: rgb(228, 228, 228);
+    --ActionBarBackgroundColor: rgb(255, 255, 255);
+    --DividerLineColor: rgb(205, 205, 205);
+    --ContextMenuButtonBackgroundHoverColor: rgb(229, 229, 229);
+    --TippyBackgroundColor: rgba(97, 97, 97, 0.9);
+    --TippyTextColor: rgb(197, 197, 197);
+    --PendingRequestsBackgroundColor: rgb(220, 220, 220);
+    --ReactionBorderColor: rgba(0, 0, 0, 0.195);
+    --ChannelCreatorTypeBackgroundColor: rgb(235, 235, 235);
+    --ChannelCreatorTypeSelectedButtonBackgroundColor: rgb(204, 204, 204);
+    --ChannelCreatorTypeSelectedButtonIndicatorColor: rgb(85, 123, 226);
+    --InputBottomBorderColor: rgb(168, 168, 168);
+    --InputBackgroundColor: rgb(227, 227, 227);
+    --InviteBottomBorderColor: rgb(243, 243, 244);
+    --InviteHoverBorderColor: rgb(214, 214, 217);
+    --TimeDividerColor: rgb(218, 219, 221);
+    --TimeDividerTextColor: rgb(116, 117, 126);
+    --RoleSelectedPermissionIconColor: rgb(255, 255, 255);
+    --VoiceCallButtonBackgroundColor: rgb(150, 150, 150);
+    --BlueButtonHoverColor: rgb(127, 161, 255);
+    --NewMessagesTextBackgroundColor: rgb(207, 215, 236);
+    --NewMessagesArrowBackgroundColor: rgb(85, 123, 226);
+    --LogoutButtonBackgroundColor: rgb(230, 218, 218);
+    --ProfileSectionBottomBorderColor: rgb(226, 226, 228);
+    --MediaBorderRadius: calc(18px / 1.75);
+    --MessageBoxBorderRadius: calc(48px / 2);
+    --CubicBezierAnimation: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .MessageBox__Base-sc-jul4fa-0 {
-    border-radius: var(--messageboxradius) !important;
+    border-radius: var(--MessageBoxBorderRadius);
     position: relative;
     top: -10px;
-    width: 98%;
+    margin-right: 15px;
     margin-left: 15px;
 }
 
+.MessageBox__Blocked-sc-jul4fa-1 > div {
+    position: relative;
+    left: 10px;
+}
+
+.MessageBox__Blocked-sc-jul4fa-1 .text {
+    padding: 14px 14px 14px 10px;
+}
+
+.AutoComplete__Base-sc-dtvq9c-0 {
+    margin-right: 30px;
+}
+
+.AutoComplete__Base-sc-dtvq9c-0 > div {
+    z-index: 2;
+    background: var(--PopoutColor);
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 18px;
+    bottom: 15px;
+}
+
+.AutoComplete__Base-sc-dtvq9c-0 > div > button {
+    border-radius: 18px;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.AutoComplete__Base-sc-dtvq9c-0 > div > .active {
+    background: var(--ActionBarButtonBackgroundHoverColor);
+}
+
 .FilePreview__Container-sc-znkm6h-0 {
-    border-radius: var(--messageboxradius) var(--messageboxradius) 0 0;
+    border-radius: var(--MessageBoxBorderRadius) var(--MessageBoxBorderRadius) 0 0;
     position: relative;
     top: -10px;
-    width: 98%;
+    margin-right: 15px;
     margin-left: 15px;
 }
 
@@ -36,7 +84,7 @@
     position: absolute;
     width: 0;
     height: 0;
-    bottom: calc(18px / 0.95* -1);
+    bottom: calc(18px / 0.95 * -1);
     background-color: transparent;
     border: calc(18px / 1.8) solid transparent;
     border-top-color: var(--message-box);
@@ -65,6 +113,10 @@
     max-width: 240px;
 }
 
+._container_t7t23_46 {
+    padding: 60px 8px;
+}
+
 ._contentcontainer_t7t23_62 {
     min-width: 0px !important;
     max-width: 1600px !important;
@@ -72,8 +124,35 @@
     margin-left: 10%;
 }
 
-.Container-sc-1d91xkm-1 {
+._settings_t7t23_33 > ._content_t7t23_40 {
+    margin-top: 29px;
+}
+
+._contentcontainer_t7t23_62 ._plugins_fwdgs_437 ._myBots_fwdgs_447 {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+._contentcontainer_t7t23_62 ._plugins_fwdgs_437 ._myBots_fwdgs_447 ._botCard_fwdgs_456, ._contentcontainer_t7t23_62 ._plugins_fwdgs_437 .TipBase-sc-upm053-0 {
+    border-radius: 18px;
+    padding: 16px;
+    background: var(--ChannelCreatorTypeBackgroundColor);
+}
+
+._contentcontainer_t7t23_62 ._plugins_fwdgs_437 .TipBase-sc-upm053-0 {
+    border: none;
+}
+
+[type = "user_profile"].Container-sc-1d91xkm-1 {
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
+}
+
+._header_kup3j_8 {
+    border-bottom: 1px solid var(--ProfileSectionBottomBorderColor);
+    ._tabs_kup3j_69 {
+        margin-bottom: -2px;
+    }
 }
 
 ._closeButton_t7t23_240 {
@@ -85,7 +164,15 @@
 }
 
 ._item_1avxi_1 {
-    transition: background-color 250ms var(--cubicbezieranimation) !important;
+    transition: background-color 250ms var(--CubicBezierAnimation) !important;
+}
+
+._item_1avxi_1 div {
+    transition: color 50ms var(--CubicBezierAnimation);
+}
+
+._item_1avxi_1._compact_1avxi_19._logOut_t7t23_124:hover {
+    background-color: var(--LogoutButtonBackgroundColor);
 }
 
 .ServerSidebar__ServerList-sc-1lca5oe-1 {
@@ -102,15 +189,28 @@
     background: var(--primary-background);
 }
 
+.SidebarBase__GenericSidebarBase-sc-1dma6vq-1:not(:has(a[href = "/friends"])) {
+    margin-right: -11px;
+}
+
 .MemberList__ListCategory-sc-1bwlier-0 {
     background: var(--primary-background);
 }
 
-.MessageBase-sc-1s9ehlg-0 {
-    background-color: var(--messagebgcolor);
+div[id ^= "01"] {
+    margin-left: 70px;
+    margin-right: 10px;
     border-radius: 18px;
-    transition: background-color 250ms var(--cubicbezieranimation);
-    margin-left: 78px;
+}
+
+.MessageBase-sc-1s9ehlg-0 {
+    background-color: var(--MessageBackgroundColor);
+    border-radius: 18px;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.MessageBase-sc-1s9ehlg-0:has(.SystemMessage__SystemContent-sc-1au0o14-0) {
+    margin-left: 70px;
     margin-right: 10px;
 }
 
@@ -119,10 +219,19 @@
     position: relative;
 }
 
+.MessageBase-sc-1s9ehlg-0:has(.SystemMessage__SystemContent-sc-1au0o14-0) .MessageBase__MessageInfo-sc-1s9ehlg-1 {
+    left: -70px;
+}
+
 .MessageBase__MessageInfo-sc-1s9ehlg-1:not(:has(time)) {
     left: -50px;
     width: 40px;
     height: 40px;
+    top: -2px;
+}
+
+.MessageBase-sc-1s9ehlg-0 .MessageBase__MessageInfo-sc-1s9ehlg-1 time {
+    transition: opacity 250ms var(--CubicBezierAnimation);
 }
 
 .MessageBase__MessageInfo-sc-1s9ehlg-1 > div {
@@ -133,8 +242,17 @@
     left: -30px;
 }
 
+.MessageBase__MessageContent-sc-1s9ehlg-2 .Grid-sc-iv0lk8-0 {
+    width: fit-content;
+    height: fit-content;
+}
+
+.MessageBase__MessageContent-sc-1s9ehlg-2 .Grid-sc-iv0lk8-0 > img {
+    border-radius: var(--MediaBorderRadius);
+}
+
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time) .MessageBase__MessageContent-sc-1s9ehlg-2 {
-    left: -66px;
+    left: -68px;
     flex: 0 0 auto;
     width: calc(100% - 40px);
 }
@@ -152,57 +270,82 @@
     border-radius: 18px !important;
 }
 
-
 .sc-iBPTik {
     box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
-    background: var(--actionbarbgcolor);
+    background: var(--ActionBarBackgroundColor);
     border: none;
     border-radius: 16px;
     right: -26.75px;
-    transition: width 250ms var(--cubicbezieranimation);
+}
+
+.sc-iBPTik > div:not(.sc-pGacB) {
+    animation: action-bar-button-scale 250ms var(--CubicBezierAnimation);
+}
+
+.sc-iBPTik .sc-fubCzh {
+    animation: action-bar-image-scale 250ms var(--CubicBezierAnimation);
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before, .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
     content: " ";
+    z-index: 1;
     position: relative;
     width: 0;
     height: 0;
     top: calc(18px / 1.15 * -1);
     background-color: transparent;
     border: calc(18px / 2.275) solid transparent;
-    border-bottom-color: var(--messagebgcolor);
+    border-bottom-color: var(--MessageBackgroundColor);
     pointer-events: none;
-    transition: border-color 250ms var(--cubicbezieranimation);
+    transition: border-color 250ms var(--CubicBezierAnimation);
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before {
     left: -2px;
-    border-left-color: var(--messagebgcolor);
+    border-left-color: var(--MessageBackgroundColor);
 }
 
 .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
-    right: 34px;
-    border-right-color: var(--messagebgcolor);
+    right: 38px;
+    border-right-color: var(--MessageBackgroundColor);
 }
 
-.MessageEditor__EditorBase-sc-133d9pc-0 {
-    position: relative;
-    left: -37px;
+div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before, div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
+    border-bottom-color: var(--hover)
+}
+
+div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):before {
+    border-left-color: var(--hover)
+}
+
+div[id ^= "01"]:hover + div[id ^= "01"] .MessageBase-sc-1s9ehlg-0:has(.MessageBase__MessageInfo-sc-1s9ehlg-1 time):not(:has(.SystemMessage__SystemContent-sc-1au0o14-0)):after {
+    border-right-color: var(--hover)
+}
+
+div[id ^= "01"]:hover {
+    > .MessageBase-sc-1s9ehlg-0 {
+        background-color: var(--hover);
+    }
+}
+
+.MessageBase__MessageInfo-sc-1s9ehlg-1 .IconBase-sc-igncj4-0 {
+    width: 40px;
+    height: 40px;
 }
 
 .MessageReply__ReplyBase-sc-utzx7-0 {
     position: relative;
-    left: 18px;
+    left: -60px;
 }
 
 .EmbedInvite__EmbedInviteBase-sc-154n8c6-0 {
-    background-color: var(--embedbgcolor);
-    border-radius: var(--mediaradius);
+    background-color: var(--EmbedBackgroundColor);
+    border-radius: var(--MediaBorderRadius);
 }
 
 ._attachment_197qa_1 {
-    background: var(--embedbgcolor) !important;
-    border-radius: var(--mediaradius);
+    background: var(--EmbedBackgroundColor) !important;
+    border-radius: var(--MediaBorderRadius);
 }
 
 ._actions_iu4oa_1 {
@@ -227,7 +370,6 @@
 }
 
 .MessageArea__Area-sc-1q4cka6-0 {
-    width: 98%;
     margin-bottom: 15px;
 }
 
@@ -241,10 +383,20 @@
 }
 
 .JumpToBottom__Bar-sc-v9kqir-0.gILwrq > div {
-    border-radius: 50px;
+    border-radius: 28px;
     height: 52px;
-    width: 40%;
     width: max-content;
+    background-color: var(--PopoutColor);
+    gap: 8px;
+    padding: 8px;
+}
+
+.JumpToBottom__Bar-sc-v9kqir-0.gILwrq > div > div:not(.right) {
+    padding: 0 16px;
+    border-radius: 20px;
+    flex: 0 1 auto;
+    background-color: var(--NewMessagesTextBackgroundColor);
+    height: 40px;
 }
 
 .JumpToBottom__Bar-sc-v9kqir-0.ggHcXn {
@@ -275,8 +427,14 @@
 }
 
 .JumpToBottom__Bar-sc-v9kqir-0 .StyledIconBase-ea9ulj-0 {
-    width: 36px;
-    height: 36px;
+    border-radius: 20px;
+    background-color: var(--NewMessagesArrowBackgroundColor);
+    height: 40px;
+    width: 40px;
+}
+
+.JumpToBottom__Bar-sc-v9kqir-0.gILwrq .StyledIconBase-ea9ulj-0 > path {
+    transform: translate(0.25px, 1px);
 }
 
 .ButtonItem-sc-1ixnesa-0, ._item_1avxi_1 {
@@ -287,6 +445,11 @@
     border-radius: 18px;
     background-color: var(--accent);
     height: 36px;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.Button-sc-wdolxy-0:hover {
+    background-color: var(--BlueButtonHoverColor);
 }
 
 .Button-sc-wdolxy-0.jMjzeh {
@@ -302,7 +465,7 @@
 }
 
 .sc-fubCzh:hover {
-    background-color: var(--actionbarbuttonhovercolor);
+    background-color: var(--ActionBarButtonBackgroundHoverColor);
 }
 
 ._item_1avxi_1[data-active=true] {
@@ -310,28 +473,28 @@
 }
 
 .context-menu {
-    background-color: var(--popoutcolor) !important;
+    background-color: var(--PopoutColor) !important;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0) ;
-    animation: opacity-anim 100ms ease, context-menu-anim 300ms var(--cubicbezieranimation);
+    animation: opacity-anim 100ms ease, context-menu-anim 300ms var(--CubicBezierAnimation);
     transform-origin: top;
     backdrop-filter: none !important;
 }
 
 .context-menu > span {
-    transition: background-color 250ms var(--cubicbezieranimation);
+    transition: background-color 250ms var(--CubicBezierAnimation);
     min-height: 32px;
     padding: 9px 12px !important;
     margin: 0 !important;
 }
 
 .context-menu > span:not([data-disabled=true]):hover, .context-menu .main > span:not([data-disabled=true]):hover {
-    background-color: var(--contextmenubuttonhovercolor) !important;
+    background-color: var(--ContextMenuButtonBackgroundHoverColor) !important;
 }
 
 .LineDivider-sc-135498f-0 {
     width: 100%;
-    background-color: var(--dividerlinecolor);
+    background-color: var(--DividerLineColor);
     margin: 8px 0;
 }
 
@@ -359,7 +522,7 @@
 }
 
 .SwooshWrapper-sc-176t3v5-1 > svg > path {
-    fill: var(--serverbarselectedcolor);
+    fill: var(--ServerBarSelectedServerColor);
 }
 
 .Base-sc-j9ukbi-0 {
@@ -368,8 +531,8 @@
 
 .tippy-box {
     border-radius: 8px;
-    background-color: var(--tippybgcolor);
-    color: var(--tippytextcolor);
+    background-color: var(--TippyBackgroundColor);
+    color: var(--TippyTextColor);
 }
 
 .tippy-arrow {
@@ -384,13 +547,441 @@
     border-radius: 0 0 18px 18px;
 }
 
+._entries_kup3j_131 {
+    gap: 0;
+}
+
+div[type = "user_profile"] .Content-sc-1d91xkm-3 {
+    padding: 0;
+}
+
 ._pending_sd6wo_95 {
     border-radius: 18px;
-    background: var(--pendingrequestbgcolor);
+    background: var(--PendingRequestsBackgroundColor);
 }
 
 ._entry_kup3j_140 {
-    transition: background-color 250ms var(--cubicbezieranimation);
+    background: transparent;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+._entry_kup3j_140:hover {
+    background-color: var(--hover);
+}
+
+.sc-jSgvzq {
+    background: transparent;
+    border-color: var(--ReactionBorderColor);
+    border-radius: 8px;
+}
+
+.Categories__KanbanList-sc-6h8idg-1 .inner {
+    border-radius: 18px;
+}
+
+.Base-sc-1xuer3d-0 {
+    border: none;
+    border-radius: 18px;
+}
+
+[selected = true].Base-sc-1xuer3d-0 {
+    background: var(--ChannelCreatorTypeSelectedButtonBackgroundColor);
+}
+
+[selected = true].Base-sc-1xuer3d-0 > .RadioCircle-sc-1xuer3d-1 {
+    border-color: var(--ChannelCreatorTypeSelectedButtonIndicatorColor);
+}
+
+[selected = true].Base-sc-1xuer3d-0 > .RadioCircle-sc-1xuer3d-1 > svg {
+    color: var(--ChannelCreatorTypeSelectedButtonIndicatorColor);
+}
+
+.Column-sc-mmjmg6-0:has(> .Base-sc-1xuer3d-0) {
+    background: var(--ChannelCreatorTypeBackgroundColor);
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.InputBox-sc-13s1218-0 {
+    border-radius: 4px 4px 0 0;
+    box-shadow: inset 0 -1px 0 0 var(--InputBottomBorderColor);
+    transition: background-color 100ms var(--CubicBezierAnimation), box-shadow 250ms var(--CubicBezierAnimation);
+}
+
+.InputBox-sc-13s1218-0:hover {
+    background-color: var(--secondary-background);
+}
+
+.InputBox-sc-13s1218-0:focus {
+    box-shadow: inset 0 -1px 0 0 var(--accent);
+}
+
+div[data-test-id*="virtuoso-item-list"]:has(._member_yllm8_53) {
+    background: var(--ChannelCreatorTypeBackgroundColor);
+    border-radius: 18px;
+    padding: 8px !important;
+}
+
+._member_yllm8_53 {
+    background: transparent !important;
+    transition: background-color 100ms var(--CubicBezierAnimation);
+    border-radius: 18px;
+}
+
+._member_yllm8_53:hover {
+    background-color: var(--ContextMenuButtonBackgroundHoverColor) !important;
+}
+
+._memberView_yllm8_99, ._invite_yllm8_51, ._ban_yllm8_52 {
+    background: transparent !important;
+}
+
+.Base-sc-1c2l8gq-0 {
+    width: 40px;
+    gap: 0;
+}
+
+.Base-sc-1c2l8gq-0:hover {
+    background-color: var(--ContextMenuButtonBackgroundHoverColor);
+}
+
+._invite_yllm8_51 {
+    box-shadow: 0 1px 0 0 var(--InviteBottomBorderColor);
+    height: 62px;
+    line-height: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+._invite_yllm8_51:hover {
+    background-color: var(--ChannelCreatorTypeBackgroundColor) !important;
+    border: var(--InviteHoverBorderColor) solid 1px;
+    transition: background-color 250ms var(--CubicBezierAnimation), border 250ms var(--CubicBezierAnimation);
+}
+
+.Base-sc-1kllx7r-0 {
+    justify-content: center; 
+    align-items: center;
+    border-top: thin solid var(--TimeDividerColor);
+    margin-bottom: .5rem;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.Base-sc-1kllx7r-0 time {
+    border-radius: 18px;
+    background: var(--TimeDividerColor);
+    height: 28px;
+    text-align: center;
+    color: var(--TimeDividerTextColor);
+    padding: 8px 9px 0 9px
+}
+
+.Base-sc-1kllx7r-0:has(.Unread-sc-1kllx7r-1) {
+    border-top: thin solid var(--accent);
+}
+
+.Base-sc-1kllx7r-0:has(.Unread-sc-1kllx7r-1) time {
+    background: var(--accent);
+    color: var(--RoleSelectedPermissionIconColor);
+}
+
+.Base-sc-1kllx7r-0 .Unread-sc-1kllx7r-1 {
+    position: absolute;
+    display: flex;
+    right: 0;
+    height: 28px;
+    padding: 0 16px;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+._ban_yllm8_52 {
+    height: 62px;
+    line-height: 20px;
+    font-size: 16px;
+    border-radius: 18px;
+}
+
+._ban_yllm8_52:hover {
+    background-color: var(--ChannelCreatorTypeBackgroundColor) !important;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.SwitchContainer-sc-6syyum-0 {
+    height: 30px;
+    padding: 0;
+    border-radius: 18px;
+    background: transparent;
+}
+
+.Switch-sc-6syyum-1 {
+    height: 28px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-right: 1px solid var(--TimeDividerColor);
+}
+
+[selected = true].Switch-sc-6syyum-1 {
+    color: var(--RoleSelectedPermissionIconColor);
+}
+
+[selected = true].Switch-sc-6syyum-1:has(path[d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"]) {
+    background-color: var(--error);
+}
+
+[selected = true].Switch-sc-6syyum-1:has(path[d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"]) {
+    background-color: var(--success);
+}
+
+[selected = true].Switch-sc-6syyum-1:has(path[d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm-1 16H5V5h14v14z"]) {
+    background-color: var(--hover);
+}
+
+.Checkmark-sc-1c2l8gq-6:not([value = true]) {
+    background-color: transparent;
+}
+
+.Base-sc-1c6g74-0 {
+    border-radius: 18px;
+    background: var(--PopoutColor);
+    z-index: 3;
+    bottom: 20px;
+    right: 35px;
+    animation: bottom-pop-out 400ms var(--CubicBezierAnimation);
+}
+
+.CategoryBar-sc-1c6g74-6 {
+    background: var(--PopoutColor);
+}
+
+.Parent-sc-1c6g74-2 {
+    flex-direction: row-reverse
+}
+
+.Base-sc-1m0owfd-0 {
+    height: 48px;
+    border-top: none;
+}
+
+.Base-sc-1m0owfd-0 > .sc-dlfnuX {
+    width: 28px;
+    height: 28px;
+}
+
+.Groups-sc-1c6g74-3 {
+    background-color: var(--EmbedBackgroundColor);
+}
+
+.Groups-sc-1c6g74-3 .EmojiContainer-sc-1c6g74-4 .Image-sc-3bwws8-0 {
+    width: 32px;
+    height: 32px;
+}
+
+.EmojiContainer-sc-1c6g74-4:hover img {
+    border-radius: 12px;
+}
+
+.Base-sc-1c6g74-0 .InputBox-sc-13s1218-0 {
+    height: 40px;
+    margin: 0;
+    box-shadow: none;
+    background-color: var(--InputBackgroundColor);
+    border-radius: 20px;
+}
+
+._compact_1avxi_19 ._button_1avxi_73 {
+    left: -205px;
+    position: relative;
+}
+
+._alert_1avxi_81 {
+    height: 10px;
+    width: 10px;
+}
+
+.VoiceHeader__VoiceBase-sc-mvbohh-0 .actions {
+    gap: 8px;
+    border-radius: 24px;
+    background: rgb(from var(--PopoutColor) r g b / 0.75);
+    padding: 4px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row-reverse;
+}
+
+.VoiceHeader__VoiceBase-sc-mvbohh-0 .actions > div {
+    width: 56px;
+    height: 56px;
+}
+
+.VoiceHeader__VoiceBase-sc-mvbohh-0 .actions > div > button {
+    width: 100%;
+    height: 100%;
+    min-width: 36px;
+    border-radius: 28px;
+}
+
+.VoiceHeader__VoiceBase-sc-mvbohh-0 .actions > div > button {
+    background-color: var(--VoiceCallButtonBackgroundColor);
+}
+
+.VoiceHeader__VoiceBase-sc-mvbohh-0 .actions > div > button:has(path[d="M9.17 13.42a5.24 5.24 0 0 1-.93-2.06L10.7 9a1 1 0 0 0 0-1.39l-3.65-4.1a1 1 0 0 0-1.4-.08L3.48 5.29a1 1 0 0 0-.29.65 15.25 15.25 0 0 0 3.54 9.92l-4.44 4.43 1.42 1.42 18-18-1.42-1.42zm7.44.02a1 1 0 0 0-1.39.05L12.82 16a4.07 4.07 0 0 1-.51-.14l-2.66 2.61A15.46 15.46 0 0 0 17.89 21h.36a1 1 0 0 0 .65-.29l1.86-2.17a1 1 0 0 0-.09-1.39z"]) {
+    background-color: var(--error);
+}
+
+._friend_sd6wo_33 ._actions_sd6wo_7 ._button_sd6wo_44:hover {
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+.UserShort__BotBadge-sc-1sbe9n1-0 {
+    display: inline-flex;
+    position: relative;
+    border-radius: 8px;
+    align-items: center;
+    height: 16px;
+    padding: 0 4px;
+    top: -2px;
+    font-size: 0.625rem;
+}
+
+._botCard_fwdgs_456 {
+    background-color: var(--ChannelCreatorTypeBackgroundColor) !important;
+    border-radius: 18px !important;
+}
+
+.MyBots__BotBadge-sc-appzz8-0 {
+    border-radius: 8px;
+}
+
+._botCard_fwdgs_456 .Base-sc-j9ukbi-0 {
+    background-color: transparent;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+._botCard_fwdgs_456 .Base-sc-j9ukbi-0:hover {
+    background-color: var(--PendingRequestsBackgroundColor);
+}
+
+._botCard_fwdgs_456 a:hover {
+    color: var(--foreground);
+}
+
+.MessageBase-sc-1s9ehlg-0 .MessageBase__MessageContent-sc-1s9ehlg-2 .UserShort__BotBadge-sc-1sbe9n1-0 {
+    top: 1px;
+}
+
+._sessions_fwdgs_285 ._session_fwdgs_285 {
+    border-radius: calc(18px / 1.65);
+    margin-bottom: 0;
+    padding: 16px 10px;
+    transition: background-color 250ms var(--CubicBezierAnimation);
+}
+
+._sessions_fwdgs_285 ._entry_fwdgs_300 {
+    padding: 0 8px;
+}
+
+._sessions_fwdgs_285 ._session_fwdgs_285:hover {
+    background-color: var(--PendingRequestsBackgroundColor);
+}
+
+._sessions_fwdgs_285 [data-active = true]._entry_fwdgs_300 {
+    color: var(--TippyTextColor) !important;
+    padding: 8px;
+    gap: 16px;
+    background: var(--ChannelCreatorTypeBackgroundColor);
+    margin-bottom: 0;
+    > ._label_fwdgs_341 {
+        position: relative;
+        font-weight: 400;
+        font-size: inherit;
+        margin-bottom: -8px;
+        left: 8px;
+        top: 4px;
+    }
+}
+
+._sessions_fwdgs_285 > hr {
+    margin: 0 !important;
+}
+
+._invite_hx3lg_1 ._details_hx3lg_31 {
+    background: var(--PopoutColor);
+    border-radius: 18px;
+    max-width: 440px;
+    width: 100%;
+    box-shadow: hsl(0, 0%, 0%, 0.28) 0px 8px 24px;
+}
+
+._invite_hx3lg_1 ._details_hx3lg_31 .Category-sc-tvyi45-0 {
+    display: none;
+}
+
+._invite_hx3lg_1 ._icon_hx3lg_15 .IconBase__ImageIconBase-sc-igncj4-1 {
+    border-radius: 24px;
+}
+
+._invite_hx3lg_1 ._icon_hx3lg_15 .IconBase__ImageIconBase-sc-igncj4-1, ._invite_hx3lg_1 ._details_hx3lg_31 svg {
+    overflow: revert;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions {
+    gap: 8px;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > .error {
+    margin-right: 8px;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > div {
+    background: var(--TimeDividerColor);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > div:not(.error):has(rect[stroke = "currentColor"]):hover {
+    background-color: var(--success);
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > div:not(.error):not(:has(rect[stroke = "currentColor"])):hover {
+    background-color: var(--warning);
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0 .actions > .error:hover {
+    background-color: var(--error);
+}
+
+._list_fwdgs_383 {
+    background-color: var(--ChannelCreatorTypeBackgroundColor);
+    padding: 8px;
+    border-radius: 18px;
+}
+
+._list_fwdgs_383 > .Base-sc-1c2l8gq-0 {
+    border-radius: calc(18px / 1.65) !important;
+    transition: background-color 250ms var(--CubicBezierAnimation) !important;
+    padding: 0 12px !important;
+    height: 48px !important;
+    background: transparent !important;
+}
+
+._list_fwdgs_383 > .Base-sc-1c2l8gq-0:not(:has([value = true].Checkmark-sc-1c2l8gq-6)):hover {
+    background-color: var(--InputBackgroundColor) !important;
+}
+
+._list_fwdgs_383 > .Base-sc-1c2l8gq-0:has([value = true].Checkmark-sc-1c2l8gq-6) {
+    background-color: var(--ChannelCreatorTypeSelectedButtonBackgroundColor);
 }
 
 @keyframes opacity-anim {
@@ -402,5 +993,27 @@
 @keyframes context-menu-anim {
     from {
         transform: scale(1, 0.5);
+    }
+}
+
+@keyframes bottom-pop-out {
+    from {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+}
+
+@keyframes action-bar-button-scale {
+    from {
+        width: 0;
+    }
+    to {
+        width: 32px;
+    }
+}
+
+@keyframes action-bar-image-scale {
+    from {
+        width: 0;
     }
 }
