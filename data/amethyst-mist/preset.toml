@@ -1,0 +1,30 @@
+slug = "amethyst_mist"
+name = "Amethyst Mist"
+creator = "Asraye"
+description = "A sleek, blurred neon purple theme with glass effects and soft violet glow."
+
+[variables]
+accent = "#9b59b6"
+background = "#0a0a0a"
+foreground = "#ededed"
+block = "rgba(21, 21, 21, 0.7)"
+message-box = "rgba(21, 21, 21, 0.85)"
+mention = "rgba(155, 89, 182, 0.15)"
+hover = "rgba(155, 89, 182, 0.05)"
+
+[variables.scrollbar]
+thumb = "#9b59b6"
+track = "#4b2e59"
+
+[variables.primary]
+background = "#13081C"
+header = "#35114F"
+
+[variables.secondary]
+background = "#1b1b1b"
+foreground = "#9b59b6"
+header = "#be78ff"
+
+[variables.tertiary]
+background = "#31104A"
+foreground = "#aa33ff"
