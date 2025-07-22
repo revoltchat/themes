@@ -1,0 +1,235 @@
+:root {
+  --accent: #9b59b6;
+  --accent-light: #be78ff;
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --block-bg: rgba(21, 21, 21, 0.7);
+  --block-border: rgba(155, 89, 182, 0.2);
+  --mention-bg: rgba(155, 89, 182, 0.15);
+  --hover-bg: rgba(155, 89, 182, 0.05);
+  --scrollbar-thumb: #9b59b6;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.block, .message-box {
+  background: var(--block-bg);
+  backdrop-filter: blur(25px);
+  border: 1px solid var(--block-border);
+  padding: 1.25rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  animation: slideUpFadeIn 0.5s ease-out forwards;
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.block:hover, .message-box:hover {
+  box-shadow: 0 4px 16px rgba(155, 89, 182, 0.3);
+  transform: translateY(-2px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.mention {
+  background-color: var(--mention-bg);
+  border-left: 3px solid var(--accent);
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 600;
+  color: var(--accent);
+  display: inline-block;
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+a, button {
+  color: var(--accent);
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+a:hover, button:hover, a:focus, button:focus {
+  color: #d3b3ff;
+  text-shadow: 0 0 4px var(--accent);
+  animation: glowPulse 1.5s ease-in-out infinite alternate;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(155, 89, 182, 0.4);
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-light);
+}
+
+*::selection {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+/* Backdrop blur for main UI containers */
+.EmbedInvite__EmbedInviteBase-sc-154n8c6-0.bTyHZC,
+._attachment_197qa_1._file_197qa_25,
+.MessageBox__Base-sc-jul4fa-0.jBEnry,
+._embed_1912h_1._website_1912h_12,
+.Theme__ThemeInfo-sc-12nukt1-0.jPrjw,
+.Sidebar__Base-sc-1uh6eub-0.cRCSBm,
+._content_sso5v_77,
+._details_605sm_31,
+._actions_ag1so_25 > *,
+.Modal__ModalBase-sc-1ppg3sd-0.bDDYwS,
+._settings_t7t23_33,
+._actions_iu4oa_1,
+.ReplyBar__Base-sc-d2l7w7-0.jtuvHh,
+.VoiceHeader__VoiceBase-sc-mvbohh-0.coVeIl,
+.Tip__TipBase-sc-1b2fe6b-1.bVXzUI,
+.ComboBox-sc-djv074-0.ddkErI,
+.FilePreview__Container-sc-znkm6h-0.ewmXHm,
+.Discover__Container-sc-6nwhb3-0.gAGipD,
+.Details-sc-1qkt4w1-0.kyMBmJ,
+.Titlebar__TitlebarBase-sc-1ykozpe-0.hwmymO,
+.BottomNavigation__Base-sc-15obpw5-0.fmxapA,
+._invite_605sm_1, .Header-sc-39hpd7-0.fUpUzg,
+.ErrorBoundary__CrashContainer-sc-1s8h6qo-0.cHHQBt,
+._pending_sd6wo_95,
+._attachment_197qa_1._audio_197qa_13,
+.RequiresOnline__Base-sc-qthzj2-0.hwlBoN,
+._attachment_197qa_1._text_197qa_33,
+.RevoltApp__StatusBar-sc-1613ew5-1.iOZZrd,
+.Button-sc-1gxkzq3-0.iWNKPN,
+.Tile__Icon-sc-1szgf75-3.xlMfH,
+img._image_197qa_75,
+.Base-sc-1d91xkm-0.kVCswW,
+._embed_dxa3n_1._website_dxa3n_12,
+.sc-iBPTik.bnZuoo,
+.Details-sc-3j94yd-0.jKeKvP,
+.InviteBot__BotInfo-sc-eg29o6-0.fNvYYN,
+.ComboBox-sc-f94r78-0.jfwTbF,
+input, textarea, button, .entry, blockquote, .spoiler,
+pre.code, .context-menu, audio, table, .mobile, pre {
+  backdrop-filter: blur(25px) !important;
+  background: var(--block-bg) !important;
+}
+
+.MessageBox__Base-sc-jul4fa-0.jBEnry > * ,
+.ServerListSidebar__ServerEntry-sc-10bk066-2.jFgSXl > span > svg > path {
+  background-color: transparent !important;
+  fill: #000000 !important;
+}
+
+.InviteBot__BotInfo-sc-eg29o6-0.fNvYYN {
+  border-radius: 10px;
+}
+
+option, audio {
+  background-color: #000000;
+  color: #fff;
+}
+
+option:hover {
+  background-color: var(--accent);
+}
+
+blockquote pre.code,
+blockquote > blockquote {
+  backdrop-filter: none;
+}
+
+.context-menu {
+  transition: all 0.3s;
+  background-color: #000000a0 !important;
+}
+
+.context-menu > *:hover {
+  color: var(--accent);
+  background-color: #00000015 !important;
+  backdrop-filter: none;
+}
+
+.SidebarBase-sc-1dma6vq-0.jyizw,
+.Button-sc-1gxkzq3-0.iWNKPN, 
+table, .Details-sc-1qkt4w1-0.kyMBmJ, time {
+  background-color: #00000069 !important;
+}
+
+.Titlebar__TitlebarBase-sc-1ykozpe-0.hwmymO {
+  background-color: #000000f0 !important;
+}
+
+textarea, time {
+  background-color: transparent !important;
+}
+
+img._image_197qa_75 {
+  background-color: #00000069 !important;
+}
+
+._container_197qa_64 {
+  min-width: 20%;
+}
+
+.spoiler > img {
+  display: none;
+}
+
+.Modal__ModalBase-sc-1ppg3sd-0.bDDYwS {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.RevoltApp__StatusBar-sc-1613ew5-1.iOZZrd {
+  color: var(--accent) !important;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: #fff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUpFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 4px var(--accent);
+  }
+  50% {
+    box-shadow: 0 0 12px var(--accent);
+  }
+}
